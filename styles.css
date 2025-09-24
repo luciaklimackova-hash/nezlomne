@@ -47,25 +47,25 @@ button {
 ========================================= */
 
 :root {
-    /* Farby z Brand Board */
-    --primary-color: #A51C61;
-    --primary-hover: #8A1652;
+    /* Farby z Brand Board - presná paleta */
+    --primary-color: #a2006d;
+    --primary-hover: #7a0052;
+    --brand-beige: #f6e7df;
     --dark-color: #333333;
-    --light-color: #F6EFE7;
-    --cream-color: #F6EFE7;
+    --black-color: #000000;
     --white-color: #ffffff;
     --gray-light: #f8f9fa;
     --gray-medium: #e9ecef;
     --text-dark: #333333;
     --text-light: #6c757d;
-    --accent-magenta: #E02F82;
-    --soft-beige: #EFE2D6;
-    --purple-pink: #C670A6;
-    --light-purple: #E8D5E2;
+    --accent-magenta: #a2006d;
+    --soft-beige: #f6e7df;
+    --light-beige: #faf5f0;
+    --stone-overlay: rgba(162, 0, 109, 0.1);
     
-    /* Fonty z Brand Board - jemnejšie a ženskejšie */
-    --font-primary: 'Inter', 'Lato', 'Open Sans', sans-serif;
-    --font-heading: 'Playfair Display', 'Cormorant Garamond', 'Merriweather', serif;
+    /* Fonty z Brand Board */
+    --font-primary: 'Source Sans Pro', sans-serif;
+    --font-heading: 'Merriweather', serif;
     
     /* Rozmery */
     --container-max-width: 1200px;
@@ -346,7 +346,7 @@ button {
     display: flex;
     align-items: center;
     position: relative;
-    background: linear-gradient(135deg, var(--soft-beige) 0%, var(--cream-color) 50%, var(--white-color) 100%);
+    background: var(--brand-beige);
     overflow: hidden;
 }
 
@@ -407,7 +407,16 @@ button {
 
 .situations {
     padding: 5rem 0;
-    background: var(--white-color);
+    background: var(--primary-color);
+    position: relative;
+}
+
+.situations .section-title {
+    color: var(--white-color);
+}
+
+.situations .section-subtitle {
+    color: var(--light-beige);
 }
 
 .situations-grid {
@@ -418,13 +427,13 @@ button {
 }
 
 .situation-card {
-    background: linear-gradient(135deg, var(--white-color) 0%, var(--light-purple) 100%);
+    background: var(--brand-beige);
     padding: 3rem 2.5rem;
     border-radius: 20px;
     box-shadow: var(--shadow-light);
     text-align: center;
     transition: var(--transition);
-    border-top: 5px solid var(--purple-pink);
+    border: 2px solid var(--white-color);
     position: relative;
     overflow: hidden;
 }
@@ -445,8 +454,8 @@ button {
 .situation-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow);
-    border-top-color: var(--accent-magenta);
-    background: linear-gradient(135deg, var(--white-color) 0%, var(--purple-pink) 20%, var(--light-purple) 100%);
+    border-color: var(--light-beige);
+    background: var(--light-beige);
 }
 
 .situation-card h3 {
@@ -475,8 +484,9 @@ button {
 
 .about {
     padding: 6rem 0;
-    background: linear-gradient(135deg, var(--cream-color) 0%, var(--soft-beige) 100%);
+    background: var(--brand-beige);
     position: relative;
+    overflow: hidden;
 }
 
 .about-image-container {
@@ -505,13 +515,26 @@ button {
 .about::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('user_input_files/Asset 24.png') no-repeat center;
-    background-size: 800px;
-    opacity: 0.02;
+    top: -20%;
+    left: -10%;
+    width: 300px;
+    height: 300px;
+    background: url('user_input_files/Asset 42.png') no-repeat;
+    background-size: contain;
+    opacity: 0.15;
+    z-index: 0;
+}
+
+.about::after {
+    content: '';
+    position: absolute;
+    bottom: -20%;
+    right: -10%;
+    width: 250px;
+    height: 250px;
+    background: url('user_input_files/Asset 44.png') no-repeat;
+    background-size: contain;
+    opacity: 0.1;
     z-index: 0;
 }
 
@@ -552,16 +575,51 @@ button {
 
 .consultation {
     padding: 5rem 0;
-    background: var(--white-color);
+    background: linear-gradient(var(--stone-overlay), var(--stone-overlay)), url('user_input_files/jonathan-burger-NBLNctrj1fA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+}
+
+.consultation::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 200px;
+    height: 200px;
+    background: url('user_input_files/Asset 45.png') no-repeat;
+    background-size: contain;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.consultation::after {
+    content: '';
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    width: 150px;
+    height: 150px;
+    background: url('user_input_files/Asset 42.png') no-repeat;
+    background-size: contain;
+    opacity: 0.2;
+    z-index: 1;
 }
 
 .consultation-card {
     max-width: 700px;
     margin: 0 auto;
-    background: var(--gray-light);
+    background: var(--brand-beige);
     padding: 3rem;
     border-radius: 12px;
     text-align: center;
+    box-shadow: var(--shadow);
+    border: 2px solid var(--primary-color);
+    position: relative;
+    z-index: 2;
 }
 
 .consultation-card h3 {
@@ -616,8 +674,23 @@ button {
 
 .resources {
     padding: 6rem 0;
-    background: linear-gradient(135deg, var(--soft-beige) 0%, var(--cream-color) 100%);
+    background: var(--brand-beige);
     position: relative;
+    overflow: hidden;
+}
+
+.resources::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('user_input_files/Asset 44.png') no-repeat top left,
+                url('user_input_files/Asset 45.png') no-repeat bottom right;
+    background-size: 300px, 250px;
+    opacity: 0.05;
+    z-index: 0;
 }
 
 .resources-image-container {
@@ -672,6 +745,7 @@ button {
     transition: var(--transition);
     position: relative;
     overflow: hidden;
+    border: 2px solid var(--primary-color);
 }
 
 .resource-item::before {
@@ -693,9 +767,11 @@ button {
 }
 
 .resource-icon {
-    font-size: 2.5rem;
-    color: var(--accent-magenta);
-    margin-bottom: 1.5rem;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    background: url('user_input_files/Asset 42.png') no-repeat center;
+    background-size: contain;
     position: relative;
     z-index: 2;
 }

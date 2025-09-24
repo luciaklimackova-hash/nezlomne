@@ -12,42 +12,42 @@
         "id": "2",
         "content": "Implementácia farebnej palety",
         "details": "1. Aktualizácia CSS premenných s farbami #a2006d (ružovo-fialová), #f6e7df (béžová)\n2. Úprava existujúcich farieb na novú paletu\n3. Testovanie kontrastu a čitateľnosti",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "3": {
         "id": "3",
         "content": "Úprava header a pozadí",
         "details": "1. Header: pozadie s kameňovou textúrou (mihai-moisa)\n2. Hero sekcia: béžové pozadie + Asset 25\n3. Situačné karty: ružovo-fialové pozadie s béžovými boxmi",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "4": {
         "id": "4",
         "content": "Sekcia Nezlomné",
         "details": "1. Pridanie fotiek Lucie a Daniely\n2. Dekorácia s oblúkovými assetmi (Asset 42, 44, 45)\n3. Úprava layoutu pre lepšiu prezentáciu",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       },
       "5": {
         "id": "5",
         "content": "Úprava konzultačnej sekcie",
         "details": "1. Zmena textu na 'Konzultácia hradená z Fondu Solidarity (30 min)'\n2. Kombinácia béžového/ružového pozadia s kameňovou textúrou\n3. Dekorácia oblúkovými assetmi",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       },
       "6": {
         "id": "6",
         "content": "Redesign sekcie Pomoc a zdroje",
         "details": "1. Odstránenie zelených fajok\n2. Použitie béžových/ružových blokov a oblúkov z brand boardu\n3. Implementácia overlays podľa spodnej časti brand boardu",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       },
       "7": {
         "id": "7",
         "content": "Finálne testovanie a nasadenie",
         "details": "1. Kontrola responzívnosti\n2. Testovanie na rôznych zariadeniach\n3. Nasadenie aktualizovanej verzie",
-        "status": "pending",
+        "status": "completed",
         "priority": "low"
       }
     }
