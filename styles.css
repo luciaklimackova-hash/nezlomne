@@ -298,12 +298,12 @@ button {
 
 .btn-outline {
     background: transparent;
-    color: var(--dark-color);
-    border: 2px solid var(--dark-color);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
 }
 
 .btn-outline:hover {
-    background: var(--dark-color);
+    background: var(--primary-color);
     color: white;
 }
 
@@ -522,6 +522,19 @@ button {
     overflow: hidden;
 }
 
+.about::after {
+    content: '';
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    width: 200px;
+    height: 200px;
+    background: url('Asset 29.png') no-repeat;
+    background-size: contain;
+    opacity: 0.8;
+    z-index: 1;
+}
+
 .about .container {
     position: relative;
     z-index: 2;
@@ -537,19 +550,6 @@ button {
     background: url('user_input_files/Asset 42.png') no-repeat;
     background-size: contain;
     opacity: 0.15;
-    z-index: 0;
-}
-
-.about::after {
-    content: '';
-    position: absolute;
-    bottom: -20%;
-    right: -10%;
-    width: 250px;
-    height: 250px;
-    background: url('user_input_files/Asset 44.png') no-repeat;
-    background-size: contain;
-    opacity: 0.1;
     z-index: 0;
 }
 
@@ -990,6 +990,27 @@ button {
     padding: 5rem 0;
     background: var(--brand-beige);
     text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.conclusion::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Asset 26.png') no-repeat top left,
+                url('Asset 26.png') no-repeat bottom right;
+    background-size: 180px, 150px;
+    opacity: 0.15;
+    z-index: 1;
+}
+
+.conclusion .container {
+    position: relative;
+    z-index: 2;
 }
 
 .conclusion-content p {
