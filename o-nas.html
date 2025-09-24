@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O nás - Nezlomné</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="emergency-exit" class="emergency-exit">
+        <button onclick="emergencyExit()">✕</button>
+        <span class="tooltip">Rýchle zatvorenie - Alt+F4</span>
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html"><img src="LogoVlt3.png" alt="Nezlomné" class="logo-image"></a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html" class="nav-item">Domov</a>
+                    <a href="som-vo-vztahu.html" class="nav-item">Som vo vzťahu</a>
+                    <a href="chcem-odist.html" class="nav-item">Chcem odísť</a>
+                    <a href="odisla-som.html" class="nav-item">Odišla som</a>
+                    <a href="pomoc-zdroje.html" class="nav-item">Pomoc a zdroje</a>
+                    <a href="#" class="nav-item active">O nás</a>
+                    <a href="#contact" class="nav-item nav-cta">Kontakt</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-background">
+            <img src="Asset 25.png" alt="" class="hero-arches" aria-hidden="true">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">O nás</h1>
+                <p class="hero-subtitle">Sme psychologicko-právny tím, ktorý sprevádza ženy na ceste zo vzťahu plného manipulácie a strachu do života, kde môžu byť slobodne sama sebou.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-main">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Nezlomné</h2>
+                <div class="about-description">
+                    <h3>Nezlomné je bezpečný priestor pre ženy, ktoré zažívajú alebo zažili psychické, fyzické, ekonomické či právne násilie – aj keď si to možno ešte samy nepriznali.</h3>
+                    
+                    <p>Sme psychologicko-právny tím, ktorý Vás sprevádza na ceste zo vzťahu plného manipulácie a strachu do života, kde môžete byť slobodne sama sebou.</p>
+                    
+                    <blockquote>
+                        „Sme psychologička Lucia Klimáčková a právnička Daniela Baďurová s viac než 10 rokmi skúseností v tejto oblasti. Pomohli sme stovkám žien získať späť seba – a život, v ktorom sa dá znovu slobodne dýchať."
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-section">
+        <div class="container">
+            <h2 class="section-title">Náš tím</h2>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-info">
+                        <h3>Lucia Klimáčková</h3>
+                        <h4>Psychologička</h4>
+                        <p>Viac než 10 rokov skúseností v oblasti psychologickej podpory žien zažívajúcich násilie. Špecializuje sa na traumaterapiu a posilňovanie sebavedomia.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-info">
+                        <h3>Daniela Baďurová</h3>
+                        <h4>Právnička</h4>
+                        <p>Právnička s dlhoročnou praxou v rodinnom práve a ochrane žien pred násilím. Poskytuje právne poradenstvo a zastupovanie na súdoch.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission-section">
+        <div class="container">
+            <h2 class="section-title">Naša misia</h2>
+            
+            <div class="mission-content">
+                <div class="mission-item">
+                    <div class="mission-icon">🛡️</div>
+                    <h3>Bezpečie</h3>
+                    <p>Vytvárame bezpečný priestor, kde sa ženy môžu otvoriť bez strachu zo súdenia alebo minimalizácie ich zážitkov.</p>
+                </div>
+                
+                <div class="mission-item">
+                    <div class="mission-icon">🔍</div>
+                    <h3>Jasnosť</h3>
+                    <p>Pomáhame ženám pochopiť svoju situáciu a rozoznať formy manipulácie a násilia.</p>
+                </div>
+                
+                <div class="mission-item">
+                    <div class="mission-icon">💪</div>
+                    <h3>Posilnenie</h3>
+                    <p>Podporujeme ženy pri budovaní sebavedomia a získavaní kontroly nad svojím životom.</p>
+                </div>
+                
+                <div class="mission-item">
+                    <div class="mission-icon">⚖️</div>
+                    <h3>Ochrana</h3>
+                    <p>Poskytujeme právne poradenstvo a pomoc pri navigácii súdnym systémom.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="solidarity-section">
+        <div class="container">
+            <h2 class="section-title">Solidárny fond Nezlomné</h2>
+            
+            <div class="solidarity-content">
+                <p>Vďaka štedrostí našich darcov môžeme poskytovать krízové konzultácie ženám, ktoré si ich nemôžu dovoliť. Každý príspevok pomáha niekomu, kto to najviac potrebuje.</p>
+                
+                <div class="solidarity-impact">
+                    <h3>Váš príspevok pomôže:</h3>
+                    <ul>
+                        <li>Financovať bezplatné konzultácie pre ženy v núdzi</li>
+                        <li>Vytvárať vzdelávacie materiály a testy</li>
+                        <li>Udržiavať bezpečný priestor pre všetky ženy</li>
+                        <li>Rozvíjať nové podporné programy</li>
+                    </ul>
+                </div>
+                
+                <p><strong>Každý príspevok sa počíta. Ďakujeme za vašu podporu.</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Kontakt</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Potrebujete pomoc?</h3>
+                    <p>Ak sa nachádzate v situácii, ktorá vás ohrozuje alebo potrebujete urgentne podporu, neváhajte nás kontaktovať.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <h4>Konzultácia</h4>
+                            <p>Rezervujte si bezplatnú konzultáciu cez náš formulár</p>
+                            <button class="btn btn-primary" onclick="scrollToSection('contact-form')">Rezervovať konzultáciu</button>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <h4>Krízová linka</h4>
+                            <p><strong>Tiesňová linka:</strong> <a href="tel:158">158</a> alebo <a href="tel:112">112</a></p>
+                            <p><strong>Národná linka pre ženy:</strong> <a href="tel:0800212212">0800 212 212</a> (nonstop, bezplatne)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact-form" class="contact-form">
+        <div class="container">
+            <h2 class="section-title">Rezervácia konzultácie</h2>
+            <div class="contact-form-content">
+                <form id="consultation-form" class="form">
+                    <div class="form-group">
+                        <label for="name">Meno *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Telefón</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Krátko opíšte vašu situáciu *</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Napíšte nám, čím vám môžeme pomôcť..."></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="safe_contact" id="safe_contact">
+                            <span class="checkmark"></span>
+                            Je bezpečné vás kontaktovať telefonicky? (Ak nie, kontaktujeme vás emailom)
+                        </label>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="privacy" id="privacy" required>
+                            <span class="checkmark"></span>
+                            Súhlasím so spracovaním osobných údajov pre účely konzultácie *
+                        </label>
+                    </div>
+                    
+                    <div class="safety-notice">
+                        <p><strong>Bezpečnostný tip:</strong> Ak sa obávate, že partner sleduje vašu aktivitu, zatvorte túto stránku klávesovou skratkou ALT + F4 (Windows) / Command + W (Mac).</p>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-large">Odoslať žiadosť</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="LogoBLK.png" alt="Nezlomné" class="logo-image">
+                    </div>
+                    <p>Nezlomné – psychologicko-právny tím pre ženy v toxických vzťahoch a násilí</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navigácia</h4>
+                    <ul>
+                        <li><a href="index.html">Domov</a></li>
+                        <li><a href="som-vo-vztahu.html">Som vo vzťahu</a></li>
+                        <li><a href="chcem-odist.html">Chcem odísť</a></li>
+                        <li><a href="odisla-som.html">Odišla som</a></li>
+                        <li><a href="pomoc-zdroje.html">Pomoc a zdroje</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-emergency">
+                    <h4>Ste v ohrození?</h4>
+                    <div class="emergency-contacts">
+                        <p><strong>Tiesňová linka:</strong><br><a href="tel:158">158</a> alebo <a href="tel:112">112</a></p>
+                        <p><strong>Národná linka pre ženy:</strong><br><a href="tel:0800212212">0800 212 212</a><br>(nonstop, bezplatne)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>© 2025 Nezlomné | <a href="#contact">Kontakt</a> | <a href="#">GDPR</a> | <a href="#">Podmienky používania</a></p>
+                </div>
+                
+                <div class="solidarity-fund">
+                    <p>Solidárny fond Nezlomné – vďaka darcom vieme poskytovať krízové konzultácie ženám, ktoré si ich nemôžu dovoliť.</p>
+                </div>
+                
+                <div class="safety-tip">
+                    <p><strong>Bezpečnostný tip:</strong> Ak sa obávate, že partner sleduje vašu aktivitu, zatvorte túto stránku klávesovou skratkou ALT + F4 (Windows) / Command + W (Mac).</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <style>
+        .nav-item.active { color: var(--primary-color); font-weight: 600; }
+        .about-main { padding: 5rem 0; background: var(--white-color); }
+        .about-description h3 { font-family: var(--font-heading); font-size: 1.75rem; color: var(--dark-color); margin-bottom: 2rem; line-height: 1.4; }
+        .about-description p { font-size: 1.125rem; color: var(--text-dark); margin-bottom: 2rem; }
+        .about-description blockquote { background: var(--cream-color); padding: 2rem; border-radius: 12px; border-left: 4px solid var(--primary-color); font-style: italic; font-size: 1.125rem; color: var(--text-dark); }
+        .team-section { padding: 5rem 0; background: var(--cream-color); }
+        .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; margin-top: 3rem; }
+        .team-member { background: var(--white-color); padding: 2.5rem; border-radius: 12px; box-shadow: var(--shadow); text-align: center; }
+        .team-member h3 { font-family: var(--font-heading); font-size: 1.5rem; color: var(--dark-color); margin-bottom: 0.5rem; }
+        .team-member h4 { color: var(--primary-color); font-weight: 600; margin-bottom: 1rem; }
+        .team-member p { color: var(--text-light); line-height: 1.6; }
+        .mission-section { padding: 5rem 0; background: var(--white-color); }
+        .mission-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; }
+        .mission-item { text-align: center; padding: 2rem; }
+        .mission-icon { font-size: 3rem; margin-bottom: 1rem; }
+        .mission-item h3 { font-family: var(--font-heading); font-size: 1.25rem; color: var(--dark-color); margin-bottom: 1rem; }
+        .mission-item p { color: var(--text-light); }
+        .solidarity-section { padding: 5rem 0; background: var(--cream-color); }
+        .solidarity-content { max-width: 800px; margin: 0 auto; text-align: center; }
+        .solidarity-content p { font-size: 1.125rem; color: var(--text-dark); margin-bottom: 2rem; }
+        .solidarity-impact { background: var(--white-color); padding: 2rem; border-radius: 12px; margin: 2rem 0; }
+        .solidarity-impact h3 { color: var(--primary-color); margin-bottom: 1rem; }
+        .solidarity-impact ul { text-align: left; max-width: 600px; margin: 0 auto; }
+        .solidarity-impact li { margin-bottom: 0.5rem; color: var(--text-dark); }
+        .contact-section { padding: 5rem 0; background: var(--white-color); }
+        .contact-content { max-width: 800px; margin: 0 auto; text-align: center; }
+        .contact-methods { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .contact-method { background: var(--gray-light); padding: 2rem; border-radius: 12px; }
+        .contact-method h4 { color: var(--primary-color); margin-bottom: 1rem; }
+        .contact-method p { color: var(--text-dark); margin-bottom: 1rem; }
+        .contact-method a { color: var(--primary-color); font-weight: 600; }
+        @media (max-width: 768px) { .team-grid, .mission-content, .contact-methods { grid-template-columns: 1fr; } }
+    </style>
+</body>
+</html>
