@@ -6,10 +6,10 @@
     <title>Nezlomné - Podpora pre ženy v toxických vzťahoch</title>
     <meta name="description" content="Bezpečný priestor pre ženy zažívajúce psychické, fyzické či ekonomické násilie. Psychologicko-právny tím, ktorý vás sprevádza na ceste k slobode.">
     
-    <!-- Preload kritické fonty -->
+    <!-- Preload kritické fonty - Brand Board fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
     
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
@@ -21,7 +21,7 @@
 <body>
     <!-- Bezpečnostná notifikácia -->
     <div id="emergency-exit" class="emergency-exit" title="Rýchle zatvorenie stránky - Alt+F4 (Win) / Cmd+W (Mac)">
-        <button onclick="emergencyExit()" aria-label="Nouzový odchod">✕</button>
+        <button onclick="window.open('https://pocasie.sk', '_self')" aria-label="Núdzový odchod">✕</button>
         <span class="tooltip">Rýchle zatvorenie - Alt+F4</span>
     </div>
 
@@ -50,10 +50,10 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero Section s novými assets -->
     <section class="hero">
         <div class="hero-background">
-            <img src="Asset 25.png" alt="" class="hero-arches" aria-hidden="true">
+            <img src="user_input_files/Asset 24.png" alt="" class="hero-arches" aria-hidden="true">
         </div>
         <div class="container">
             <div class="hero-content">
@@ -179,30 +179,36 @@
         </div>
     </section>
 
-    <!-- Slová žien Section -->
+    <!-- Slová žien Section s novými Quote šablónami -->
     <section class="testimonials">
         <div class="container">
             <h2 class="section-title">Slová žien</h2>
             <div class="testimonials-carousel" id="testimonials-carousel">
                 <div class="testimonial-slide active">
-                    <blockquote>
-                        <p><strong>Myslela som si, že to je moja chyba.</strong> Až keď som sa stretla s pani právničkou Danielou a pani psychologičkou Luckou, pochopila som, že som nebola bláznivá. Vďaka Nezlomné som znova získala silu rozhodovať o svojom živote.</p>
-                        <cite>– anonymná klientka</cite>
-                    </blockquote>
+                    <div class="quote-container">
+                        <blockquote>
+                            <p><strong>Myslela som si, že to je moja chyba.</strong> Až keď som sa stretla s pani právničkou Danielou a pani psychologičkou Luckou, pochopila som, že som nebola bláznivá. Vďaka Nezlomné som znova získala silu rozhodovať o svojom živote.</p>
+                            <cite>– anonymná klientka</cite>
+                        </blockquote>
+                    </div>
                 </div>
                 
                 <div class="testimonial-slide">
-                    <blockquote>
-                        <p><strong>Odišla som, ale nočná mora pokračovala.</strong> Neustále telefonáty, vyhrážky a odmietanie platiť výživné. Pani Danka (právnička) mi pomohla rýchlo podať návrh na súd a sprevádzala ma celým právnym procesom. Pani Lucka (psychologička) mi pomohla zmeniť moje nastavenie voči sebe samej. Naučila som sa zvládať stres a moje výčitky svedomia zmizli. Konečne som sa emocionálne odpútala a našla pokoj. Nezlomné spojili právnu istotu s psychologickou podporou – bez nich by som to nezvládla.</p>
-                        <cite>– Aneta</cite>
-                    </blockquote>
+                    <div class="quote-container">
+                        <blockquote>
+                            <p><strong>Odišla som, ale nočná mora pokračovala.</strong> Neustále telefonáty, vyhrážky a odmietanie platiť výživné. Pani Danka (právnička) mi pomohla rýchlo podať návrh na súd a sprevádzala ma celým právnym procesom. Pani Lucka (psychologička) mi pomohla zmeniť moje nastavenie voči sebe samej. Naučila som sa zvládať stres a moje výčitky svedomia zmizli. Konečne som sa emocionálne odpútala a našla pokoj.</p>
+                            <cite>– Aneta</cite>
+                        </blockquote>
+                    </div>
                 </div>
                 
                 <div class="testimonial-slide">
-                    <blockquote>
-                        <p><strong>Mala som pocit, že som úplne sama a že chyba je vo mne.</strong> Hneď v prvom telefonáte mi psychologička Lucia pomohla pomenovať, čo sa mi deje, a prvýkrát po rokoch som sa necítila bláznivo, ale pochopená. Právnička Danka mi vysvetlila moje právne možnosti – a konečne mám plán a menej strachu.</p>
-                        <cite>– Renata</cite>
-                    </blockquote>
+                    <div class="quote-container">
+                        <blockquote>
+                            <p><strong>Mala som pocit, že som úplne sama a že chyba je vo mne.</strong> Hneď v prvom telefonáte mi psychologička Lucia pomohla pomenovať, čo sa mi deje, a prvýkrát po rokoch som sa necítila bláznivo, ale pochopená. Právnička Danka mi vysvetlila moje právne možnosti – a konečne mám plán a menej strachu.</p>
+                            <cite>– Renata</cite>
+                        </blockquote>
+                    </div>
                 </div>
             </div>
             
@@ -235,15 +241,15 @@
         <div class="container">
             <h2 class="section-title">Rezervácia konzultácie</h2>
             <div class="contact-form-content">
-                <form id="consultation-form" class="form">
+                <form class="form">
                     <div class="form-group">
                         <label for="name">Meno *</label>
-                        <input type="text" id="name" name="name" required>
+                        <input type="text" id="name" name="name" disabled>
                     </div>
                     
                     <div class="form-group">
                         <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required>
+                        <input type="email" id="email" name="email" disabled>
                     </div>
                     
                     <div class="form-group">
@@ -253,7 +259,7 @@
                     
                     <div class="form-group">
                         <label for="message">Krátko opíšte vašu situáciu *</label>
-                        <textarea id="message" name="message" rows="4" required placeholder="Napíšte nám, čím vám môžeme pomôcť..."></textarea>
+                        <textarea id="message" name="message" rows="4" placeholder="Napíšte nám, čím vám môžeme pomôcť..." disabled></textarea>
                     </div>
                     
                     <div class="form-group checkbox-group">
@@ -276,7 +282,7 @@
                         <p><strong>Bezpečnostný tip:</strong> Ak sa obávate, že partner sleduje vašu aktivitu, zatvorte túto stránku klávesovou skratkou ALT + F4 (Windows) / Command + W (Mac).</p>
                     </div>
                     
-                    <button type="submit" class="btn btn-primary btn-large">Odoslať žiadosť</button>
+                                        <button type="button" class="btn btn-primary btn-large" disabled style="opacity: 0.6;">Funkcionalita bude dodaná neskôr</button>
                 </form>
             </div>
         </div>

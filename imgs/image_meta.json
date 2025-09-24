@@ -1,0 +1,340 @@
+[
+  {
+    "query": "Profesionálny portrét sebavedomej ženy",
+    "image_info": {
+      "url": "https://i.pinimg.com/736x/6e/9b/db/6e9bdb8edac3c7e571a2cc626c1e438a.jpg",
+      "file_path": "/workspace/imgs/professional_confident_elegant_woman_portrait.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 51500,
+      "width": 736,
+      "height": 920,
+      "total_pixels": 677120,
+      "basic_score": 0.8809302961861778
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 80.0,
+      "watermark_score": 100.0,
+      "overall_score": 90.0,
+      "explanation": "The image perfectly matches the search query and prompt, depicting a professional, confident, and elegant woman in a well-composed portrait. The clarity is good, and there are no watermarks. The lighting and subject's expression contribute to a high overall quality.",
+      "file_name": "professional_confident_elegant_woman_portrait.jpg",
+      "caption": "A striking portrait of a confident African American woman with short, stylish hair, wearing a sophisticated black blazer over a light pink collared shirt. She stands with her arms crossed, exuding elegance and professionalism, against a softly blurred, warm-toned background that complements her skin tone. Her direct gaze and subtle smile convey a strong sense of self-assurance.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Profesionálny portrét sebavedomej ženy",
+    "image_info": {
+      "url": "https://images.stockcake.com/public/7/5/8/758eb4c1-893f-4e98-b93f-f8a4c025c4fd_large/confident-professional-woman-stockcake.jpg",
+      "file_path": "/workspace/imgs/professional-confident-woman-elegant-portrait.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 38850,
+      "width": 408,
+      "height": 728,
+      "total_pixels": 297024,
+      "basic_score": 0.7869894824593757
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image is perfectly relevant to the search query and prompt, depicting a professional, confident, and elegant woman in a portrait setting. It boasts excellent clarity, sharpness, and professional composition with no visible watermarks. The lighting is flattering, and the subject's expression is engaging.",
+      "file_name": "professional-confident-woman-elegant-portrait.jpg",
+      "caption": "A striking and professional portrait of a confident young woman with long, flowing brown hair, wearing a stylish black blazer and a white collared shirt. She looks directly at the viewer with an elegant and poised expression, with a subtly blurred background suggesting an office or professional environment.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Profesionálny portrét sebavedomej ženy",
+    "image_info": {
+      "url": "https://images.stockcake.com/public/5/6/1/561aa69d-46f1-4dd0-b82d-efa7ebe7f1b9_large/elegant-professional-portrait-stockcake.jpg",
+      "file_path": "/workspace/imgs/professional_confident_elegant_woman_portrait_blazer.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 26099,
+      "width": 408,
+      "height": 728,
+      "total_pixels": 297024,
+      "basic_score": 0.7851631655891951
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is an excellent match for the search query and prompt, perfectly capturing a professional, confident, and elegant woman in a high-quality portrait. The clarity is superb, with sharp focus on the subject, and the composition is professional with soft lighting and a blurred background. There are no watermarks.",
+      "file_name": "professional_confident_elegant_woman_portrait_blazer.jpg",
+      "caption": "A high-quality, professional portrait of a confident and elegant woman with dark, shoulder-length hair, wearing a stylish dark blue blazer. She looks directly at the camera with a subtle, self-assured smile, her face illuminated by soft, natural lighting against a softly blurred, neutral background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Profesionálny portrét sebavedomej ženy",
+    "image_info": {
+      "url": "https://images.stockcake.com/public/9/5/3/953efacd-2c92-4d8a-aae3-ae4a268a70bc_large/elegant-professional-woman-stockcake.jpg",
+      "file_path": "/workspace/imgs/professional_confident_elegant_woman_portrait_gray_hair.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 58769,
+      "width": 408,
+      "height": 728,
+      "total_pixels": 297024,
+      "basic_score": 0.7898068389557702
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image is an excellent match for the search query and prompt, perfectly depicting a professional, confident, and elegant woman in a well-executed portrait. The clarity is superb, with sharp focus and detail. There are no watermarks. The composition, lighting, and subject's expression contribute to a very high overall quality.",
+      "file_name": "professional_confident_elegant_woman_portrait_gray_hair.jpg",
+      "caption": "A confident and elegant professional woman with striking gray hair, wearing a crisp white shirt and black trousers, stands with her arms crossed against a red brick wall. She looks directly at the camera with a subtle, self-assured smile, conveying professionalism and poise.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Profesionálny portrét sebavedomej ženy",
+    "image_info": {
+      "url": "https://img.freepik.com/free-photo/portrait-smiling-successful-businesswoman-looking-into-camera-sitting-restaurant-business-lady-with-stylish-hairstyle-wears-elegant-suit-business-meeting-attractive-appearance_8353-12611.jpg?semt=ais_incoming&w=740&q=80",
+      "file_path": "/workspace/imgs/confident_elegant_professional_woman_portrait.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 93018,
+      "width": 740,
+      "height": 1001,
+      "total_pixels": 740740,
+      "basic_score": 0.8950831291408837
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 97.0,
+      "watermark_score": 100.0,
+      "overall_score": 96.0,
+      "explanation": "The image is exceptionally relevant to the search query and prompt, depicting a professional, confident, and elegant woman in a well-composed portrait. The clarity is excellent, with sharp focus on the subject and a pleasing blurred background. There are no watermarks. The lighting, composition, and expression all contribute to a very high overall quality.",
+      "file_name": "confident_elegant_professional_woman_portrait.jpg",
+      "caption": "A captivating, eye-level portrait of a confident and elegant woman, in her 40s with light brown hair, dressed in a stylish dark blazer and trousers. She is seated comfortably indoors, looking directly at the camera with a subtle, poised smile, her left hand gently resting on her chin. The background is softly blurred, suggesting an upscale restaurant or business lounge setting, adding to the sophisticated atmosphere.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Ruky držiace svetlo alebo sviečku symbolizujúcu nádej a silu",
+    "image_info": {
+      "url": "https://www.shutterstock.com/shutterstock/videos/1105354759/thumb/10.jpg?ip=x480",
+      "file_path": "/workspace/imgs/hands_holding_lit_candle_hope_strength_feminine.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 9525,
+      "width": 480,
+      "height": 270,
+      "total_pixels": 129600,
+      "basic_score": 0.7137375955401103
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image is highly relevant to both the search query and the prompt. It clearly depicts hands holding a lit candle, which powerfully symbolizes hope and strength. The pink nail polish on the hands subtly supports the 'feminine' aspect of the query. The main subject is sharp and well-lit, with a pleasant shallow depth of field, enhancing the overall quality.",
+      "file_name": "hands_holding_lit_candle_hope_strength_feminine.jpg",
+      "caption": "A close-up shot of a person's hands, with pink painted fingernails and dark skin tone, gently holding a glowing two-toned (yellow-orange and pink-red) candle in a clear glass holder. The lit candle represents hope, strength, and inner light against a soft, blurred background, creating a warm and comforting atmosphere.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Ruky držiace svetlo alebo sviečku symbolizujúcu nádej a silu",
+    "image_info": {
+      "url": "https://media.istockphoto.com/id/1172146904/photo/burning-candle-in-the-hands-of-a-girl-christmas-candle-christmas-decor-childs-hands-holding.jpg?s=612x612&w=0&k=20&c=Jow6v3Md1-Bxz9NOkT3pLZMecccxU-i2qGNQj9aO-6E=",
+      "file_path": "/workspace/imgs/feminine_hands_holding_lit_candle_hope_strength.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 30053,
+      "width": 612,
+      "height": 408,
+      "total_pixels": 249696,
+      "basic_score": 0.766694274717091
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 96.0,
+      "explanation": "The image is exceptionally relevant to both the search query and prompt. It clearly depicts feminine hands gently holding a lit candle, embodying the concepts of light, hope, and strength. The clarity is excellent, with the main subject in sharp focus and a beautiful, soft bokeh background. There are no watermarks, and the overall composition, lighting, and aesthetic quality are highly professional and evocative.",
+      "file_name": "feminine_hands_holding_lit_candle_hope_strength.jpg",
+      "caption": "A close-up shot of delicate, feminine hands gently cradling a lit white pillar candle, adorned with a subtle pearl and lace detail. The warm glow of the candle flame stands out against a softly blurred background of festive bokeh lights, creating an atmosphere of peace, hope, and inner strength.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Siluety silných žien v podporujúcej pozri",
+    "image_info": {
+      "url": "https://media.istockphoto.com/id/1447910352/vector/woman-celebrates-with-her-hands-raised-abstract-isolated-vector-silhouette-rear-view.jpg?s=612x612&w=0&k=20&c=nI5-rHMxBJkNHNV1J502t2UJTcEKvZq3EpC_0jAvX3Y=",
+      "file_path": "/workspace/imgs/empowered_woman_strength_silhouette_victory_pose.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 14134,
+      "width": 612,
+      "height": 612,
+      "total_pixels": 374544,
+      "basic_score": 0.8093811023076795
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 90.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image is a perfect silhouette of a woman in an empowering and strong pose, with arms raised in victory, directly matching the 'silhouette,' 'women empowerment,' and 'strength' aspects of the search query and prompt. The clarity is excellent, and there are no watermarks. The 'support' aspect is implied through self-achievement rather than direct interaction.",
+      "file_name": "empowered_woman_strength_silhouette_victory_pose.jpg",
+      "caption": "A striking black silhouette illustration of a woman standing with both arms raised triumphantly, fists clenched, viewed from behind against a clean white background. This powerful image conveys themes of women's empowerment, strength, victory, and achievement.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Ženy si navájom pomáhajú a podporujú sa v komunite",
+    "image_info": {
+      "url": "https://img.freepik.com/premium-vector/illustration-female-solidarity-three-women-different-nationalities-styles-support-each-other-center-is-black-woman-vector-flat-design_275727-2.jpg",
+      "file_path": "/workspace/imgs/women-solidarity-community-support-illustration.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 43481,
+      "width": 626,
+      "height": 626,
+      "total_pixels": 391876,
+      "basic_score": 0.8187193187990166
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image is highly relevant to the search query and prompt, effectively illustrating female solidarity, support, and community through the poses and interaction of the three women. The illustration is of excellent quality, with crisp lines, clear details, and no watermarks.",
+      "file_name": "women-solidarity-community-support-illustration.jpg",
+      "caption": "A vibrant flat-style illustration depicting three diverse women demonstrating solidarity and support. A woman with dark curly hair is seated in the center, holding a book or tablet, with a gentle smile. Two women stand on either side of her, placing their hands reassuringly on her shoulders, forming a supportive embrace. All three figures, dressed in red, black, and white attire, are set against a soft pink background, conveying a strong sense of community and mutual assistance.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Ženy si navájom pomáhajú a podporujú sa v komunite",
+    "image_info": {
+      "url": "https://cbx-prod.b-cdn.net/COLOURBOX62967604.jpg?width=800&height=800&quality=70",
+      "file_path": "/workspace/imgs/diverse_women_solidarity_community_support_illustration.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 56585,
+      "width": 800,
+      "height": 800,
+      "total_pixels": 640000,
+      "basic_score": 0.8843095190217128
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 60.0,
+      "overall_score": 85.0,
+      "explanation": "The image perfectly matches the search query and prompt, depicting diverse women showing solidarity and support. The illustration is clear and professionally composed, effectively conveying the message of community and empowerment. A watermark is present, which slightly reduces the overall score.",
+      "file_name": "diverse_women_solidarity_community_support_illustration.jpg",
+      "caption": "An vibrant illustration showcasing a diverse group of women from various cultural backgrounds, including one wearing a hijab, embracing and high-fiving. They are smiling and appear to be celebrating female solidarity, mutual support, and community empowerment, symbolizing women helping and uplifting each other.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Ženy si navájom pomáhajú a podporujú sa v komunite",
+    "image_info": {
+      "url": "https://whhscbox.com/wp-content/uploads/2024/10/Women-Helping-Women.jpg",
+      "file_path": "/workspace/imgs/women-helping-women-solidarity-community-support-illustration.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 114966,
+      "width": 1080,
+      "height": 1080,
+      "total_pixels": 1166400,
+      "basic_score": 0.9216722282757965
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 100.0,
+      "watermark_score": 100.0,
+      "overall_score": 100.0,
+      "explanation": "The image is perfectly relevant to both the English search query and the Slovak prompt, directly illustrating 'women helping women,' female solidarity, and community support. The illustration is clear, well-composed, and free of any watermarks, making it of excellent professional quality.",
+      "file_name": "women-helping-women-solidarity-community-support-illustration.jpg",
+      "caption": "An empowering illustration depicting a diverse group of women embracing each other in a supportive circle, symbolizing female solidarity, mutual aid, and community. The design features text that reads 'Women Helping Women' and 'prevent gender based violence and empower all survivors', highlighting sisterhood, collective strength, and the importance of supporting survivors.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Žena pri svite alebo s ránom evokujúcom nádej a uzdravenie",
+    "image_info": {
+      "url": "https://media.istockphoto.com/id/628762524/photo/young-woman-framing-sunrise-into-heart-shape-finger-frame.jpg?s=612x612&w=0&k=20&c=FyxJOwAzwHMtuoDzE77q2ROLOs5FyoUyni17I0u3sYA=",
+      "file_path": "/workspace/imgs/woman_sunrise_heart_hope_healing_lake_mountains.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 41412,
+      "width": 612,
+      "height": 408,
+      "total_pixels": 249696,
+      "basic_score": 0.7684351336861389
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image is exceptionally relevant to the search query, featuring a woman at sunrise making a heart gesture towards the sun, strongly evoking themes of hope and healing. The photography is professional, clear, and well-composed, with no visible watermarks.",
+      "file_name": "woman_sunrise_heart_hope_healing_lake_mountains.jpg",
+      "caption": "A woman, viewed from behind, wears a warm knitted hat and sweater as she stands overlooking a tranquil lake with distant mountains at sunrise. She forms a heart shape with her hands, framing the brilliant golden sun as its rays burst through her fingers, reflecting beautifully on the water and bathing the landscape in warm light, symbolizing hope, love, and new beginnings.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "Žena pri svite alebo s ránom evokujúcom nádej a uzdravenie",
+    "image_info": {
+      "url": "https://static.wixstatic.com/media/ad420a_e0442f19c30e46ea98c70c0a11e64cf4~mv2.jpg/v1/fill/w_640,h_410,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/ad420a_e0442f19c30e46ea98c70c0a11e64cf4~mv2.jpg",
+      "file_path": "/workspace/imgs/woman_sunrise_hope_healing_golden_field.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 32710,
+      "width": 640,
+      "height": 410,
+      "total_pixels": 262400,
+      "basic_score": 0.7707186441004228
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly matches the search query and prompt. It features a woman silhouetted against a radiant sunrise, evoking strong feelings of hope, healing, and new beginnings. The lighting is superb, capturing the golden hour beautifully, and the composition is professional and impactful. The clarity is excellent for the main subject, with an intentional soft focus in the background, and there are no watermarks.",
+      "file_name": "woman_sunrise_hope_healing_golden_field.jpg",
+      "caption": "A woman with flowing red hair is captured from behind, arms gently outspread, looking towards a vibrant sunrise over a golden field. The warm, glowing light of dawn creates a beautiful halo around her, silhouetting her form and suggesting themes of hope, freedom, healing, and new beginnings in nature.",
+      "recommend": true,
+      "error": ""
+    }
+  }
+]

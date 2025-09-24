@@ -14,11 +14,12 @@ html {
 }
 
 body {
-    font-family: 'Source Sans 3', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #fff;
+    font-family: var(--font-primary);
+    line-height: 1.7;
+    color: var(--text-dark);
+    background-color: var(--white-color);
     overflow-x: hidden;
+    font-weight: 400;
 }
 
 img {
@@ -42,31 +43,34 @@ button {
 }
 
 /* =========================================
-   Premenné a téma
+   Premenné a téma (aktualizované podľa Brand Board)
 ========================================= */
 
 :root {
-    /* Farby */
+    /* Farby z Brand Board */
     --primary-color: #A51C61;
     --primary-hover: #8A1652;
-    --dark-color: #333;
+    --dark-color: #333333;
     --light-color: #F6EFE7;
     --cream-color: #F6EFE7;
     --white-color: #ffffff;
     --gray-light: #f8f9fa;
     --gray-medium: #e9ecef;
-    --text-dark: #2c3e50;
+    --text-dark: #333333;
     --text-light: #6c757d;
+    --accent-magenta: #E02F82;
+    --soft-beige: #EFE2D6;
     
-    /* Fonty */
-    --font-primary: 'Source Sans 3', sans-serif;
-    --font-heading: 'Space Grotesk', sans-serif;
+    /* Fonty z Brand Board */
+    --font-primary: 'Source Sans Pro', sans-serif;
+    --font-heading: 'Merriweather', serif;
     
     /* Rozmery */
     --container-max-width: 1200px;
-    --border-radius: 8px;
-    --shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    --transition: all 0.3s ease;
+    --border-radius: 12px;
+    --shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    --shadow-light: 0 4px 16px rgba(0, 0, 0, 0.08);
+    --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 /* =========================================
@@ -98,16 +102,22 @@ button {
 .emergency-exit {
     position: fixed;
     top: 10px;
-    right: 10px;
+    right: 150px;
     z-index: 1000;
-    background: var(--primary-color);
+    background: var(--accent-magenta);
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.emergency-exit:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 40px rgba(224, 47, 130, 0.3);
 }
 
 .emergency-exit button {
@@ -173,8 +183,13 @@ button {
 }
 
 .nav-logo .logo-image {
-    height: 45px;
+    height: 65px;
     width: auto;
+    transition: var(--transition);
+}
+
+.nav-logo .logo-image:hover {
+    transform: scale(1.05);
 }
 
 .nav-menu {
@@ -224,25 +239,46 @@ button {
 
 .btn {
     display: inline-block;
-    padding: 0.875rem 2rem;
+    padding: 1rem 2.5rem;
     border-radius: var(--border-radius);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
     text-align: center;
     transition: var(--transition);
     cursor: pointer;
     border: 2px solid transparent;
     text-decoration: none;
+    font-family: var(--font-primary);
+    letter-spacing: 0.02em;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.6s;
+}
+
+.btn:hover::before {
+    left: 100%;
 }
 
 .btn-primary {
-    background: var(--primary-color);
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-magenta));
     color: white;
+    box-shadow: var(--shadow-light);
 }
 
 .btn-primary:hover {
-    background: var(--primary-hover);
-    transform: translateY(-2px);
+    background: linear-gradient(135deg, var(--primary-hover), var(--primary-color));
+    transform: translateY(-3px);
+    box-shadow: var(--shadow);
 }
 
 .btn-secondary {
@@ -273,26 +309,30 @@ button {
 }
 
 /* =========================================
-   Typography
+   Typography - Elegantná a ženská typografia
 ========================================= */
 
 .section-title {
     font-family: var(--font-heading);
-    font-size: clamp(2rem, 5vw, 3rem);
-    font-weight: 700;
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    font-weight: 400;
     color: var(--dark-color);
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
 }
 
 .section-subtitle {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     color: var(--text-light);
     text-align: center;
     margin-bottom: 3rem;
-    max-width: 800px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1.6;
+    font-weight: 300;
 }
 
 /* =========================================
@@ -304,7 +344,7 @@ button {
     display: flex;
     align-items: center;
     position: relative;
-    background: linear-gradient(135deg, var(--cream-color) 0%, var(--white-color) 100%);
+    background: linear-gradient(135deg, var(--soft-beige) 0%, var(--cream-color) 50%, var(--white-color) 100%);
     overflow: hidden;
 }
 
@@ -332,11 +372,12 @@ button {
 
 .hero-title {
     font-family: var(--font-heading);
-    font-size: clamp(2.5rem, 6vw, 4rem);
-    font-weight: 700;
+    font-size: clamp(2.8rem, 6vw, 4.5rem);
+    font-weight: 300;
     color: var(--dark-color);
-    margin-bottom: 2rem;
-    line-height: 1.2;
+    margin-bottom: 2.5rem;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
 }
 
 .hero-questions {
@@ -376,25 +417,42 @@ button {
 
 .situation-card {
     background: var(--white-color);
-    padding: 2.5rem;
-    border-radius: 12px;
-    box-shadow: var(--shadow);
+    padding: 3rem 2.5rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow-light);
     text-align: center;
     transition: var(--transition);
-    border-top: 4px solid var(--primary-color);
+    border-top: 5px solid var(--primary-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.situation-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 100%;
+    height: 100%;
+    background: url('user_input_files/Asset 44.png') no-repeat;
+    background-size: 120px;
+    opacity: 0.03;
+    transform: rotate(15deg);
 }
 
 .situation-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    transform: translateY(-8px);
+    box-shadow: var(--shadow);
+    border-top-color: var(--accent-magenta);
 }
 
 .situation-card h3 {
     font-family: var(--font-heading);
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.75rem;
+    font-weight: 400;
     color: var(--dark-color);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.01em;
 }
 
 .situation-card p {
@@ -413,8 +471,21 @@ button {
 ========================================= */
 
 .about {
-    padding: 5rem 0;
-    background: var(--cream-color);
+    padding: 6rem 0;
+    background: linear-gradient(135deg, var(--cream-color) 0%, var(--soft-beige) 100%);
+    position: relative;
+}
+
+.about::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('user_input_files/Asset 24.png') no-repeat center;
+    background-size: 800px;
+    opacity: 0.02;
 }
 
 .about-content {
@@ -513,50 +584,87 @@ button {
 }
 
 /* =========================================
-   Resources Section
+   Resources Section - Luxusný štýl
 ========================================= */
 
 .resources {
-    padding: 5rem 0;
-    background: var(--cream-color);
+    padding: 6rem 0;
+    background: linear-gradient(135deg, var(--soft-beige) 0%, var(--cream-color) 100%);
+    position: relative;
+}
+
+.resources::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('imgs/women-solidarity-community-support-illustration.jpg') no-repeat left center;
+    background-size: 400px;
+    opacity: 0.04;
 }
 
 .resources-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-    margin: 3rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem;
+    margin: 4rem 0;
 }
 
 .resource-item {
     background: var(--white-color);
-    padding: 2rem;
-    border-radius: var(--border-radius);
+    padding: 2.5rem;
+    border-radius: 20px;
     text-align: center;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-light);
     transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+}
+
+.resource-item::before {
+    content: '';
+    position: absolute;
+    top: -30%;
+    right: -30%;
+    width: 80%;
+    height: 80%;
+    background: url('imgs/flowers_through_cracks_strength.png') no-repeat;
+    background-size: contain;
+    opacity: 0.05;
+    transform: rotate(15deg);
 }
 
 .resource-item:hover {
-    transform: translateY(-3px);
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: var(--shadow);
 }
 
 .resource-icon {
-    font-size: 2rem;
-    color: var(--primary-color);
-    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    color: var(--accent-magenta);
+    margin-bottom: 1.5rem;
+    position: relative;
+    z-index: 2;
 }
 
 .resource-item h3 {
     font-family: var(--font-heading);
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 1.4rem;
+    font-weight: 400;
     color: var(--dark-color);
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: -0.01em;
+    position: relative;
+    z-index: 2;
 }
 
 .resource-item p {
     color: var(--text-light);
+    line-height: 1.6;
+    position: relative;
+    z-index: 2;
 }
 
 .resources-cta {
@@ -565,16 +673,29 @@ button {
 }
 
 /* =========================================
-   Testimonials Section
+   Testimonials Section - Elegantná s Quote šablónami
 ========================================= */
 
 .testimonials {
-    padding: 5rem 0;
+    padding: 6rem 0;
     background: var(--white-color);
+    position: relative;
+}
+
+.testimonials::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('imgs/confident_elegant_professional_woman_portrait.jpg') no-repeat right center;
+    background-size: cover;
+    opacity: 0.03;
 }
 
 .testimonials-carousel {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -583,37 +704,60 @@ button {
 .testimonial-slide {
     display: none;
     text-align: center;
-    padding: 2rem 0;
+    padding: 3rem 0;
+    position: relative;
 }
 
 .testimonial-slide.active {
     display: block;
-    animation: fadeIn 0.5s ease-in-out;
+    animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+.testimonial-slide .quote-container {
+    position: relative;
+    background: url('user_input_files/Quote2.png') no-repeat center;
+    background-size: contain;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 3rem;
 }
 
 .testimonial-slide blockquote {
-    background: var(--gray-light);
-    padding: 2.5rem;
-    border-radius: 12px;
-    border-left: 4px solid var(--primary-color);
-    font-size: 1.125rem;
-    line-height: 1.6;
+    background: transparent;
+    padding: 0;
+    border: none;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    max-width: 500px;
+    position: relative;
+    z-index: 2;
 }
 
 .testimonial-slide blockquote p {
     color: var(--text-dark);
     margin-bottom: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
 }
 
 .testimonial-slide cite {
     font-weight: 600;
     color: var(--primary-color);
     font-style: normal;
+    font-size: 1rem;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .testimonials-nav {

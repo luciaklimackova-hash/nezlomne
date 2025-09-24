@@ -5,21 +5,21 @@
         "id": "1",
         "content": "Vyhľadanie a generovanie podporných obrázkov",
         "details": "1. Vyhľadať silné podporné obrázky pre ženskú tematiku z internetu\n2. Generovať additional podporné obrázky ak je potreba\n3. Zabezpečiť obrázky pre rôzne sekcie webu (sila žien, podpora, profesionalita)",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "2": {
         "id": "2",
         "content": "Kompletný redesign webu Nezlomné",
         "details": "1. Zmeniť typografiu na Merriweather (nadpisy) a Source Sans Pro (text) podľa brand board-u\n2. Zväčšiť logo v header pre lepšiu čitateľnosť\n3. Opraviť krízové tlačidlo - prelinkovať na pocasie.sk a zabezpečiť že neprekrýva KONTAKT\n4. Implementovať luxusnejší, profesionálnejší a ženskejší design\n5. Integrovať nové assets: Quote2.png pre citáty, Asset 24.png a Asset 44.png do hero sekcie\n6. Pridať poskytnuté čiernobiele Unsplash fotografie a novo-vygenerované podporné obrázky\n7. Odstrániť funkcionality formulára (zachovať len dizajn)\n8. Vytvoriť podpornú atmosféru s dôrazom na silu, podporu a profesionalitu",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "3": {
         "id": "3",
         "content": "Nasadenie upraveného webu",
         "details": "1. Nasadiť redesigned web\n2. Otestovať funkcionalitu krízového tlačidla\n3. Skontrolovať responzivitu na všetkých zariadeniach",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       }
     }
