@@ -3,24 +3,52 @@
     "Coordinator": {
       "1": {
         "id": "1",
-        "content": "Vyhľadanie a generovanie podporných obrázkov",
-        "details": "1. Vyhľadať silné podporné obrázky pre ženskú tematiku z internetu\n2. Generovať additional podporné obrázky ak je potreba\n3. Zabezpečiť obrázky pre rôzne sekcie webu (sila žien, podpora, profesionalita)",
+        "content": "Analýza brand boardu a assetov",
+        "details": "1. Extrakcia presných farieb z brand boardu PDF\n2. Identifikácia typografie (Merriweather, Source Sans Pro)\n3. Mapovanie všetkých dostupných assetov",
         "status": "completed",
         "priority": "high"
       },
       "2": {
         "id": "2",
-        "content": "Kompletný redesign webu Nezlomné",
-        "details": "1. Zmeniť typografiu na Merriweather (nadpisy) a Source Sans Pro (text) podľa brand board-u\n2. Zväčšiť logo v header pre lepšiu čitateľnosť\n3. Opraviť krízové tlačidlo - prelinkovať na pocasie.sk a zabezpečiť že neprekrýva KONTAKT\n4. Implementovať luxusnejší, profesionálnejší a ženskejší design\n5. Integrovať nové assets: Quote2.png pre citáty, Asset 24.png a Asset 44.png do hero sekcie\n6. Pridať poskytnuté čiernobiele Unsplash fotografie a novo-vygenerované podporné obrázky\n7. Odstrániť funkcionality formulára (zachovať len dizajn)\n8. Vytvoriť podpornú atmosféru s dôrazom na silu, podporu a profesionalitu",
-        "status": "completed",
+        "content": "Implementácia farebnej palety",
+        "details": "1. Aktualizácia CSS premenných s farbami #a2006d (ružovo-fialová), #f6e7df (béžová)\n2. Úprava existujúcich farieb na novú paletu\n3. Testovanie kontrastu a čitateľnosti",
+        "status": "pending",
         "priority": "high"
       },
       "3": {
         "id": "3",
-        "content": "Nasadenie upraveného webu",
-        "details": "1. Nasadiť redesigned web\n2. Otestovať funkcionalitu krízového tlačidla\n3. Skontrolovať responzivitu na všetkých zariadeniach",
-        "status": "completed",
+        "content": "Úprava header a pozadí",
+        "details": "1. Header: pozadie s kameňovou textúrou (mihai-moisa)\n2. Hero sekcia: béžové pozadie + Asset 25\n3. Situačné karty: ružovo-fialové pozadie s béžovými boxmi",
+        "status": "pending",
+        "priority": "high"
+      },
+      "4": {
+        "id": "4",
+        "content": "Sekcia Nezlomné",
+        "details": "1. Pridanie fotiek Lucie a Daniely\n2. Dekorácia s oblúkovými assetmi (Asset 42, 44, 45)\n3. Úprava layoutu pre lepšiu prezentáciu",
+        "status": "pending",
         "priority": "medium"
+      },
+      "5": {
+        "id": "5",
+        "content": "Úprava konzultačnej sekcie",
+        "details": "1. Zmena textu na 'Konzultácia hradená z Fondu Solidarity (30 min)'\n2. Kombinácia béžového/ružového pozadia s kameňovou textúrou\n3. Dekorácia oblúkovými assetmi",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "6": {
+        "id": "6",
+        "content": "Redesign sekcie Pomoc a zdroje",
+        "details": "1. Odstránenie zelených fajok\n2. Použitie béžových/ružových blokov a oblúkov z brand boardu\n3. Implementácia overlays podľa spodnej časti brand boardu",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "7": {
+        "id": "7",
+        "content": "Finálne testovanie a nasadenie",
+        "details": "1. Kontrola responzívnosti\n2. Testovanie na rôznych zariadeniach\n3. Nasadenie aktualizovanej verzie",
+        "status": "pending",
+        "priority": "low"
       }
     }
   }
