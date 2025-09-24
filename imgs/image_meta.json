@@ -336,5 +336,265 @@
       "recommend": true,
       "error": ""
     }
+  },
+  {
+    "query": "pokojná žena meditujúca symbolizuje vnútornú silu",
+    "image_info": {
+      "url": "https://www.drtracyhutchinson.com/wp-content/uploads/2018/03/mind_body_connection_therapy_fort_myers-e1521054956783.jpg",
+      "file_path": "/workspace/imgs/serene_woman_meditating_sunset_beach_inner_strength.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 93792,
+      "width": 756,
+      "height": 512,
+      "total_pixels": 387072,
+      "basic_score": 0.8228494601159204
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image perfectly matches the search query and prompt, depicting a serene woman meditating by the water at sunset/sunrise, strongly symbolizing peace and inner strength. The composition is excellent, with a clear silhouette against a beautiful, vibrant sky. There are no watermarks, and the clarity is very good.",
+      "file_name": "serene_woman_meditating_sunset_beach_inner_strength.jpg",
+      "caption": "A breathtaking silhouette of a woman meditating in a serene lotus position on a tranquil beach at sunset or sunrise, with her reflection visible in the calm, shallow water. The vibrant sky features gradients of pink, orange, and purple, evoking a profound sense of peace, mindfulness, and inner strength.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "žena oslobodzujúca sa od reťazí symbolizuje emancipáciu",
+    "image_info": {
+      "url": "https://png.pngtree.com/thumb_back/fw800/background/20250728/pngtree-woman-breaking-free-from-chains-symbolizing-freedom-empowerment-liberation-strength-and-image_17668026.webp",
+      "file_path": "/workspace/imgs/woman_liberation_chains_empowerment_dynamic.jpg",
+      "img_format": "WEBP",
+      "mode": "RGB",
+      "file_size": 83640,
+      "width": 960,
+      "height": 686,
+      "total_pixels": 658560,
+      "basic_score": 0.9023805615208589
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 90.0,
+      "watermark_score": 60.0,
+      "overall_score": 85.0,
+      "explanation": "The image is exceptionally relevant to both the English search query and the Slovak prompt, directly depicting a woman engaging with chains in a way that powerfully symbolizes liberation, breaking free, and empowerment/emancipation. The composition is strong, dynamic, and visually impactful. The clarity is excellent, with good detail in the woman, chains, and the energetic background. However, a visible watermark in the corners slightly diminishes the professional quality.",
+      "file_name": "woman_liberation_chains_empowerment_dynamic.jpg",
+      "caption": "A dramatic and symbolic photograph from behind of a woman with flowing hair, holding taut metal chains in outstretched arms. She stands against a dynamic background of swirling smoke and shimmering particles, powerfully conveying themes of liberation, breaking free, strength, and female empowerment.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "žena oslobodzujúca sa od reťazí symbolizuje emancipáciu",
+    "image_info": {
+      "url": "https://static.vecteezy.com/system/resources/previews/055/277/026/non_2x/silhouette-woman-breaking-chains-freedom-concept-art-vector.jpg",
+      "file_path": "/workspace/imgs/woman_breaking_free_chains_liberation_empowerment_silhouette.jpg",
+      "img_format": "JPEG",
+      "mode": "L",
+      "file_size": 67213,
+      "width": 795,
+      "height": 980,
+      "total_pixels": 779100,
+      "basic_score": 0.8966536456605945
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly aligns with the search query and prompt, depicting a woman breaking free from chains, symbolizing liberation and empowerment. The silhouette style is clear, sharp, and impactful, with no watermarks or quality issues.",
+      "file_name": "woman_breaking_free_chains_liberation_empowerment_silhouette.jpg",
+      "caption": "A powerful black silhouette illustration of a woman standing tall with her head tilted upwards, holding broken chains in her outstretched hands. A pile of discarded chains lies at her feet, symbolizing liberation, freedom, and empowerment from oppression. The image conveys a strong message of emancipation.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "ženy podporujúce ženy v komunite",
+    "image_info": {
+      "url": "https://www.nysut.org/-/media/images/nysut/news/2025/july/news_070325_summerkickoff.jpg",
+      "file_path": "/workspace/imgs/diverse_women_community_support_solidarity_group.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 306606,
+      "width": 1920,
+      "height": 1080,
+      "total_pixels": 2073600,
+      "basic_score": 0.7331794052802496
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 100.0,
+      "overall_score": 92.0,
+      "explanation": "The image is highly relevant to the search query and prompt, depicting a diverse group of women smiling and interacting positively, strongly conveying community and support. The clarity is excellent, with sharp focus on the subjects and good lighting. There are no watermarks. The composition is natural and appealing, making it a high-quality representation of the theme.",
+      "file_name": "diverse_women_community_support_solidarity_group.jpg",
+      "caption": "A vibrant group of diverse women of various ages, smiling and posing together outdoors under patio umbrellas. Their close proximity and joyful expressions embody a strong sense of community, friendship, and mutual support, reflecting themes of women supporting women and solidarity.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "ženy podporujúce ženy v komunite",
+    "image_info": {
+      "url": "https://www.un.org/sites/un2.un.org/files/2021/03/women_rise_for_all_banner.png",
+      "file_path": "/workspace/imgs/diverse_women_rise_for_all_solidarity_un.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 191849,
+      "width": 3125,
+      "height": 1042,
+      "total_pixels": 3256250,
+      "basic_score": 0.4601996045155955
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 98.0,
+      "clarity_score": 100.0,
+      "watermark_score": 90.0,
+      "overall_score": 96.0,
+      "explanation": "The image is exceptionally relevant, directly addressing 'women supporting women community solidarity' through its depiction of diverse women standing together under the 'WOMEN RISE FOR ALL' slogan. It boasts perfect clarity as a vector illustration. The UN emblem is present, which is an organizational logo, but it is well-integrated and enhances the message of global community rather than functioning as an intrusive watermark. The overall composition is professional, impactful, and aesthetically pleasing.",
+      "file_name": "diverse_women_rise_for_all_solidarity_un.jpg",
+      "caption": "An empowering illustration showcasing a diverse group of women from various ethnicities, depicted in profile, standing united against a vibrant blue background with subtle circular patterns. The text 'WOMEN RISE FOR ALL' is prominently featured in white, emphasizing themes of solidarity, empowerment, and collective advancement. The United Nations emblem in the bottom left corner signifies a global initiative for gender equality and community support.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "ženy podporujúce ženy v komunite",
+    "image_info": {
+      "url": "https://www.smart-union.org/wp-content/uploads/2023/02/TWBN_IMG_6868-copy-1024x683.jpg",
+      "file_path": "/workspace/imgs/women_solidarity_march_smart_committee.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 96098,
+      "width": 1024,
+      "height": 683,
+      "total_pixels": 699392,
+      "basic_score": 0.9027953579386796
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 80.0,
+      "watermark_score": 100.0,
+      "overall_score": 85.0,
+      "explanation": "The image is highly relevant, depicting a group of women participating in an event with a banner from the 'SMART International Women's Committee', directly aligning with women supporting women in a community context. The clarity is good, with legible text and identifiable faces, though not perfectly sharp. There are no intrusive watermarks. The composition effectively captures the essence of solidarity.",
+      "file_name": "women_solidarity_march_smart_committee.jpg",
+      "caption": "A group of women proudly marching outdoors, holding a blue banner that reads 'SHEET METAL | AIR | RAIL | TRANSPORTATION SMART INTERNATIONAL WOMEN'S COMMITTEE'. The women are diverse, with various hairstyles and expressions, and appear to be part of a community event or protest. The background features light-colored buildings and green foliage under bright daylight, suggesting an urban or resort setting.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "ženy podporujúce ženy v komunite",
+    "image_info": {
+      "url": "https://www.plu.edu/on-campus-housing/wp-content/uploads/sites/799/2018/01/lwyl-web-page-2022-awomens.jpg",
+      "file_path": "/workspace/imgs/women-empowerment-gender-equity-community-solidarity.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 343424,
+      "width": 2048,
+      "height": 768,
+      "total_pixels": 1572864,
+      "basic_score": 0.8118723067795698
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 90.0,
+      "watermark_score": 70.0,
+      "overall_score": 85.0,
+      "explanation": "The image is highly relevant to the search query, explicitly featuring text about a 'Women's Empowerment & Gender Equity Community' and depicting women holding signs promoting support and rights. Clarity is excellent, with sharp details and legible text. However, there are prominent branding elements and logos (PLU Campus Life, Instagram handle) which reduce the watermark score. Overall quality is very good, making it a strong visual for the theme.",
+      "file_name": "women-empowerment-gender-equity-community-solidarity.jpg",
+      "caption": "Three young women stand in solidarity against a purple geometric background, promoting a 'Women's Empowerment & Gender Equity Community'. One woman holds a sign stating 'WHEN WOMEN SUPPORT EACH OTHER INCREDIBLE THINGS HAPPEN', while another holds a sign partially reading 'WOMEN RIGHTS ARE HUMAN RIGHTS'. The image also features the Pacific Lutheran University Campus Life logo and Instagram handle.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "profesionálny portrét silnej a sebavedomej ženy",
+    "image_info": {
+      "url": "https://images.stockcake.com/public/b/e/a/beab4511-0ea5-42e3-8ea1-35100753d849_large/confident-professional-woman-stockcake.jpg",
+      "file_path": "/workspace/imgs/strong_confident_professional_woman_portrait.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 23964,
+      "width": 512,
+      "height": 512,
+      "total_pixels": 262144,
+      "basic_score": 0.7719565243563844
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 98.0,
+      "watermark_score": 100.0,
+      "overall_score": 98.0,
+      "explanation": "The image is an excellent match for the search query and prompt, perfectly depicting a strong, confident, and professional woman in a high-quality portrait. The clarity is superb, with sharp focus on the subject, and there are no watermarks. The composition and lighting are also exceptional, making it a highly professional image.",
+      "file_name": "strong_confident_professional_woman_portrait.jpg",
+      "caption": "A striking professional portrait of a strong and confident young woman with brown hair and light eyes, wearing a dark blazer over a white collared shirt. She stands with her arms crossed, looking directly at the camera with a composed and empowered expression. Her natural complexion features subtle freckles, and the softly blurred background keeps the focus entirely on her.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "profesionálny portrét silnej a sebavedomej ženy",
+    "image_info": {
+      "url": "https://img.freepik.com/premium-photo/portrait-professional-woman-yellow-uniform-strong-confident-empowered-look-capturing_996993-64764.jpg",
+      "file_path": "/workspace/imgs/confident_professional_woman_portrait_yellow_uniform.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 53999,
+      "width": 358,
+      "height": 626,
+      "total_pixels": 224108,
+      "basic_score": 0.765386549283954
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 95.0,
+      "clarity_score": 98.0,
+      "watermark_score": 100.0,
+      "overall_score": 96.0,
+      "explanation": "The image strongly aligns with the search query and prompt, depicting a professional, confident, and empowered woman through her direct gaze and uniform-like attire. The image boasts excellent clarity, sharp focus, and a clean, watermark-free presentation. The composition is professional and well-executed.",
+      "file_name": "confident_professional_woman_portrait_yellow_uniform.jpg",
+      "caption": "A high-quality studio portrait of a confident and professional woman with long brown hair, featuring a direct and serene gaze. She is wearing a vibrant yellow short-sleeved uniform-style shirt with black pocket details and epaulets, set against a neutral light grey background.",
+      "recommend": true,
+      "error": ""
+    }
+  },
+  {
+    "query": "profesionálny portrét silnej a sebavedomej ženy",
+    "image_info": {
+      "url": "https://images.stockcake.com/public/e/4/9/e49c8d25-62c4-4d9f-9b30-91ed68518414_large/strong-confident-woman-stockcake.jpg",
+      "file_path": "/workspace/imgs/strong_confident_empowered_woman_rosie_riveter_portrait_industrial.jpg",
+      "img_format": "JPEG",
+      "mode": "RGB",
+      "file_size": 78074,
+      "width": 512,
+      "height": 512,
+      "total_pixels": 262144,
+      "basic_score": 0.7799810451676316
+    },
+    "llm_score": {
+      "success": true,
+      "relevance_score": 100.0,
+      "clarity_score": 95.0,
+      "watermark_score": 100.0,
+      "overall_score": 95.0,
+      "explanation": "The image perfectly aligns with the search query and prompt, depicting a strong, confident, and empowered woman in a professional portrait style reminiscent of 'Rosie the Riveter'. The clarity is excellent, and there are no watermarks. The composition and aesthetic quality are highly professional, effectively conveying the desired message.",
+      "file_name": "strong_confident_empowered_woman_rosie_riveter_portrait_industrial.jpg",
+      "caption": "A vibrant portrait of a strong and confident woman, inspired by the 'Rosie the Riveter' iconography, depicted flexing her biceps with a determined expression. She wears a red polka-dot bandana, a plaid shirt, and blue denim overalls, set against a detailed industrial background under a bright, cloudy sky. The image symbolizes female empowerment and resilience.",
+      "recommend": true,
+      "error": ""
+    }
   }
 ]
