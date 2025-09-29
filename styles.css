@@ -202,9 +202,10 @@ button {
 
 .nav-menu {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
     align-items: center;
-    margin-left: 1rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
 }
 
 .nav-item {
@@ -219,6 +220,7 @@ button {
 
 .nav-item:hover {
     color: var(--brand-beige);
+    background: var(--primary-color);
     border: 2px solid var(--primary-color);
 }
 
@@ -454,12 +456,9 @@ button {
 }
 
 .situations .section-title {
-    color: var(--primary-color);
+    color: var(--white-color);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    background: rgba(0, 0, 0, 0.6);
-    padding: 1rem 2rem;
-    border-radius: var(--border-radius);
-    display: inline-block;
+    text-align: center;
 }
 
 .situations .section-subtitle {
@@ -469,6 +468,8 @@ button {
     padding: 1rem 2rem;
     border-radius: var(--border-radius);
     display: inline-block;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .situations-grid {
@@ -658,6 +659,19 @@ button {
     overflow: hidden;
 }
 
+.consultation::before {
+    content: '';
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 150px;
+    height: 150px;
+    background: url('Asset 29.png') no-repeat;
+    background-size: contain;
+    opacity: 0.2;
+    z-index: 1;
+}
+
 .consultation-card {
     max-width: 700px;
     margin: 0 auto;
@@ -767,6 +781,9 @@ button {
     position: relative;
     overflow: hidden;
     border: 2px solid var(--primary-color);
+    display: block;
+    text-decoration: none;
+    color: inherit;
 }
 
 .resource-item::before {
@@ -783,8 +800,9 @@ button {
 }
 
 .resource-item:hover {
-    transform: translateY(-5px) scale(1.02);
-    box-shadow: var(--shadow);
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 20px 40px rgba(162, 0, 109, 0.3);
+    z-index: 10;
 }
 
 .resource-icon {
