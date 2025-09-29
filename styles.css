@@ -204,16 +204,22 @@ button {
     display: flex;
     gap: 1.5rem;
     align-items: center;
+    margin-left: 1rem;
 }
 
 .nav-item {
     font-weight: 500;
     color: var(--brand-beige);
     position: relative;
+    padding: 0.75rem 1rem;
+    border-radius: var(--border-radius);
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
 }
 
 .nav-item:hover {
-    color: var(--primary-color);
+    color: var(--brand-beige);
+    border: 2px solid var(--primary-color);
 }
 
 .nav-item.nav-cta {
@@ -365,8 +371,9 @@ button {
     right: 0;
     width: 40%;
     height: 100%;
-    background: url('imgs/strong_confident_professional_woman_portrait.jpg') center;
-    background-size: cover;
+    background: url('imgs/strong_confident_professional_woman_portrait.jpg') center,
+                url('Asset 24.png') no-repeat center;
+    background-size: cover, contain;
     opacity: 0.15;
     filter: blur(1px);
     z-index: 1;
@@ -392,7 +399,7 @@ button {
     transform: translate(-50%, -50%);
     width: 400px;
     height: 400px;
-    background: url('Asset 29.png') no-repeat center;
+    background: url('Asset 24.png') no-repeat center;
     background-size: contain;
     opacity: 0.15;
     z-index: -1;
@@ -447,13 +454,21 @@ button {
 }
 
 .situations .section-title {
-    color: var(--white-color);
+    color: var(--primary-color);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem 2rem;
+    border-radius: var(--border-radius);
+    display: inline-block;
 }
 
 .situations .section-subtitle {
-    color: var(--light-beige);
+    color: var(--primary-color);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem 2rem;
+    border-radius: var(--border-radius);
+    display: inline-block;
 }
 
 .situations-grid {
@@ -635,38 +650,12 @@ button {
 
 .consultation {
     padding: 5rem 0;
-    background: linear-gradient(var(--stone-overlay), var(--stone-overlay)), url('user_input_files/juhani-pelli-n2Zf3kdcTZA-unsplash.jpg');
+    background: url('user_input_files/juhani-pelli-n2Zf3kdcTZA-unsplash.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
     position: relative;
     overflow: hidden;
-}
-
-.consultation::before {
-    content: '';
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    width: 200px;
-    height: 200px;
-    background: url('user_input_files/Asset 45.png') no-repeat;
-    background-size: contain;
-    opacity: 0.3;
-    z-index: 1;
-}
-
-.consultation::after {
-    content: '';
-    position: absolute;
-    bottom: 10%;
-    right: 5%;
-    width: 150px;
-    height: 150px;
-    background: url('user_input_files/Asset 42.png') no-repeat;
-    background-size: contain;
-    opacity: 0.2;
-    z-index: 1;
 }
 
 .consultation-card {
