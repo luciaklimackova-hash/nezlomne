@@ -3,51 +3,37 @@
     "Coordinator": {
       "1": {
         "id": "1",
-        "content": "Analýza brand boardu a assetov",
-        "details": "1. Extrakcia presných farieb z brand boardu PDF\n2. Identifikácia typografie (Merriweather, Source Sans Pro)\n3. Mapovanie všetkých dostupných assetov",
-        "status": "completed",
+        "content": "Zjednotenie loga na všetkých podstránkach",
+        "details": "Zmeniť logo na všetkých podstránkach na rovnaké ako na domovskej stránke (LogoVlt4.png)",
+        "status": "pending",
         "priority": "high"
       },
       "2": {
         "id": "2",
-        "content": "Implementácia farebnej palety",
-        "details": "1. Aktualizácia CSS premenných s farbami #a2006d (ružovo-fialová), #f6e7df (béžová)\n2. Úprava existujúcich farieb na novú paletu\n3. Testovanie kontrastu a čitateľnosti",
-        "status": "completed",
+        "content": "Oprava navigačných odkazov v menu",
+        "details": "Skontrolovať a opraviť všetky odkazy v navigácii tak, aby správne presmerovávali na príslušné podstránky",
+        "status": "pending",
         "priority": "high"
       },
       "3": {
         "id": "3",
-        "content": "Úprava header a pozadí",
-        "details": "1. Header: pozadie s kameňovou textúrou (mihai-moisa)\n2. Hero sekcia: béžové pozadie + Asset 25\n3. Situačné karty: ružovo-fialové pozadie s béžovými boxmi",
-        "status": "completed",
-        "priority": "high"
+        "content": "Úprava sekcie 'Potrebujete odbornú podporu?'",
+        "details": "1. Zmena pozadia na wolfgang-hasselmann obrázok\n2. Úprava oblaku v boxe '30 min. Konzultácia' na jemný oblúk podobný ako v situačných boxoch",
+        "status": "pending",
+        "priority": "medium"
       },
       "4": {
         "id": "4",
-        "content": "Sekcia Nezlomné",
-        "details": "1. Pridanie fotiek Lucie a Daniely\n2. Dekorácia s oblúkovými assetmi (Asset 42, 44, 45)\n3. Úprava layoutu pre lepšiu prezentáciu",
-        "status": "completed",
+        "content": "Úpravy stránky 'Som vo vzťahu'",
+        "details": "1. Menšie písmo v sekcii 'Cítite, že vo vašom vzťahu...'\n2. Premiestnenie viet pod seba\n3. Krémové pozadie pre sekciu 'Príbeh klientky'\n4. Sekcia 'Ako vám môžeme pomôcť' - 4 boxy vedľa seba bez ikon, juhani-pelli pozadie\n5. 'Vaše prvé bezpečné kroky' - krémové pozadie\n6. 'Slová žien' - citáty na stred\n7. Posledná sekcia - krémové pozadie",
+        "status": "pending",
         "priority": "medium"
       },
       "5": {
         "id": "5",
-        "content": "Úprava konzultačnej sekcie",
-        "details": "1. Zmena textu na 'Konzultácia hradená z Fondu Solidarity (30 min)'\n2. Kombinácia béžového/ružového pozadia s kameňovou textúrou\n3. Dekorácia oblúkovými assetmi",
-        "status": "completed",
-        "priority": "medium"
-      },
-      "6": {
-        "id": "6",
-        "content": "Redesign sekcie Pomoc a zdroje",
-        "details": "1. Odstránenie zelených fajok\n2. Použitie béžových/ružových blokov a oblúkov z brand boardu\n3. Implementácia overlays podľa spodnej časti brand boardu",
-        "status": "completed",
-        "priority": "medium"
-      },
-      "7": {
-        "id": "7",
-        "content": "Finálne testovanie a nasadenie",
-        "details": "1. Kontrola responzívnosti\n2. Testovanie na rôznych zariadeniach\n3. Nasadenie aktualizovanej verzie",
-        "status": "completed",
+        "content": "Nasadenie finálnej verzie",
+        "details": "Nasadenie webu s všetkými implementovanými úpravami",
+        "status": "pending",
         "priority": "low"
       }
     }
