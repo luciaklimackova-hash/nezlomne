@@ -1,0 +1,55 @@
+{
+  "todos": {
+    "Coordinator": {
+      "1": {
+        "id": "1",
+        "content": "Pridať oblúky (Asset 24.png) do pozadia hero sekcie na domovskej stránke",
+        "details": "Na stránke https://kjph2r5ox3yj.space.minimax.io je v hero sekcii oblúk za textom 'Na konci tunela je svetlo...'. Potrebujem ho pridať aj na domovskú stránku index.html",
+        "status": "pending",
+        "priority": "high"
+      },
+      "2": {
+        "id": "2",
+        "content": "Opraviť navigáciu v menu pre správne presmerovanie na podstránky",
+        "details": "Keď používateľ klikne na názov v menu, má ho automaticky presmerovať na správnu podstránku. Aktuálne niektoré odkazy nefungujú správne.",
+        "status": "pending",
+        "priority": "high"
+      },
+      "3": {
+        "id": "3",
+        "content": "Úpravy na stránke som-vo-vztahu.html - nadpis a pozadie sekcie Príbeh klientky",
+        "details": "1. Nadpis 'Príbeh klientky' má byť novým odsekom s krémovým pozadím (farba ako na hero sekcii)\n2. Zmeniť text 'Ako vám môžeme pomôcť' na 'Ako vám môžeme pomôcť, keď ste ešte vo vzťahu'",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "4": {
+        "id": "4",
+        "content": "Upraviť obsah boxov v sekcii 'Ako vám môžeme pomôcť' a pridať 2 nové boxy",
+        "details": "Zmeniť texty v existujúcich boxoch a pridať 2 nové boxy:\n- Jasnosť a pomenovanie situácie\n- Bezpečné prvé kroky\n- Podpora pri rozhodovaní\n- Právne informácie\n- Psychologická podpora\n- Diskrétnosť a bezpečie\nCelkovo 6 boxov s novými textami poskytnutými používateľom.",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "5": {
+        "id": "5",
+        "content": "Zmeniť pozadie za boxami na obrázok mitchell-luo",
+        "details": "Pozadie za boxami v sekcii 'Ako vám môžeme pomôcť' nebude sivé ale vlož obrázok mitchell-luo-i1O_Hr6cbWc-unsplash.jpg",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "6": {
+        "id": "6",
+        "content": "Zmeniť farbu textu na bielu pre vetu 'Tieto témy rozoberáme detailne...'",
+        "details": "Vetu 'Tieto témy rozoberáme detailne počas konzultácie, kde vám pomôžeme vytvoriť plán presne pre vašu situáciu.' daj bielou farbou.",
+        "status": "pending",
+        "priority": "low"
+      },
+      "7": {
+        "id": "7",
+        "content": "Upraviť sekciu 'Vaše prvé bezpečné kroky'",
+        "details": "1. Zmeniť nadpis z 'Vaše prvé bezpečné kroky' na 'Aké prvé bezpečné kroky môžete urobiť?'\n2. Pozadie tejto sekcie dať do krémovej farby ako je v hero sekcii",
+        "status": "pending",
+        "priority": "medium"
+      }
+    }
+  }
+}
