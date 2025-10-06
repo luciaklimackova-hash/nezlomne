@@ -5,35 +5,35 @@
         "id": "1",
         "content": "Zjednotenie loga na všetkých podstránkach",
         "details": "Zmeniť logo na všetkých podstránkach na rovnaké ako na domovskej stránke (LogoVlt4.png)",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "2": {
         "id": "2",
         "content": "Oprava navigačných odkazov v menu",
         "details": "Skontrolovať a opraviť všetky odkazy v navigácii tak, aby správne presmerovávali na príslušné podstránky",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "3": {
         "id": "3",
         "content": "Úprava sekcie 'Potrebujete odbornú podporu?'",
         "details": "1. Zmena pozadia na wolfgang-hasselmann obrázok\n2. Úprava oblaku v boxe '30 min. Konzultácia' na jemný oblúk podobný ako v situačných boxoch",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       },
       "4": {
         "id": "4",
         "content": "Úpravy stránky 'Som vo vzťahu'",
         "details": "1. Menšie písmo v sekcii 'Cítite, že vo vašom vzťahu...'\n2. Premiestnenie viet pod seba\n3. Krémové pozadie pre sekciu 'Príbeh klientky'\n4. Sekcia 'Ako vám môžeme pomôcť' - 4 boxy vedľa seba bez ikon, juhani-pelli pozadie\n5. 'Vaše prvé bezpečné kroky' - krémové pozadie\n6. 'Slová žien' - citáty na stred\n7. Posledná sekcia - krémové pozadie",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       },
       "5": {
         "id": "5",
         "content": "Nasadenie finálnej verzie",
         "details": "Nasadenie webu s všetkými implementovanými úpravami",
-        "status": "pending",
+        "status": "completed",
         "priority": "low"
       }
     }
