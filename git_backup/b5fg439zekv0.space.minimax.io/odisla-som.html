@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odišla som - Nezlomné</title>
+    <meta name="description" content="Podpora pri zvládaní post-separačného násilia. Cesta k pokoju a vnútornej slobode.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <meta name="robots" content="index, follow">
+</head>
+<body>
+    <!-- Bezpečnostná notifikácia -->
+    <div id="emergency-exit" class="emergency-exit" title="Rýchle zatvorenie stránky - Alt+F4 (Win) / Cmd+W (Mac)">
+        <button onclick="emergencyExit()" aria-label="Nouzový odchod">✕</button>
+        <span class="tooltip">Rýchle zatvorenie - Alt+F4</span>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <img src="LogoVlt4.png" alt="Nezlomné" class="logo-image">
+                    </a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html" class="nav-item">Domov</a>
+                    <a href="som-vo-vztahu.html" class="nav-item">Som vo vzťahu</a>
+                    <a href="chcem-odist.html" class="nav-item">Chcem odísť</a>
+                    <a href="odisla-som.html#" class="nav-item active">Odišla som</a>
+                    <a href="pomoc-zdroje.html" class="nav-item">Pomoc a zdroje</a>
+                    <a href="o-nas.html" class="nav-item">O nás</a>
+                    <a href="odisla-som.html#contact-form" class="nav-item nav-cta">Kontakt</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="main-content">
+        <div class="hero-background">
+            <img src="Asset&#32;24.png" alt="" class="hero-arches" aria-hidden="true">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">„Odišli ste. Ale on to stále neskončil."</h1>
+                <p class="hero-subtitle">Podpora pri zvládaní post-separačného násilia, súdnych konaní a návratu k sebe.</p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary" onclick="scrollToSection('help-section')">Chcem späť pokoj a slobodu</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="content-section">
+        <div class="container">
+            <h2 class="section-title">Odišli ste, ale stále cítite jeho kontrolu?</h2>
+            <div class="content-text">
+                <p>Fyzicky ste preč, no psychicky vás stále drží v moci. Manipuluje cez správy, deti, súdy alebo iné kanály. Cítite frustráciu, únavu, hnev — chcete konečne nájsť pokoj a vnútornú slobodu. <strong>Nie ste v tom sama.</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Story Section -->
+    <section class="client-story">
+        <div class="container">
+            <h2 class="section-title">Príbeh klientky</h2>
+            
+            <div class="story-content">
+                <blockquote class="story-quote">
+                    <div class="quote-text">
+                        <p>„Keď som odišla, myslela som si, že konečne dýcham. Lenže on neskončil. Denne mi písal desiatky správ, vyhrážal sa, že mi vezme deti a že mi zničí život. Na súdoch pôsobil ako dokonalý otec a ja som vyzerala hystericky. Bola som unavená a cítila som sa, akoby ma mal stále v moci."</p>
+                        <cite>– Petra</cite>
+                    </div>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Understanding Section -->
+    <section class="understanding-section">
+        <div class="container">
+            <h2 class="section-title">Nie je to vaša vina</h2>
+            <div class="understanding-content">
+                <p>Ak vás partner po odchode naďalej kontroluje alebo manipuluje, má to názov. Ide o <strong>post-separačné násilie</strong> - a existujú overené stratégie, ktoré dokážu jeho tlak zastaviť. My vám pomôžeme nájsť bezpečný, praktický plán a vnútorný pokoj.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How We Help Section -->
+    <section id="help-section" class="help-section">
+        <div class="container">
+            <h2 class="section-title">Ako vám môžeme pomôcť</h2>
+            
+            <div class="help-list">
+                <div class="help-item">
+                    <div class="help-icon">💬</div>
+                    <h3>Komunikačné stratégie</h3>
+                    <p>Ukážeme vám, ako reagovať na manipulácie bez straty dôstojnosti.</p>
+                </div>
+                
+                <div class="help-item">
+                    <div class="help-icon">⚖️</div>
+                    <h3>Právne možnosti ochrany</h3>
+                    <p>Vysvetlíme vám postupy pri výživnom, starostlivosti o deti a návrhoch na súd.</p>
+                </div>
+                
+                <div class="help-item">
+                    <div class="help-icon">🛡️</div>
+                    <h3>Bezpečnostné kroky</h3>
+                    <p>Poradíme, ako minimalizovať riziká pri komunikácii či stretnutiach s ex-partnerom.</p>
+                </div>
+                
+                <div class="help-item">
+                    <div class="help-icon">🌸</div>
+                    <h3>Podpora pri uzdravení</h3>
+                    <p>Psychologické vedenie k posilneniu sebavedomia a k spracovaniu traumy.</p>
+                </div>
+            </div>
+            
+            <div class="help-note">
+                <p><em>Tieto témy rozoberáme detailne počas konzultácie, kde vám pomôžeme vytvoriť plán presne pre vašu situáciu.</em></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Action Steps Section -->
+    <section class="action-steps">
+        <div class="container">
+            <h2 class="section-title">Čo môžete urobiť hneď teraz</h2>
+            
+            <div class="action-grid">
+                <div class="action-card">
+                    <h3>1. Otestujte, či ide o post-separačné násilie</h3>
+                    <button class="btn btn-primary">Urobiť test</button>
+                </div>
+                
+                <div class="action-card">
+                    <h3>2. Stiahnite si Krízovú komunikačnú pomôcku</h3>
+                    <p>Ako presne odpovedať manipulátorovi bez straty nervov a dôstojnosti. Nájdete v niej okamžite použiteľné frázy a postupy.</p>
+                    <button class="btn btn-primary">Stiahnuť komunikačnú pomôcku</button>
+                </div>
+                
+                <div class="action-card">
+                    <h3>3. Praktický sprievodca po odchode</h3>
+                    <p><strong>Legálne riešenia bez otvoreného konfliktu.</strong> Naučte sa, ako obmedziť zásahy ex do vášho života bez zbytočných konfliktov a získajte právne tipy, ktoré fungujú.</p>
+                    <button class="btn btn-primary">Stiahnuť právne tipy</button>
+                </div>
+                
+                <div class="action-card featured">
+                    <h3>Profesionálna podpora</h3>
+                    <p>Ak naďalej cítite kontrolu a tlak od bývalého partnera, využite konzultáciu so psychologičkou alebo právničkou. Konzultácia je financovaná z Fondu Solidarity Nezlomné a vedú ju odborníčky s dlhoročnou praxou. Počet miest je obmedzený.</p>
+                    <button class="btn btn-primary" onclick="scrollToSection('contact-form')">Zarezervovať konzultáciu</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <h2 class="section-title">Čo sa stane po rezervácii</h2>
+            
+            <div class="process-list">
+                <div class="process-item">
+                    <div class="process-number">1</div>
+                    <p>Kontaktujeme vás bezpečným spôsobom do 24 hodín.</p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">2</div>
+                    <p>V rezervačnom formulári môžete označiť, či je bezpečné prijímať hovory — ponúkame e-mail alebo chat.</p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">3</div>
+                    <p>Vaše údaje sú dôverné a používame ich len pre účely podpory.</p>
+                </div>
+                <div class="process-item">
+                    <div class="process-number">⚠️</div>
+                    <p>Ak ste v bezprostrednom nebezpečenstve, volajte tiesňové číslo 112/158.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Slová žien, ktoré to zažili</h2>
+            
+            <div class="testimonial-content">
+                <blockquote>
+                    <p><strong>„Odišla som, ale nočná mora pokračovala."</strong> Neustále telefonáty, vyhrážky a hádzanie viny na mňa. Bývalý partner odmietal platiť výživné. Bola som zúfalá. Pani Daniela (právnička) mi pomohla rýchlo podať návrh na súd a sprevádzala ma celým procesom úpravy starostlivosti o deti. A pani Lucia (psychologička) ma podporovala, aby som zvládla stres a tlak v ktorom som bola. Napriek tomu, že som od ex odišla sama, stále ma prenasledovali výčitky svedomia a tlak či som sa rozhodla spávne. Lucia mi vysvetlovala čo sa so mnou deje a celé to do seba zapadalo a vďaka jej až zázračným technikám, ktoré sme spolu robili sa mi podarilo emocionálne odpútať. Bolo úžasné cítiť, že niekto stojí pri mne a rozumie, čím prechádzam. Tím Nezlomné je úžasný, spájajú právnu istotu s psychologickou podporou. Bez nich by som to nezvládla.</p>
+                    <cite>– Aneta</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusion Section -->
+    <section class="conclusion">
+        <div class="container">
+            <div class="conclusion-content">
+                <p>Možno ste unavená a máte pocit, že tunel ešte nekončí. Pamätajte, že aj tento tunel má svoj koniec — a na jeho konci je svetlo. Nemusíte k nemu ísť sama. Sme pripravené stáť pri vás, sprevádzať vás a vytvoriť bezpečný, konkrétny plán na získanie pokoja a slobody.</p>
+                
+                <div class="conclusion-cta">
+                    <button class="btn btn-primary" onclick="scrollToSection('contact-form')">Chcem späť pokoj a slobodu</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Form Section -->
+    <section id="contact-form" class="contact-form">
+        <div class="container">
+            <h2 class="section-title">Rezervácia konzultácie</h2>
+            <div class="contact-form-content">
+                <form id="consultation-form" class="form">
+                    <div class="form-group">
+                        <label for="name">Meno *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefón</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Krátko opíšte vašu situáciu *</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Napíšte nám, čím vám môžeme pomôcť..."></textarea>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="safe_contact" id="safe_contact">
+                            <span class="checkmark"></span>
+                            Je bezpečné vás kontaktovať telefonicky? (Ak nie, kontaktujeme vás emailom)
+                        </label>
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="privacy" id="privacy" required>
+                            <span class="checkmark"></span>
+                            Súhlasím so spracovaním osobných údajov pre účely konzultácie *
+                        </label>
+                    </div>
+                    <div class="safety-notice">
+                        <p><strong>Bezpečnostný tip:</strong> Ak sa obávate, že partner sleduje vašu aktivitu, zatvorte túto stránku klávesovou skratkou ALT + F4 (Windows) / Command + W (Mac).</p>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">Odoslať žiadosť</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="LogoBLK.png" alt="Nezlomné" class="logo-image">
+                    </div>
+                    <p>Nezlomné – psychologicko-právny tím pre ženy v toxických vzťahoch a násilí</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigácia</h4>
+                    <ul>
+                        <li><a href="index.html">Domov</a></li>
+                        <li><a href="som-vo-vztahu.html">Som vo vzťahu</a></li>
+                        <li><a href="chcem-odist.html">Chcem odísť</a></li>
+                        <li><a href="pomoc-zdroje.html">Pomoc a zdroje</a></li>
+                        <li><a href="o-nas.html">O nás</a></li>
+                    </ul>
+                </div>
+                <div class="footer-emergency">
+                    <h4>Ste v ohrození?</h4>
+                    <div class="emergency-contacts">
+                        <p><strong>Tiesňová linka:</strong><br><a href="tel:158">158</a> alebo <a href="tel:112">112</a></p>
+                        <p><strong>Národná linka pre ženy:</strong><br><a href="tel:0800212212">0800 212 212</a><br>(nonstop, bezplatne)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>© 2025 Nezlomné | <a href="o-nas.html">O nás</a> | <a href="odisla-som.html#contact-form">Kontakt</a> | <a href="odisla-som.html#">GDPR</a> | <a href="odisla-som.html#">Podmienky používania</a></p>
+                </div>
+                <div class="solidarity-fund">
+                    <p>Solidárny fond Nezlomné – vďaka darcom vieme poskytovať krízové konzultácie ženám, ktoré si ich nemôžu dovoliť.</p>
+                </div>
+                <div class="safety-tip">
+                    <p><strong>Bezpečnostný tip:</strong> Ak sa obávate, že partner sleduje vašu aktivitu, zatvorte túto stránku klávesovou skratkou ALT + F4 (Windows) / Command + W (Mac).</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <style>
+        .nav-item.active { color: var(--primary-color); font-weight: 600; }
+        .content-section { padding: 5rem 0; background: var(--white-color); }
+        .content-text { max-width: 800px; margin: 0 auto; text-align: center; }
+        .content-text p { font-size: 1.125rem; color: var(--text-dark); line-height: 1.7; }
+        .client-story { padding: 5rem 0; background: var(--cream-color); }
+        .story-quote { max-width: 800px; margin: 0 auto; text-align: center; }
+        .quote-text { background: var(--white-color); padding: 2.5rem; border-radius: 12px; border-left: 4px solid var(--primary-color); }
+        .quote-text p { font-size: 1.125rem; font-style: italic; color: var(--text-dark); margin: 0 0 1rem 0; }
+        .quote-text cite { font-weight: 600; color: var(--primary-color); font-style: normal; }
+        .understanding-section { padding: 5rem 0; background: var(--white-color); }
+        .understanding-content { max-width: 800px; margin: 0 auto; text-align: center; }
+        .understanding-content p { font-size: 1.125rem; color: var(--text-dark); line-height: 1.7; }
+        .help-section { padding: 5rem 0; background: var(--cream-color); }
+        .help-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin: 3rem 0; }
+        .help-item { text-align: center; padding: 2rem; background: var(--white-color); border-radius: var(--border-radius); }
+        .help-icon { font-size: 3rem; margin-bottom: 1rem; }
+        .help-item h3 { font-family: var(--font-heading); font-size: 1.25rem; font-weight: 600; color: var(--dark-color); margin-bottom: 1rem; }
+        .help-item p { color: var(--text-light); }
+        .help-note { text-align: center; max-width: 700px; margin: 3rem auto 0; color: var(--text-light); }
+        .action-steps { padding: 5rem 0; background: var(--white-color); }
+        .action-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0; }
+        .action-card { background: var(--gray-light); padding: 2.5rem; border-radius: 12px; text-align: center; transition: var(--transition); }
+        .action-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+        .action-card.featured { border: 2px solid var(--primary-color); background: var(--white-color); }
+        .action-card h3 { font-family: var(--font-heading); font-size: 1.25rem; font-weight: 600; color: var(--dark-color); margin-bottom: 1rem; }
+        .action-card p { color: var(--text-light); margin-bottom: 1.5rem; }
+        .process-section { padding: 5rem 0; background: var(--cream-color); }
+        .process-list { max-width: 800px; margin: 3rem auto 0; }
+        .process-item { display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2rem; padding: 1.5rem; background: var(--white-color); border-radius: var(--border-radius); }
+        .process-number { width: 40px; height: 40px; background: var(--primary-color); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; flex-shrink: 0; }
+        .process-item p { color: var(--text-dark); margin: 0; }
+        .testimonials { padding: 5rem 0; background: var(--white-color); }
+        .testimonial-content { max-width: 800px; margin: 0 auto; }
+        .testimonial-content blockquote { background: var(--cream-color); padding: 2.5rem; border-radius: 12px; border-left: 4px solid var(--primary-color); text-align: center; }
+        .testimonial-content blockquote p { font-size: 1.125rem; color: var(--text-dark); margin-bottom: 1.5rem; line-height: 1.6; }
+        .testimonial-content cite { font-weight: 600; color: var(--primary-color); font-style: normal; }
+        .conclusion { padding: 5rem 0; background: var(--cream-color); text-align: center; }
+        .conclusion-content p { font-size: 1.25rem; color: var(--text-dark); margin-bottom: 2rem; font-weight: 500; max-width: 800px; margin-left: auto; margin-right: auto; }
+        @media (max-width: 768px) { .help-list, .action-grid { grid-template-columns: 1fr; } }
+    </style>
+<style>
+#minimax-floating-ball {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 12px;
+  background: #222222;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  color: #F8F8F8;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 9999;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#minimax-floating-ball:hover {
+  transform: translateY(-2px);
+  background: #383838;
+}
+.minimax-ball-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.minimax-logo-wave {
+  width: 26px;
+  height: 22px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='22' viewBox='0 0 26 22' fill='none'%3E%3Cg clip-path='url(%23clip0_3442_102412)'%3E%3Cpath d='M12.8405 14.6775C12.8405 14.9897 13.0932 15.2424 13.4055 15.2424C13.7178 15.2424 13.9705 14.9897 13.9705 14.6775V2.98254C13.9705 1.88957 13.0809 1 11.9879 1C10.895 1 10.0054 1.88957 10.0054 2.98254V11.566V17.1068C10.0054 17.5773 9.62327 17.9594 9.1528 17.9594C8.68233 17.9594 8.30021 17.5773 8.30021 17.1068V8.04469C8.30021 6.95172 7.41063 6.06215 6.31767 6.06215C5.22471 6.06215 4.33513 6.95172 4.33513 8.04469V11.8855C4.33513 12.3559 3.953 12.7381 3.48254 12.7381C3.01207 12.7381 2.62994 12.3559 2.62994 11.8855V10.4936C2.62994 10.1813 2.37725 9.92861 2.06497 9.92861C1.7527 9.92861 1.5 10.1813 1.5 10.4936V11.8855C1.5 12.9784 2.38957 13.868 3.48254 13.868C4.5755 13.868 5.46508 12.9784 5.46508 11.8855V8.04469C5.46508 7.57422 5.8472 7.19209 6.31767 7.19209C6.78814 7.19209 7.17026 7.57422 7.17026 8.04469V17.1068C7.17026 18.1998 8.05984 19.0894 9.1528 19.0894C10.2458 19.0894 11.1353 18.1998 11.1353 17.1068V2.98254C11.1353 2.51207 11.5175 2.12994 11.9879 2.12994C12.4584 2.12994 12.8405 2.51207 12.8405 2.98254V14.6775Z' fill='%23F8F8F8'/%3E%3Cpath d='M23.3278 6.06215C22.2348 6.06215 21.3452 6.95172 21.3452 8.04469V15.6143C21.3452 16.0847 20.9631 16.4669 20.4926 16.4669C20.0222 16.4669 19.6401 16.0847 19.6401 15.6143V2.98254C19.6401 1.88957 18.7505 1 17.6575 1C16.5645 1 15.675 1.88957 15.675 2.98254V19.0175C15.675 19.4879 15.2928 19.8701 14.8224 19.8701C14.3519 19.8701 13.9698 19.4879 13.9698 19.0175V17.0329C13.9698 16.7206 13.7171 16.4679 13.4048 16.4679C13.0925 16.4679 12.8398 16.7206 12.8398 17.0329V19.0175C12.8398 20.1104 13.7294 21 14.8224 21C15.9153 21 16.8049 20.1104 16.8049 19.0175V2.98254C16.8049 2.51207 17.187 2.12994 17.6575 2.12994C18.128 2.12994 18.5101 2.51207 18.5101 2.98254V15.6143C18.5101 16.7072 19.3997 17.5968 20.4926 17.5968C21.5856 17.5968 22.4752 16.7072 22.4752 15.6143V8.04469C22.4752 7.57422 22.8573 7.19209 23.3278 7.19209C23.7982 7.19209 24.1804 7.57422 24.1804 8.04469V14.6775C24.1804 14.9897 24.4331 15.2424 24.7453 15.2424C25.0576 15.2424 25.3103 14.9897 25.3103 14.6775V8.04469C25.3103 6.95172 24.4207 6.06215 23.3278 6.06215Z' fill='%23F8F8F8'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_3442_102412'%3E%3Crect width='25' height='22' fill='white' transform='translate(0.5)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.minimax-ball-text {
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.minimax-close-icon {
+  margin-left: 8px;
+  font-size: 16px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.minimax-close-icon:hover {
+  opacity: 1;
+}
+</style>
+<div id="minimax-floating-ball">
+  <div class="minimax-ball-content">
+    <div class="minimax-logo-wave"></div>
+    <span class="minimax-ball-text">Created by MiniMax Agent</span>
+  </div>
+  <div class="minimax-close-icon">×</div>
+</div>
+<script>
+// Initialize floating ball functionality
+function initFloatingBall() {
+  const ball = document.getElementById('minimax-floating-ball');
+  if (!ball) return;
+
+  // Initial animation
+  ball.style.opacity = '0';
+  ball.style.transform = 'translateY(20px)';
+
+  setTimeout(() => {
+    ball.style.opacity = '1';
+    ball.style.transform = 'translateY(0)';
+  }, 500);
+
+  // Handle logo click
+  const ballContent = ball.querySelector('.minimax-ball-content');
+  ballContent.addEventListener('click', function (e) {
+    e.stopPropagation();
+    window.open('https://agent.minimax.io/agent', '_blank');
+    ball.style.transform = 'scale(0.95)';
+    setTimeout(() => {
+      ball.style.transform = 'scale(1)';
+    }, 100);
+  });
+
+  // Handle close button click
+  const closeIcon = ball.querySelector('.minimax-close-icon');
+  closeIcon.addEventListener('click', function (e) {
+    e.stopPropagation();
+    ball.style.opacity = '0';
+    ball.style.transform = 'translateY(20px)';
+
+    setTimeout(() => {
+      ball.style.display = 'none';
+    }, 300);
+  });
+}
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', initFloatingBall); 
+</script>
+</body>
+</html>

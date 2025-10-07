@@ -1,0 +1,355 @@
+--2025-10-07 20:41:25--  https://b5fg439zekv0.space.minimax.io/
+Resolving b5fg439zekv0.space.minimax.io (b5fg439zekv0.space.minimax.io)... 47.246.22.195
+Connecting to b5fg439zekv0.space.minimax.io (b5fg439zekv0.space.minimax.io)|47.246.22.195|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 22358 (22K) [text/html]
+Saving to: ‘b5fg439zekv0.space.minimax.io/index.html’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  21.83K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:25 (522 MB/s) - ‘b5fg439zekv0.space.minimax.io/index.html’ saved [22358/22358]
+
+Loading robots.txt; please ignore errors.
+--2025-10-07 20:41:25--  https://b5fg439zekv0.space.minimax.io/robots.txt
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 404 Not Found
+2025-10-07 20:41:25 ERROR 404: Not Found.
+
+--2025-10-07 20:41:25--  https://b5fg439zekv0.space.minimax.io/styles.css
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 31745 (31K) [text/css]
+Saving to: ‘b5fg439zekv0.space.minimax.io/styles.css’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  31.00K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:25 (541 MB/s) - ‘b5fg439zekv0.space.minimax.io/styles.css’ saved [31745/31745]
+
+--2025-10-07 20:41:25--  https://b5fg439zekv0.space.minimax.io/LogoVlt4.png
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 55087 (54K) [image/png]
+Saving to: ‘b5fg439zekv0.space.minimax.io/LogoVlt4.png’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  53.80K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:25 (790 MB/s) - ‘b5fg439zekv0.space.minimax.io/LogoVlt4.png’ saved [55087/55087]
+
+--2025-10-07 20:41:25--  https://b5fg439zekv0.space.minimax.io/index.html
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22358 (22K) [text/html]
+Saving to: ‘b5fg439zekv0.space.minimax.io/index.html’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  21.83K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:25 (704 MB/s) - ‘b5fg439zekv0.space.minimax.io/index.html’ saved [22358/22358]
+
+--2025-10-07 20:41:25--  https://b5fg439zekv0.space.minimax.io/som-vo-vztahu.html
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 28145 (27K) [text/html]
+Saving to: ‘b5fg439zekv0.space.minimax.io/som-vo-vztahu.html’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  27.49K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:25 (679 MB/s) - ‘b5fg439zekv0.space.minimax.io/som-vo-vztahu.html’ saved [28145/28145]
+
+--2025-10-07 20:41:25--  https://b5fg439zekv0.space.minimax.io/chcem-odist.html
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 27336 (27K) [text/html]
+Saving to: ‘b5fg439zekv0.space.minimax.io/chcem-odist.html’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  26.70K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:25 (821 MB/s) - ‘b5fg439zekv0.space.minimax.io/chcem-odist.html’ saved [27336/27336]
+
+--2025-10-07 20:41:25--  https://b5fg439zekv0.space.minimax.io/odisla-som.html
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25670 (25K) [text/html]
+Saving to: ‘b5fg439zekv0.space.minimax.io/odisla-som.html’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  25.07K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:25 (692 MB/s) - ‘b5fg439zekv0.space.minimax.io/odisla-som.html’ saved [25670/25670]
+
+--2025-10-07 20:41:25--  https://b5fg439zekv0.space.minimax.io/pomoc-zdroje.html
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 19773 (19K) [text/html]
+Saving to: ‘b5fg439zekv0.space.minimax.io/pomoc-zdroje.html’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  19.31K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:25 (597 MB/s) - ‘b5fg439zekv0.space.minimax.io/pomoc-zdroje.html’ saved [19773/19773]
+
+--2025-10-07 20:41:25--  https://b5fg439zekv0.space.minimax.io/o-nas.html
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 21431 (21K) [text/html]
+Saving to: ‘b5fg439zekv0.space.minimax.io/o-nas.html’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  20.93K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:25 (684 MB/s) - ‘b5fg439zekv0.space.minimax.io/o-nas.html’ saved [21431/21431]
+
+--2025-10-07 20:41:25--  https://b5fg439zekv0.space.minimax.io/Asset%2024.png
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 18727 (18K) [image/png]
+Saving to: ‘b5fg439zekv0.space.minimax.io/Asset 24.png’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  18.29K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:25 (440 MB/s) - ‘b5fg439zekv0.space.minimax.io/Asset 24.png’ saved [18727/18727]
+
+--2025-10-07 20:41:25--  https://b5fg439zekv0.space.minimax.io/lucia_klimackova.png
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 487238 (476K) [image/png]
+Saving to: ‘b5fg439zekv0.space.minimax.io/lucia_klimackova.png’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>] 475.82K  --.-KB/s    in 0.01s   
+
+2025-10-07 20:41:25 (33.3 MB/s) - ‘b5fg439zekv0.space.minimax.io/lucia_klimackova.png’ saved [487238/487238]
+
+--2025-10-07 20:41:25--  https://b5fg439zekv0.space.minimax.io/daniela_badurova.png
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 846285 (826K) [image/png]
+Saving to: ‘b5fg439zekv0.space.minimax.io/daniela_badurova.png’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>] 826.45K  --.-KB/s    in 0.01s   
+
+2025-10-07 20:41:25 (73.8 MB/s) - ‘b5fg439zekv0.space.minimax.io/daniela_badurova.png’ saved [846285/846285]
+
+--2025-10-07 20:41:25--  https://b5fg439zekv0.space.minimax.io/test-toxicky-vztah.html
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 404 Not Found
+2025-10-07 20:41:26 ERROR 404: Not Found.
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/7-dnovy-kurz.html
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 404 Not Found
+2025-10-07 20:41:26 ERROR 404: Not Found.
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/ako-bezpecne-odist.html
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 404 Not Found
+2025-10-07 20:41:26 ERROR 404: Not Found.
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/test-post-separacne.html
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 404 Not Found
+2025-10-07 20:41:26 ERROR 404: Not Found.
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/krizova-komunikacia.html
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 404 Not Found
+2025-10-07 20:41:26 ERROR 404: Not Found.
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/zastavit-manipulaciu.html
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 404 Not Found
+2025-10-07 20:41:26 ERROR 404: Not Found.
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/imgs/woman_breaking_free_chains_liberation_empowerment_silhouette.jpg
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 73894 (72K) [image/jpeg]
+Saving to: ‘b5fg439zekv0.space.minimax.io/imgs/woman_breaking_free_chains_liberation_empowerment_silhouette.jpg’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  72.16K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:26 (861 MB/s) - ‘b5fg439zekv0.space.minimax.io/imgs/woman_breaking_free_chains_liberation_empowerment_silhouette.jpg’ saved [73894/73894]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/LogoBLK.png
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 31003 (30K) [image/png]
+Saving to: ‘b5fg439zekv0.space.minimax.io/LogoBLK.png’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  30.28K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:26 (743 MB/s) - ‘b5fg439zekv0.space.minimax.io/LogoBLK.png’ saved [31003/31003]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/script.js
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 16475 (16K) [text/javascript]
+Saving to: ‘b5fg439zekv0.space.minimax.io/script.js’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  16.09K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:26 (583 MB/s) - ‘b5fg439zekv0.space.minimax.io/script.js’ saved [16475/16475]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/user_input_files/mihai-moisa-EySUi3YZ2yE-unsplash.jpg
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 457773 (447K) [image/jpeg]
+Saving to: ‘b5fg439zekv0.space.minimax.io/user_input_files/mihai-moisa-EySUi3YZ2yE-unsplash.jpg’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>] 447.04K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:26 (1.01 GB/s) - ‘b5fg439zekv0.space.minimax.io/user_input_files/mihai-moisa-EySUi3YZ2yE-unsplash.jpg’ saved [457773/457773]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/imgs/strong_confident_professional_woman_portrait.jpg
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 20924 (20K) [image/jpeg]
+Saving to: ‘b5fg439zekv0.space.minimax.io/imgs/strong_confident_professional_woman_portrait.jpg’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  20.43K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:26 (760 MB/s) - ‘b5fg439zekv0.space.minimax.io/imgs/strong_confident_professional_woman_portrait.jpg’ saved [20924/20924]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/user_input_files/jonathan-burger-NBLNctrj1fA-unsplash.jpg
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 936952 (915K) [image/jpeg]
+Saving to: ‘b5fg439zekv0.space.minimax.io/user_input_files/jonathan-burger-NBLNctrj1fA-unsplash.jpg’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>] 914.99K  --.-KB/s    in 0.01s   
+
+2025-10-07 20:41:26 (77.7 MB/s) - ‘b5fg439zekv0.space.minimax.io/user_input_files/jonathan-burger-NBLNctrj1fA-unsplash.jpg’ saved [936952/936952]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/user_input_files/Asset%2029.png
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 29543 (29K) [image/png]
+Saving to: ‘b5fg439zekv0.space.minimax.io/user_input_files/Asset 29.png’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  28.85K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:26 (552 MB/s) - ‘b5fg439zekv0.space.minimax.io/user_input_files/Asset 29.png’ saved [29543/29543]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/Asset%2029.png
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 29543 (29K) [image/png]
+Saving to: ‘b5fg439zekv0.space.minimax.io/Asset 29.png’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  28.85K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:26 (555 MB/s) - ‘b5fg439zekv0.space.minimax.io/Asset 29.png’ saved [29543/29543]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/user_input_files/Asset%2042.png
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 41185 (40K) [image/png]
+Saving to: ‘b5fg439zekv0.space.minimax.io/user_input_files/Asset 42.png’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  40.22K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:26 (655 MB/s) - ‘b5fg439zekv0.space.minimax.io/user_input_files/Asset 42.png’ saved [41185/41185]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/wolfgang-hasselmann-06uBHDZ5RpM-unsplash.jpg
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 484027 (473K) [image/jpeg]
+Saving to: ‘b5fg439zekv0.space.minimax.io/wolfgang-hasselmann-06uBHDZ5RpM-unsplash.jpg’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>] 472.68K  --.-KB/s    in 0.007s  
+
+2025-10-07 20:41:26 (69.4 MB/s) - ‘b5fg439zekv0.space.minimax.io/wolfgang-hasselmann-06uBHDZ5RpM-unsplash.jpg’ saved [484027/484027]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/user_input_files/Asset%2044.png
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 47130 (46K) [image/png]
+Saving to: ‘b5fg439zekv0.space.minimax.io/user_input_files/Asset 44.png’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  46.03K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:26 (801 MB/s) - ‘b5fg439zekv0.space.minimax.io/user_input_files/Asset 44.png’ saved [47130/47130]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/user_input_files/Asset%2045.png
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 45793 (45K) [image/png]
+Saving to: ‘b5fg439zekv0.space.minimax.io/user_input_files/Asset 45.png’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  44.72K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:26 (832 MB/s) - ‘b5fg439zekv0.space.minimax.io/user_input_files/Asset 45.png’ saved [45793/45793]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/imgs/flowers_through_cracks_strength.png
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2106687 (2.0M) [image/png]
+Saving to: ‘b5fg439zekv0.space.minimax.io/imgs/flowers_through_cracks_strength.png’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]   2.01M  --.-KB/s    in 0.04s   
+
+2025-10-07 20:41:26 (53.4 MB/s) - ‘b5fg439zekv0.space.minimax.io/imgs/flowers_through_cracks_strength.png’ saved [2106687/2106687]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/imgs/confident_elegant_professional_woman_portrait.jpg
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 71577 (70K) [image/jpeg]
+Saving to: ‘b5fg439zekv0.space.minimax.io/imgs/confident_elegant_professional_woman_portrait.jpg’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  69.90K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:26 (756 MB/s) - ‘b5fg439zekv0.space.minimax.io/imgs/confident_elegant_professional_woman_portrait.jpg’ saved [71577/71577]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/user_input_files/Asset%2017.png
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6478 (6.3K) [image/png]
+Saving to: ‘b5fg439zekv0.space.minimax.io/user_input_files/Asset 17.png’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]   6.33K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:26 (377 MB/s) - ‘b5fg439zekv0.space.minimax.io/user_input_files/Asset 17.png’ saved [6478/6478]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/user_input_files/Asset%2018.png
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6455 (6.3K) [image/png]
+Saving to: ‘b5fg439zekv0.space.minimax.io/user_input_files/Asset 18.png’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]   6.30K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:26 (396 MB/s) - ‘b5fg439zekv0.space.minimax.io/user_input_files/Asset 18.png’ saved [6455/6455]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/Asset%2026.png
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 17517 (17K) [image/png]
+Saving to: ‘b5fg439zekv0.space.minimax.io/Asset 26.png’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>]  17.11K  --.-KB/s    in 0s      
+
+2025-10-07 20:41:26 (594 MB/s) - ‘b5fg439zekv0.space.minimax.io/Asset 26.png’ saved [17517/17517]
+
+--2025-10-07 20:41:26--  https://b5fg439zekv0.space.minimax.io/mitchell%20copy.jpeg
+Reusing existing connection to b5fg439zekv0.space.minimax.io:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 786488 (768K) [image/jpeg]
+Saving to: ‘b5fg439zekv0.space.minimax.io/mitchell copy.jpeg’
+
+          b5fg439ze   0%[                    ]       0  --.-KB/s               b5fg439zekv0.space. 100%[===================>] 768.05K  --.-KB/s    in 0.01s   
+
+2025-10-07 20:41:26 (68.9 MB/s) - ‘b5fg439zekv0.space.minimax.io/mitchell copy.jpeg’ saved [786488/786488]
+
+FINISHED --2025-10-07 20:41:26--
+Total wall clock time: 1.5s
+Downloaded: 30 files, 6.5M in 0.09s (69.9 MB/s)
+Converting links in b5fg439zekv0.space.minimax.io/chcem-odist.html... 22.
+22-0
+Converting links in b5fg439zekv0.space.minimax.io/index.html... 34.
+28-6
+Converting links in b5fg439zekv0.space.minimax.io/pomoc-zdroje.html... 22.
+22-0
+Converting links in b5fg439zekv0.space.minimax.io/o-nas.html... 21.
+21-0
+Converting links in b5fg439zekv0.space.minimax.io/odisla-som.html... 22.
+22-0
+Converting links in b5fg439zekv0.space.minimax.io/som-vo-vztahu.html... 22.
+22-0
+Converting links in b5fg439zekv0.space.minimax.io/styles.css... 22.
+22-0
+Converted links in 7 files in 0.07 seconds.
