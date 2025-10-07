@@ -5,28 +5,28 @@
         "id": "1",
         "content": "Vrátiť pôvodný dizajn menu s pozadím",
         "details": "1. Skontrolovať a opraviť CSS pre header s pozadím obrázka 'mihai-moisa-EySUi3YZ2yE-unsplash.jpg'",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "2": {
         "id": "2",
         "content": "Vrátiť pôvodné pozadia oblukov na domovskej stránke",
         "details": "1. Obnoviť hero sekciu s Asset 24.png ako pozadie s oblúkmi\n2. Skontrolovať, či sú všetky pôvodné background elementy prítomné",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "3": {
         "id": "3",
         "content": "Opraviť sekciu 'Ako vám môžeme pomôcť?' na všetkých podstránkach",
         "details": "1. Pridať pozadie 'mitchell copy.jpeg' do sekcií 'Ako vám môžeme pomôcť?' na som-vo-vztahu.html\n2. Pridať pozadie 'mitchell copy.jpeg' do sekcií 'Ako vám môžeme pomôcť?' na chcem-odist.html\n3. Pridať pozadie 'mitchell copy.jpeg' do sekcií 'Ako vám môžeme pomôcť?' na odisla-som.html\n4. Overiť, že CSS trieda .help-section má správne nastavenie",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "4": {
         "id": "4",
         "content": "Nasadiť opraveną verziu",
         "details": "1. Skopírovať všetky súbory do dist\n2. Nasadiť webovú stránku\n3. Poskytnúť užívateľovi URL",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       }
     }
