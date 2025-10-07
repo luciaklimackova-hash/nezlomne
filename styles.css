@@ -97,6 +97,10 @@ button {
     border: 0;
 }
 
+.cream-bg {
+    background-color: var(--brand-beige) !important;
+}
+
 /* =========================================
    Bezpečnostné prvky
 ========================================= */
@@ -1303,12 +1307,11 @@ button {
 }
 
 .client-story {
-    background: var(--brand-beige);
     padding: 5rem 0;
 }
 
 .help-section {
-    background: url('mitchell-luo-i1O_Hr6cbWc-unsplash.jpg');
+    background: url('mitchell copy.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -1384,7 +1387,6 @@ button {
 }
 
 .safe-steps {
-    background: var(--brand-beige);
     padding: 5rem 0;
 }
 
