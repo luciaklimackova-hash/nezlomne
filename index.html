@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nezlomné - Podpora pre ženy v toxických vzťahoch</title>
+    <meta name="description" content="Bezpečný priestor pre ženy zažívajúce psychické, fyzické či ekonomické násilie. Psychologicko-právny tím, ktorý vás sprevádza na ceste k slobode.">
+    
+    <!-- Preload kritické fonty - Brand Board fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Bezpečnostné meta tags -->
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
+</head>
+<body>
+    <!-- Bezpečnostná notifikácia -->
+    <div id="emergency-exit" class="emergency-exit" title="Rýchle zatvorenie stránky - Alt+F4 (Win) / Cmd+W (Mac)">
+        <button onclick="window.open('https://www.pocasie.sk', '_self')" aria-label="Núdzový odchod">✕</button>
+        <span class="tooltip">Rýchle zatvorenie - Alt+F4</span>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="LogoVlt4.png" alt="Nezlomné" class="logo-image">
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html" class="nav-item">Domov</a>
+                    <a href="som-vo-vztahu.html" class="nav-item">Som vo vzťahu</a>
+                    <a href="chcem-odist.html" class="nav-item">Chcem odísť</a>
+                    <a href="odisla-som.html" class="nav-item">Odišla som</a>
+                    <a href="pomoc-zdroje.html" class="nav-item">Pomoc a zdroje</a>
+                    <a href="o-nas.html" class="nav-item">O nás</a>
+                    <a href="#contact" class="nav-item nav-cta">Kontakt</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <img src="Asset 24.png" alt="" class="hero-arches" aria-hidden="true">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Na konci tunela je svetlo.<br>Nemusíte tam ísť sama.</h1>
+                <div class="hero-questions">
+                    <p class="hero-question">Zažívate vo vzťahu strach, zmätok alebo hanbu?</p>
+                    <p class="hero-question">Chcete odísť – ale bojíte sa, čo príde?</p>
+                    <p class="hero-question">Alebo ste už odišli, no ex má stále nad Vami moc?</p>
+                </div>
+                <div class="hero-cta">
+                    <button class="btn btn-primary" onclick="scrollToSection('situacie')">Zistiť, aký je môj ďalší krok</button>
+                    <button class="btn btn-secondary" onclick="window.open('mailto:nezlomne@kontakt.sk')">Potrebujem hovoriť s odborníčkou</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Situácie Section -->
+    <section id="situacie" class="situations">
+        <div class="container">
+            <h2 class="section-title">V akej situácii sa nachádzate?</h2>
+            <p class="section-subtitle">Vyberte si cestu, ktorá najviac zodpovedá Vašej situácii:</p>
+            
+            <div class="situations-grid">
+                <div class="situation-card">
+                    <h3>Som vo vzťahu</h3>
+                    <p>Cítite, že niečo nie je v poriadku, ale neviete to presne pomenovať?<br>
+                    Partner Vás zneisťuje, ponižuje alebo kontroluje – no navonok to pôsobí „normálne"?</p>
+                    <p class="situation-desc">Tu začína Vaša cesta k jasnosti.</p>
+                    <a href="som-vo-vztahu.html" class="btn btn-outline">Chcem jasnosť</a>
+                </div>
+
+                <div class="situation-card">
+                    <h3>Chcem odísť</h3>
+                    <p>Bojujete medzi strachom a odvahou?<br>
+                    Chcete odísť ale premýšľate ako to zvládnuť a čo všetko bude nasledovať?<br>
+                    Nechcete byť zlomená a cítite, že takto ďalej nemôžete?</p>
+                    <p class="situation-desc">Tu začína Vaša cesta k rozhodnutiu.</p>
+                    <a href="chcem-odist.html" class="btn btn-outline">Chcem odísť bezpečne</a>
+                </div>
+
+                <div class="situation-card">
+                    <h3>Odišla som</h3>
+                    <p>Fyzicky ste preč ale on má stále nad vami moc a kontrolu? Manipuluje cez správy, deti, zastrašuje alebo útočí cez právne kroky?</p>
+                    <p class="situation-desc">Tu začína Vaša cesta k slobode a pokoju.</p>
+                    <a href="odisla-som.html" class="btn btn-outline">Chcem pokoj a slobodu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O nás Section -->
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">Nezlomné</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Nezlomné je bezpečný priestor pre ženy, ktoré zažívajú alebo zažili psychické, fyzické, ekonomické či právne násilie – aj keď si to možno ešte samy nepriznali.</h3>
+                    <p>Sme psychologicko-právny tím, ktorý Vás sprevádza na ceste zo vzťahu plného manipulácie a strachu do života, kde môžete byť slobodne sama sebou.</p>
+                    <div class="founders-photos">
+                        <div class="founder">
+                            <img src="lucia_klimackova.png" alt="Lucia Klimáčková" class="founder-photo">
+                            <p class="founder-name">Lucia Klimáčková</p>
+                        </div>
+                        <div class="founder">
+                            <img src="daniela_badurova.png" alt="Daniela Baďurová" class="founder-photo">
+                            <p class="founder-name">Daniela Baďurová</p>
+                        </div>
+                    </div>
+                    <blockquote>
+                        „Sme psychologička Lucia Klimáčková a právnička Daniela Baďurová s viac než 10 rokmi skúseností v tejto oblasti. Pomohli sme stovkám žien získať späť seba – a život, v ktorom sa dá znovu slobodne dýchať."
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Konzultácia Section -->
+    <section class="consultation">
+        <div class="container">
+            <h2 class="section-title">Potrebujete odbornú podporu?</h2>
+            <div class="consultation-card">
+                <h3>30 min. Konzultácia z Fondu Solidarity</h3>
+                <p>S odborníčkou z oblasti psychológie alebo práva.</p>
+                <div class="consultation-benefits">
+                    <h4>Pomôžeme vám:</h4>
+                    <ul>
+                        <li>zorientovať sa vo vašej situácii</li>
+                        <li>pomenovať, čo sa deje</li>
+                        <li>ukázať bezpečné ďalšie kroky</li>
+                    </ul>
+                </div>
+                <p class="consultation-note">Táto konzultácia je financovaná z Fondu Solidarity Nezlomné, preto je počet miest limitovaný.</p>
+                <button class="btn btn-primary" onclick="window.open('mailto:nezlomne@kontakt.sk')">Rezervovať konzultáciu</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pomoc a zdroje Section -->
+    <section class="resources">
+        <div class="container">
+            <h2 class="section-title">Pomoc a zdroje</h2>
+            <p class="section-subtitle">Vyberte si nástroje, ktoré vám najviac pomôžu vo vašej situácii.<br>
+            Nájdete tu testy, sprievodcov, praktické pomôcky a vzdelávacie materiály, vďaka ktorým získate pochopenie, podporu a silu na ďalšie kroky.</p>
+            
+            <div class="resources-grid">
+                <a href="test-toxicky-vztah.html" class="resource-item">
+                    <div class="resource-icon"></div>
+                    <h3>TEST: Je môj vzťah toxický/ násilný?</h3>
+                    <p>Zistite, či ide o násilie, toxický vzťah alebo narcistické správanie.</p>
+                </a>
+                <a href="7-dnovy-kurz.html" class="resource-item">
+                    <div class="resource-icon"></div>
+                    <h3>7 dňový e-mail kurz: CESTA VON</h3>
+                    <p>Pravda o toxických vzťahoch a presné kroky na ochranu seba a detí.</p>
+                </a>
+                <a href="ako-bezpecne-odist.html" class="resource-item">
+                    <div class="resource-icon"></div>
+                    <h3>Ako bezpečne odísť z toxického vzťahu a nezlomiť sa</h3>
+                    <p>5 Najčastejších chýb, ktoré robia ženy pri odchode z toxického vzťahu — chyby, ktoré ich stoja čas, zdravie, peniaze aj bezpečie – a presný návod ako sa im vyhnúť.</p>
+                </a>
+                <a href="test-post-separacne.html" class="resource-item">
+                    <div class="resource-icon"></div>
+                    <h3>TEST: Zažívate post-separačné násilie?</h3>
+                    <p>Ak stále cítite tlak zo strany bývalého partnera, otestujte sa. Odchodom kontrola a manipulácia často nekončí.</p>
+                </a>
+                <a href="krizova-komunikacia.html" class="resource-item">
+                    <div class="resource-icon"></div>
+                    <h3>Krízová komunikačná pomôcka</h3>
+                    <p>Ako presne odpovedať manipulujúcemu ex - bez straty nervov a dôstojnosti. Okamžite použiteľné a overené frázy a postupy ako komunikovať.</p>
+                </a>
+                <a href="zastavit-manipulaciu.html" class="resource-item">
+                    <div class="resource-icon"></div>
+                    <h3>Ako legálne zastaviť manipuláciu ex a ochrániť seba aj deti</h3>
+                    <p>Zastavte zásahy ex do vášho života bez zbytočných konfliktov. Získajte právne tipy, ktoré fungujú– krok za krokom.</p>
+                </a>
+            </div>
+            
+            <div class="resources-cta">
+                <a href="pomoc-zdroje.html" class="btn btn-primary">Vybrať si, čo mi pomôže</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slová žien Section s novými Quote šablónami -->
+    <section class="testimonials">
+        <div class="testimonials-image-container">
+            <img src="imgs/woman_breaking_free_chains_liberation_empowerment_silhouette.jpg" alt="Žena oslobodzujúca sa od reťazí" class="testimonials-support-image">
+        </div>
+        <div class="container">
+            <h2 class="section-title">Slová žien</h2>
+            <div class="testimonials-carousel" id="testimonials-carousel">
+                <div class="testimonial-slide active">
+                    <div class="quote-container">
+                        <blockquote>
+                            <p><strong>Myslela som si, že to je moja chyba.</strong> Až keď som sa stretla s pani právničkou Danielou a pani psychologičkou Luckou, pochopila som, že som nebola bláznivá. Vďaka Nezlomné som znova získala silu rozhodovať o svojom živote.</p>
+                            <cite>– anonymná klientka</cite>
+                        </blockquote>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="quote-container">
+                        <blockquote>
+                            <p><strong>Odišla som, ale nočná mora pokračovala.</strong> Neustále telefonáty, vyhrážky a odmietanie platiť výživné. Pani Danka (právnička) mi pomohla rýchlo podať návrh na súd a sprevádzala ma celým právnym procesom. Pani Lucka (psychologička) mi pomohla zmeniť moje nastavenie voči sebe samej. Naučila som sa zvládať stres a moje výčitky svedomia zmizli. Konečne som sa emocionálne odpútala a našla pokoj.</p>
+                            <cite>– Aneta</cite>
+                        </blockquote>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="quote-container">
+                        <blockquote>
+                            <p><strong>Mala som pocit, že som úplne sama a že chyba je vo mne.</strong> Hneď v prvom telefonáte mi psychologička Lucia pomohla pomenovať, čo sa mi deje, a prvýkrát po rokoch som sa necítila bláznivo, ale pochopená. Právnička Danka mi vysvetlila moje právne možnosti – a konečne mám plán a menej strachu.</p>
+                            <cite>– Renata</cite>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials-nav">
+                <button class="testimonial-nav-btn active" onclick="showTestimonial(0)"></button>
+                <button class="testimonial-nav-btn" onclick="showTestimonial(1)"></button>
+                <button class="testimonial-nav-btn" onclick="showTestimonial(2)"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Záver Section -->
+    <section class="conclusion cream-bg">
+        <div class="container">
+            <div class="conclusion-content">
+                <p>Možno teraz cítite strach alebo zmätok. Ale aj keď je cesta pred vami náročná, nie ste na nej sama.<br>
+                Na konci tunela je vždy svetlo – a my sme tu, aby sme vám pomohli k nemu dôjsť krok za krokom.</p>
+                
+                <p><strong>Nemusíte všetko riešiť naraz.</strong> Začnite tím, čo Vám najviac vyhovuje: urobte si test, získajte viac informácií tým, že sa prihlásite na e-kurz alebo požiadajte o konzultáciu.</p>
+                
+                <div class="conclusion-cta">
+                    <button class="btn btn-outline" onclick="scrollToSection('situacie')">Prejsť na podstránku podľa vašej situácie</button>
+                    <a href="pomoc-zdroje.html" class="btn btn-outline">Pozrieť bezplatné materiály</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="LogoBLK.png" alt="Nezlomné" class="logo-image">
+                    </div>
+                    <p>Nezlomné – psychologicko-právny tím pre ženy v toxických vzťahoch a násilí</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navigácia</h4>
+                    <ul>
+                        <li><a href="som-vo-vztahu.html">Som vo vzťahu</a></li>
+                        <li><a href="chcem-odist.html">Chcem odísť</a></li>
+                        <li><a href="odisla-som.html">Odišla som</a></li>
+                        <li><a href="pomoc-zdroje.html">Pomoc a zdroje</a></li>
+                        <li><a href="o-nas.html">O nás</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-emergency">
+                    <h4>Ste v ohrození?</h4>
+                    <div class="emergency-contacts">
+                        <p><strong>Tiesňová linka:</strong><br><a href="tel:158">158</a> alebo <a href="tel:112">112</a></p>
+                        <p><strong>Národná linka pre ženy:</strong><br><a href="tel:0800212212">0800 212 212</a><br>(nonstop, bezplatne)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>© 2025 Nezlomné | <a href="o-nas.html">O nás</a> | <a href="mailto:nezlomne@kontakt.sk">Kontakt</a> | <a href="#">GDPR</a> | <a href="#">Podmienky používania</a></p>
+                </div>
+                
+                <div class="solidarity-fund">
+                    <p>Solidárny fond Nezlomné – vďaka darcom vieme poskytovať krízové konzultácie ženám, ktoré si ich nemôžu dovoliť.</p>
+                </div>
+                
+                <div class="safety-tip">
+                    <p><strong>Bezpečnostný tip:</strong> Ak sa obávate, že partner sleduje vašu aktivitu, zatvorte túto stránku klávesovou skratkou ALT + F4 (Windows) / Command + W (Mac).</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

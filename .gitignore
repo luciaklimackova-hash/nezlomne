@@ -1,0 +1,43 @@
+# Systémové súbory
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor súbory
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Dočasné súbory
+*.tmp
+*.temp
+*.log
+
+# Cache súbory
+*.cache
+.sass-cache/
+
+# Backup súbory
+*.bak
+*.backup
+*.old
+
+# Komprimované súbory (ak nie sú súčasťou projektu)
+*.zip
+*.tar.gz
+*.7z
+
+# Node modules (ak by sa neskôr pridali)
+node_modules/
+package-lock.json
+
+# Environment súbory
+.env
+.env.local
+.env.production

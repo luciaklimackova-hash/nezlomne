@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomoc a zdroje - Nezlomné</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="emergency-exit" class="emergency-exit">
+        <button onclick="emergencyExit()">✕</button>
+        <span class="tooltip">Rýchle zatvorenie - Alt+F4</span>
+    </div>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html"><img src="LogoVlt4.png" alt="Nezlomné" class="logo-image"></a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html" class="nav-item">Domov</a>
+                    <a href="som-vo-vztahu.html" class="nav-item">Som vo vzťahu</a>
+                    <a href="chcem-odist.html" class="nav-item">Chcem odísť</a>
+                    <a href="odisla-som.html" class="nav-item">Odišla som</a>
+                    <a href="#" class="nav-item active">Pomoc a zdroje</a>
+                    <a href="o-nas.html" class="nav-item">O nás</a>
+                    <a href="#contact-form" class="nav-item nav-cta">Kontakt</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-background">
+            <img src="Asset 24.png" alt="" class="hero-arches" aria-hidden="true">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Pomoc a zdroje</h1>
+                <p class="hero-subtitle">Každá žena je v inej situácii – niektoré ešte hľadajú jasnosť, iné plánujú odchod a mnohé už odišli, no čelia tlaku zo strany ex-partnera.</p>
+                <p>Pripravili sme testy, návody a kurzy, ktoré vám pomôžu získať jasnosť, pochopenie a prvé bezpečné kroky.<br><strong>Nie ste na to sama. Vyberte si, čo vám práve teraz najviac pomôže.</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="resources-sections">
+        <div class="container">
+            <!-- Sekcia 1: Som vo vzťahu -->
+            <div class="resource-section">
+                <h2 class="section-title">Som vo vzťahu a nie som si istá, či je zdravý</h2>
+                
+                <div class="resource-grid">
+                    <div class="resource-card">
+                        <h3>Žijem v toxickom alebo násilnom vzťahu?</h3>
+                        <p>Máte pocit, že niečo nie je v poriadku, ale neviete to pomenovať? Tieto testy vám pomôžu odhaliť:</p>
+                        <ul>
+                            <li>či ste obeťou domáceho násilia,</li>
+                            <li>či žijete v násilnom vzťahu,</li>
+                            <li>či váš partner vykazuje znaky narcizmu.</li>
+                        </ul>
+                        <button class="btn btn-primary">Chcem si urobiť test</button>
+                    </div>
+
+                    <div class="resource-card">
+                        <h3>Prihláste sa na 7-dňový emailový kurz</h3>
+                        <h4>CESTA VON: Pravda o toxických vzťahoch a presné kroky na ochranu seba a detí</h4>
+                        <p>Každý deň vám pošleme krátky email, v ktorom:</p>
+                        <ul>
+                            <li>pochopíte, ako funguje manipulácia a kontrola,</li>
+                            <li>naučíte sa rozpoznávať červené vlajky,</li>
+                            <li>získate konkrétne tipy, ako chrániť seba a deti.</li>
+                        </ul>
+                        <button class="btn btn-primary">Začať kurz</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sekcia 2: Chcem odísť -->
+            <div class="resource-section">
+                <h2 class="section-title">Chcem odísť</h2>
+                
+                <div class="resource-card">
+                    <h3>Ako bezpečne odísť z toxického vzťahu a nezlomiť sa?</h3>
+                    <p>Praktický sprievodca, ktorý odhaľuje najčastejšie chyby, ktoré robia ženy pri odchode z toxického vzťahu — chyby, ktoré ich stoja čas, zdravie, peniaze aj bezpečie – a ako sa im vyhnúť.</p>
+                    <button class="btn btn-primary">Chcem vedieť, ako odísť bezpečne</button>
+                </div>
+            </div>
+
+            <!-- Sekcia 3: Už som odišla -->
+            <div class="resource-section">
+                <h2 class="section-title">Už som odišla</h2>
+                
+                <div class="resource-grid">
+                    <div class="resource-card">
+                        <h3>Zažívate stále tlak zo strany bývalého partnera?</h3>
+                        <p><strong>Máte pocit, že rozchodom to neskončilo?</strong></p>
+                        <p>Bývalý vás stále kontaktuje, zastrašuje, manipuluje cez deti alebo vás ekonomicky dusí? Otestujte sa a zistite, či môže ísť o post-separačné násilie – a aké sú vaše možnosti.</p>
+                        <button class="btn btn-primary">Chcem si urobiť test</button>
+                    </div>
+
+                    <div class="resource-card">
+                        <h3>Krízová komunikačná pomôcka</h3>
+                        <p><strong>Ako presne odpovedať manipulujúcemu ex - bez straty nervov a dôstojnosti.</strong></p>
+                        <p>Nájdete v nej okamžite použiteľné frázy a postupy, konkrétne vzory odpovedí, ako si zachovať pokoj, ako minimalizovať kontakt a znížiť stres.</p>
+                        <p><em>Stiahnite si Krízovú komunikačnú pomôcku pre tých, ktorý už odišli – ale ex ešte neskočil.</em></p>
+                        <button class="btn btn-primary">Stiahnuť komunikačnú pomôcku</button>
+                    </div>
+
+                    <div class="resource-card">
+                        <h3>Praktický sprievodca po odchode</h3>
+                        <p><strong>Presné riešenia na zastavenie manipulácie od ex - Legálna ochrana seba aj detí od právničky.</strong></p>
+                        <p>Naučte sa, ako obmedziť zásahy ex do vášho života bez zbytočných konfliktov a získajte právne tipy, ktoré fungujú.</p>
+                        <button class="btn btn-primary">Stiahnuť právne tipy</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Konzultácia -->
+            <div class="consultation-section">
+                <h2 class="section-title">Potrebujete hovoriť s odborníčkou?</h2>
+                
+                <div class="consultation-card">
+                    <h3>Konzultácia hradená z Fondu solidarity (30 minút)</h3>
+                    <p>S odborníčkou z oblasti psychológie alebo práva.</p>
+                    
+                    <div class="consultation-benefits">
+                        <h4>Pomôžeme vám:</h4>
+                        <ul>
+                            <li>zorientovať sa vo vašej situácii</li>
+                            <li>pomenovať, čo sa deje</li>
+                            <li>ukázať bezpečné ďalšie kroky</li>
+                        </ul>
+                    </div>
+                    
+                    <p class="consultation-note">Táto konzultácia je financovaná z Fondu Solidarity Nezlomné, preto je počet miest limitovaný.</p>
+                    <p>Vyplňte, prosím, krátky formulár, aby sme vedeli, ako vám môžeme čo najlepšie pomôcť:</p>
+                    <button class="btn btn-primary" onclick="scrollToSection('contact-form')">Rezervovať konzultáciu</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact-form" class="contact-form">
+        <div class="container">
+            <h2 class="section-title">Rezervácia konzultácie</h2>
+            <div class="contact-form-content">
+                <form id="consultation-form" class="form">
+                    <div class="form-group">
+                        <label for="name">Meno *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Telefón</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Krátko opíšte vašu situáciu *</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Napíšte nám, čím vám môžeme pomôcť..."></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="safe_contact" id="safe_contact">
+                            <span class="checkmark"></span>
+                            Je bezpečné vás kontaktovať telefonicky? (Ak nie, kontaktujeme vás emailom)
+                        </label>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="privacy" id="privacy" required>
+                            <span class="checkmark"></span>
+                            Súhlasím so spracovaním osobných údajov pre účely konzultácie *
+                        </label>
+                    </div>
+                    
+                    <div class="safety-notice">
+                        <p><strong>Bezpečnostný tip:</strong> Ak sa obávate, že partner sleduje vašu aktivitu, zatvorte túto stránku klávesovou skratkou ALT + F4 (Windows) / Command + W (Mac).</p>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-large">Odoslať žiadosť</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="LogoBLK.png" alt="Nezlomné" class="logo-image">
+                    </div>
+                    <p>Nezlomné – psychologicko-právny tím pre ženy v toxických vzťahoch a násilí</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Navigácia</h4>
+                    <ul>
+                        <li><a href="index.html">Domov</a></li>
+                        <li><a href="som-vo-vztahu.html">Som vo vzťahu</a></li>
+                        <li><a href="chcem-odist.html">Chcem odísť</a></li>
+                        <li><a href="odisla-som.html">Odišla som</a></li>
+                        <li><a href="o-nas.html">O nás</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-emergency">
+                    <h4>Ste v ohrození?</h4>
+                    <div class="emergency-contacts">
+                        <p><strong>Tiesňová linka:</strong><br><a href="tel:158">158</a> alebo <a href="tel:112">112</a></p>
+                        <p><strong>Národná linka pre ženy:</strong><br><a href="tel:0800212212">0800 212 212</a><br>(nonstop, bezplatne)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>© 2025 Nezlomné | <a href="o-nas.html">O nás</a> | <a href="#contact-form">Kontakt</a> | <a href="#">GDPR</a> | <a href="#">Podmienky používania</a></p>
+                </div>
+                
+                <div class="solidarity-fund">
+                    <p>Solidárny fond Nezlomné – vďaka darcom vieme poskytovať krízové konzultácie ženám, ktoré si ich nemôžu dovoliť.</p>
+                </div>
+                
+                <div class="safety-tip">
+                    <p><strong>Bezpečnostný tip:</strong> Ak sa obávate, že partner sleduje vašu aktivitu, zatvorte túto stránku klávesovou skratkou ALT + F4 (Windows) / Command + W (Mac).</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <style>
+        .nav-item.active { color: var(--primary-color); font-weight: 600; }
+        .resources-sections { padding: 5rem 0; }
+        .resource-section { margin-bottom: 5rem; }
+        .resource-card { background: var(--white-color); padding: 2.5rem; border-radius: 12px; box-shadow: var(--shadow); margin-bottom: 2rem; }
+        .resource-card h3 { font-family: var(--font-heading); color: var(--dark-color); margin-bottom: 1rem; }
+        .resource-card h4 { color: var(--primary-color); margin-bottom: 1rem; }
+        .resource-card ul { margin: 1rem 0; padding-left: 1.5rem; }
+        .resource-card li { margin-bottom: 0.5rem; color: var(--text-light); }
+        .test-result-info { background: var(--cream-color); padding: 1rem; border-radius: var(--border-radius); margin-top: 1rem; }
+        .consultation-section { background: var(--cream-color); padding: 3rem 0; border-radius: 12px; }
+        .consultation-card { background: var(--white-color); padding: 3rem; border-radius: 12px; text-align: center; max-width: 700px; margin: 0 auto; }
+        .consultation-benefits ul { text-align: left; max-width: 400px; margin: 1rem auto; list-style: none; }
+        .consultation-benefits li { position: relative; padding-left: 1.5rem; margin-bottom: 0.5rem; }
+        .consultation-benefits li::before { content: '✓'; position: absolute; left: 0; color: var(--primary-color); font-weight: bold; }
+        .consultation-note { color: var(--text-light); font-style: italic; margin: 1.5rem 0; }
+    </style>
+</body>
+</html>
