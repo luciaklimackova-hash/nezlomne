@@ -5,28 +5,28 @@
         "id": "1",
         "content": "Analýza aktuálneho stavu a príprava súborov",
         "details": "Skopírovať všetky potrebné obrázky z user_input_files do hlavného projektu, overiť referenčnú webstránku a pripraviť pracovné prostredie",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "2": {
         "id": "2",
         "content": "Obnova dizajnu domovskej stránky podľa referenčnej verzie",
         "details": "1. Obnoviť pozadie top menu bar s textúrou mihai.jpeg\n2. Integrovať Asset 29 (ružové oblúky) do sekcie 'V akej situácii sa nachádzate?'\n3. Upraviť sekciu 'Potrebujete odbornú podporu?' s fotografiami Lucia2 2.jpeg a Daniela2 2.jpeg\n4. Obnoviť pozadie sekcie 'Slová žien' s gradient a siluetou ženy v reťaziach",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "3": {
         "id": "3",
         "content": "Aplikácia konzistentného dizajnu na všetky podstránky",
         "details": "1. Pridať Asset 29 oblúky do hero sekcie všetkých podstránok\n2. Aplikovať šedú textúru jonathanpg.jpg do sekcie 'Ako vám môžeme pomôcť?'\n3. Unifikovať sekciu 'Slová žien' na všetkých podstránkach\n4. Integrovať brand elementy Asset 29 a Asset 24 ako subtle background motívy",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       },
       "4": {
         "id": "4",
         "content": "Finálne testovanie a optimalizácia",
         "details": "Otestovať responsivitu, accessibility, čitateľnosť textu a celkovú konzistenciu dizajnu naprieč všetkými stránkami",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       }
     }
