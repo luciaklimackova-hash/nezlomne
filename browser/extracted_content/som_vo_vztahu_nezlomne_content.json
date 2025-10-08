@@ -1,0 +1,283 @@
+📄 Extracted from page: Som vo vzťahu - Nezlomné
+URL: file:///workspace/som-vo-vztahu.html
+
+Extracted content:
+```json
+{
+  "title": "Som vo vzťahu - Nezlomné",
+  "url": "file:///workspace/som-vo-vztahu.html",
+  "summary": "Stránka 'Som vo vzťahu' od organizácie Nezlomné je navrhnutá ako podporný a informačný zdroj pre ženy, ktoré sú v toxických alebo násilných vzťahoch. Cieľom je poskytnúť im bezpečný priestor na pochopenie ich situácie, zistenie faktov a získanie pomoci. Obsah stránky zahŕňa úvodnú citáciu, popis hlavného poslania, sekciu s častými otázkami a uistením, že nie sú samy, príbeh klientky, detailný popis ponúkaných služieb (jasnosť, bezpečné kroky, právne info, psychologická podpora, diskrétnosť), akčné kroky (test, e-mail kurz, konzultácia), svedectvá iných žien a kontaktný formulár na rezerváciu konzultácie. Celá stránka je ladená do témy bezpečia a podpory, s jasnými výzvami k akcii a bezpečnostnými tipmi pre užívateľky.",
+  "key_points": [
+    "Podpora pre ženy v toxických/násilných vzťahoch.",
+    "Uistenie, že pocity neistoty a pochybností sú normálne a nie sú preháňaním.",
+    "Ponuka jasnosti a pomenovania situácie.",
+    "Praktické rady pre bezpečné prvé kroky a ochranu seba/detí.",
+    "Psychologická a právna podpora s dôrazom na diskrétnosť a bezpečné prostredie.",
+    "Tri hlavné akčné kroky: Test na násilie, 7-dňový e-mail kurz, konzultácia s odborníčkou.",
+    "Svedectvá žien, ktoré prešli podobnou skúsenosťou.",
+    "Kontaktný formulár na rezerváciu konzultácie.",
+    "Uvedené bezpečnostné tipy pre rýchle zatvorenie stránky.",
+    "Informácie o Solidárnom fonde pre bezplatné konzultácie.",
+    "Tiesňové linky a národná linka pre ženy v ohrození v pätičke."
+  ],
+  "relevant_links": [
+    {
+      "text": "Preskočiť na hlavný obsah",
+      "href": "#main-content"
+    },
+    {
+      "text": "Logo",
+      "href": "index.html"
+    },
+    {
+      "text": "Domov",
+      "href": "index.html"
+    },
+    {
+      "text": "Som vo vzťahu",
+      "href": "som-vo-vztahu.html"
+    },
+    {
+      "text": "Chcem odísť",
+      "href": "chcem-odist.html"
+    },
+    {
+      "text": "Odišla som",
+      "href": "odisla-som.html"
+    },
+    {
+      "text": "Pomoc a zdroje",
+      "href": "pomoc-zdroje.html"
+    },
+    {
+      "text": "O nás",
+      "href": "o-nas.html"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#contact-form"
+    },
+    {
+      "text": "Chcem zistiť, čo sa so mnou deje",
+      "href": "#"
+    },
+    {
+      "text": "Chcem urobiť test",
+      "href": "#"
+    },
+    {
+      "text": "Chcem e-mail kurz",
+      "href": "#"
+    },
+    {
+      "text": "Rezervovať konzultáciu",
+      "href": "#"
+    },
+    {
+      "text": "Chcem urobiť prvý krok",
+      "href": "#"
+    },
+    {
+      "text": "Domov",
+      "href": "index.html"
+    },
+    {
+      "text": "Chcem odísť",
+      "href": "chcem-odist.html"
+    },
+    {
+      "text": "Odišla som",
+      "href": "odisla-som.html"
+    },
+    {
+      "text": "Pomoc a zdroje",
+      "href": "pomoc-zdroje.html"
+    },
+    {
+      "text": "O nás",
+      "href": "o-nas.html"
+    },
+    {
+      "text": "158",
+      "href": "tel:158"
+    },
+    {
+      "text": "112",
+      "href": "tel:112"
+    },
+    {
+      "text": "0800 212 212",
+      "href": "tel:0800212212"
+    },
+    {
+      "text": "O nás",
+      "href": "o-nas.html"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#contact-form"
+    },
+    {
+      "text": "GDPR",
+      "href": "#"
+    },
+    {
+      "text": "Podmienky používania",
+      "href": "#"
+    }
+  ],
+  "html_structure": {
+    "doctype": "HTML5",
+    "language": "sk",
+    "head": {
+      "title": "Som vo vzťahu - Nezlomné",
+      "meta_tags": [
+        "charset=\"UTF-8\"",
+        "viewport=\"width=device-width, initial-scale=1.0\""
+      ],
+      "link_tags": [
+        "favicon",
+        "CSS stylesheets (not provided but implied)"
+      ]
+    },
+    "body": {
+      "main_sections": [
+        {
+          "element": "div",
+          "id": "root",
+          "content": [
+            "Skip link to main content (`#main-content`)",
+            "Emergency close overlay (✕, Alt+F4)",
+            {
+              "element": "header",
+              "content": [
+                "Logo (placeholder image, links to index.html)",
+                "Main navigation menu (`<nav>` with `<ul>` and `<li>` elements, links to various pages and `#contact-form`)"
+              ]
+            },
+            {
+              "element": "main",
+              "id": "main-content",
+              "content": [
+                {
+                  "section_name": "Hero Section",
+                  "elements": [
+                    "Large banner image (placeholder)",
+                    "Headline (`<h1>`): „Začína sa to nenápadne.Až kým nezistíte, že žijete v strachu.\"",
+                    "Subtitle (`<p>`): \"Podpora pre ženy, ktoré tušia, že ich vzťah nie je bezpečný.\"",
+                    "Call-to-action button (`<a>`): \"Chcem zistiť, čo sa so mnou deje\""
+                  ]
+                },
+                {
+                  "section_name": "Self-reflection/Validation Section",
+                  "elements": [
+                    "Question (`<h2>`): \"Cítite, že vo vašom vzťahu niečo nie je v poriadku, ale ešte neviete, čo s tým?\"",
+                    "Sub-questions (`<h3>`): \"Nepreháňam to?\", \"Nie som ja problém?\", \"Možno keby som sa viac snažila, bolo by to lepšie…\"",
+                    "Reassurance text (`<p>` with `<strong>`)"
+                  ]
+                },
+                {
+                  "section_name": "Client Story Section",
+                  "elements": [
+                    "Heading (`<h2>`): \"Príbeh klientky\"",
+                    "Blockquote (`<blockquote>`) with Monika's story"
+                  ]
+                },
+                {
+                  "section_name": "Understanding & Support Introduction",
+                  "elements": [
+                    "Paragraphs explaining the emotional state and offering a safe space",
+                    "Strongly emphasized sentence (`<strong>`)"
+                  ]
+                },
+                {
+                  "section_name": "How We Can Help Section",
+                  "elements": [
+                    "Heading (`<h2>`): \"Ako vám môžeme pomôcť?\"",
+                    "List of services, each with a sub-heading (`<h3>`) and descriptive paragraph"
+                  ]
+                },
+                {
+                  "section_name": "Call to Action Steps Section",
+                  "elements": [
+                    "Heading (`<h2>`): \"Čo môžete urobiť hneď teraz?\"",
+                    "Numbered list (implied by '1', '2', '3') of actions, each with a heading (`<h3>`) and a button (`<a>`)"
+                  ]
+                },
+                {
+                  "section_name": "Testimonials Section",
+                  "elements": [
+                    "Heading (`<h2>`): \"Slová žien, ktoré to zažili\"",
+                    "Introductory paragraph",
+                    "Two blockquotes (`<blockquote>`) with testimonials (from anonymous and Monika)"
+                  ]
+                },
+                {
+                  "section_name": "Concluding Call to Action Section",
+                  "elements": [
+                    "Paragraphs encouraging action",
+                    "Strongly emphasized text (`<strong>`)",
+                    "Call-to-action button (`<a>`): \"Chcem urobiť prvý krok\""
+                  ]
+                },
+                {
+                  "section_name": "Contact/Consultation Form Section",
+                  "elements": [
+                    "Heading (`<h2>`): \"Rezervácia konzultácie\"",
+                    "Form (`<form>`) with input fields (`<input type=\"text\"/email/tel\">`, `<textarea>`, `<input type=\"checkbox\">`)",
+                    "Labels (`<label>`) for each field",
+                    "Security tip (`<p>` with `<strong>`)",
+                    "Submit button (`<button type=\"submit\">`)"
+                  ]
+                }
+              ]
+            },
+            {
+              "element": "footer",
+              "content": [
+                "Logo (placeholder image)",
+                "Organization name and description (`<p>`): \"Nezlomné – psychologicko-právny tím...\"",
+                "Navigation links (`<h4>` Navigácia, `<ul>` with `<li>` elements)",
+                "Emergency contacts (`<h4>` Ste v ohrození?, phone numbers with `tel:` links)",
+                "Copyright information (`© 2025 Nezlomné`, links to `O nás`, `Kontakt`, `GDPR`, `Podmienky používania`)",
+                "Solidarity Fund description (`<p>`)",
+                "Repeat security tip (`<p>` with `<strong>`)"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "css_styling_and_visual_elements": {
+    "colors": {
+      "text": "Likely dark grey or black for main body text, possibly a darker shade for headings.",
+      "background": "Predominantly white or off-white for content areas. Footer might have a contrasting darker background (e.g., dark grey/blue) with light text.",
+      "buttons_cta": "Implied prominent accent color (e.g., a shade of teal, blue, or purple) for call-to-action buttons, with contrasting text (e.g., white).",
+      "links": "Accent color for links, possibly changing on hover.",
+      "emergency_close": "The '✕' and 'Rýchle zatvorenie' might be styled in a contrasting color (e.g., red) or a clear, accessible grey/black on a light background for visibility."
+    },
+    "fonts": {
+      "family": "Clean, readable sans-serif fonts are highly probable for body text (e.g., Open Sans, Roboto, Arial). Headings might use a bolder weight of the same family or a complementary sans-serif for emphasis.",
+      "size": "Varied font sizes for headings (H1 largest, H2, H3 progressively smaller) to establish hierarchy. Body text will be a comfortable reading size."
+    },
+    "layout": {
+      "general": "Likely a modern, responsive web design adapting well to different screen sizes. Content is probably centered with a maximum width for readability.",
+      "header": "Fixed or sticky header containing logo and main navigation.",
+      "sections": "Content is broken into distinct sections, possibly with generous vertical padding or subtle background variations to separate them visually. Use of headings and paragraphs for clear structuring.",
+      "grid_elements": "The 'Ako vám môžeme pomôcť?' and 'Čo môžete urobiť hneď teraz?' sections suggest a grid or card-like layout, especially for the numbered steps or service descriptions, enhancing readability and visual appeal.",
+      "forms": "Contact form elements (inputs, textareas, checkboxes, buttons) are likely well-spaced and clearly labeled for user-friendliness.",
+      "footer": "Typically structured into columns for navigation, contact information, and legal links."
+    },
+    "visual_elements": {
+      "images": "Placeholder `![]()` indicate intended use of a logo (top-left, footer) and a prominent hero image in the main banner section. These images would likely convey professionalism and empathy.",
+      "buttons": "Call-to-action buttons are prominent, likely styled with background colors, rounded corners, padding, and hover effects.",
+      "icons": "Although not explicitly in the text, icons would likely be used to accompany navigation items, list elements (e.g., checkmarks for services), or emergency contact numbers (e.g., phone icon).",
+      "numbered_steps": "The '1', '2', '3' in 'Čo môžete urobiť hneď teraz?' section implies large, visually distinct numbering (e.g., numbers in circles or squares) to guide the user through the steps.",
+      "blockquote_styling": "Testimonials (`<blockquote>`) are typically styled to stand out with distinct background colors, borders, or large quote marks to differentiate them from regular text.",
+      "emergency_close_button": "The '✕' and 'Rýchle zatvorenie' suggest a clearly visible, possibly floating or fixed, element for quick page closure."
+    }
+  },
+  "file_name": "som_vo_vztahu_nezlomne_content.json"
+}
+```
