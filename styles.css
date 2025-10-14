@@ -514,23 +514,15 @@ button {
 }
 
 .situations .section-title {
-    color: white;
-    background: rgba(0, 0, 0, 0.3);
+    color: var(--dark-color);
     text-align: center;
-    padding: 1rem 2rem;
-    border-radius: 10px;
 }
-
 .situations .section-subtitle {
-    color: white;
-    background: rgba(0, 0, 0, 0.3);
+    color: var(--text-light);
     text-align: center;
     margin: 0 auto;
     max-width: 600px;
-    padding: 1rem 2rem;
-    border-radius: 10px;
 }
-
 .situations-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
