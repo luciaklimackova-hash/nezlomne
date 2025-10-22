@@ -50,15 +50,14 @@
 
     <!-- Hero Section -->
     <section class="hero" id="main-content">
-        <div class="hero-background">
-            <img src="Asset 24.png" alt="" class="hero-arches" aria-hidden="true">
-        </div>
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">„Odišli ste. Ale on to stále neskončil."</h1>
+                <h1 class="hero-title">Odišli ste. No on to ešte neskončil.</h1>
                 <p class="hero-subtitle">Podpora pri zvládaní post-separačného násilia, súdnych konaní a návratu k sebe.</p>
+                <p class="hero-subtitle">Pomôžeme vám získať späť pokoj, istotu a vnútornú slobodu – aj keď on sa stále snaží mať moc.</p>
                 <div class="hero-cta">
-                    <button class="btn btn-primary" onclick="scrollToSection('help-section')">Chcem späť pokoj a slobodu</button>
+                    <button class="btn btn-primary" onclick="scrollToSection('co-mozete-urobit-hned-teraz')">Chcem späť pokoj a slobodu</button>
+                    <p class="cta-microtext">Bezplatné materiály • Citlivo • Bez tlaku</p>
                 </div>
             </div>
         </div>
@@ -138,7 +137,7 @@
     </section>
 
     <!-- Action Steps Section -->
-    <section class="action-steps cream-bg">
+    <section id="co-mozete-urobit-hned-teraz" class="action-steps cream-bg">
         <div class="container">
             <h2 class="section-title">Čo môžete urobiť hneď teraz?</h2>
             
@@ -350,6 +349,18 @@
         .conclusion { padding: 5rem 0; background: var(--cream-color); text-align: center; }
         .conclusion-content p { font-size: 1.25rem; color: var(--text-dark); margin-bottom: 2rem; font-weight: 500; max-width: 800px; margin-left: auto; margin-right: auto; }
         @media (max-width: 768px) { .help-list, .action-grid { grid-template-columns: 1fr; } }
+            .cta-microtext {
+            font-size: 0.875rem;
+            color: var(--text-light);
+            margin-top: 8px;
+            text-align: center;
+        }
+            .cta-microtext {
+            font-size: 0.875rem;
+            color: var(--text-light);
+            margin-top: 8px;
+            text-align: center;
+        }
     </style>
 </body>
 </html>
