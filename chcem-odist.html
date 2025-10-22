@@ -60,8 +60,9 @@
                 <div class="hero-description">
                     <p>Cítite, že vo vzťahu už nemôžete zostať — ale bojíte sa, čo bude ďalej? My vám pomôžeme pripraviť bezpečný, premyslený plán tak, aby ste chránili seba a deti a nezostali zlomená.</p>
                 </div>
-                <div class="hero-cta">
+                <div class="hero__actions">
                     <button class="btn btn-primary" onclick="scrollToSection('help-section')">Chcem vedieť, ako odísť bezpečne</button>
+                    <p class="hero__microtext">Bezplatné materiály • Citlivo • Bez tlaku</p>
                 </div>
             </div>
         </div>
@@ -567,6 +568,38 @@
             margin-right: auto;
         }
         
+        /* Hero sekcia - Chcem odísť - vycentrované CTA a mikrotext */
+        .hero__actions {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            text-align: center;
+            margin-top: 24px;
+        }
+        
+        .hero__actions .btn {
+            background-color: #AB2574;
+            color: #FFFFFF;
+            font-family: "Source Sans 3", sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            padding: 14px 24px;
+            border-radius: 8px;
+            border: none;
+            text-align: center;
+        }
+        
+        .hero__microtext {
+            font-family: "Source Sans 3", "Source Sans Pro", system-ui, -apple-system, sans-serif;
+            font-size: 15px;
+            color: #504F50;
+            text-align: center;
+            margin-top: 6px;
+            line-height: 1.5;
+        }
+        
         @media (max-width: 768px) {
             .steps-grid,
             .help-grid,
@@ -578,6 +611,21 @@
             .help-item,
             .process-step {
                 padding: 2rem 1.5rem;
+            }
+            
+            .hero__actions {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                text-align: center;
+            }
+            
+            .hero__microtext {
+                font-size: 14px;
+                line-height: 1.5;
+                margin-top: 8px;
             }
         }
     </style>
