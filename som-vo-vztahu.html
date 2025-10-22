@@ -552,6 +552,125 @@
                 padding: 2rem 1.5rem;
             }
         }
+        
+        /* Hero sekcia - Som vo vzťahu */
+        .hero--som-vo-vztahu {
+            min-height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background: url('Luciadaniela1a 2.jpeg') center center;
+            background-size: cover;
+            background-position: center center;
+            overflow: hidden;
+            padding: 64px 20px;
+        }
+        
+        .hero--som-vo-vztahu::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(242, 229, 213, 0.10);
+            z-index: 1;
+        }
+        
+        .hero--som-vo-vztahu .container {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero__content {
+            text-align: center;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px;
+        }
+        
+        .hero__title {
+            font-family: 'Merriweather', serif;
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            font-weight: 700;
+            color: rgb(0, 0, 0);
+            margin-bottom: 1.5rem;
+            line-height: 1.3;
+            letter-spacing: -0.01em;
+        }
+        
+        .hero__subtitle {
+            font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+            font-size: clamp(1.125rem, 2.5vw, 1.375rem);
+            font-weight: 400;
+            color: rgb(0, 0, 0);
+            margin-bottom: 2rem;
+            line-height: 1.5;
+        }
+        
+        .hero__cta {
+            display: inline-flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        
+        .hero__cta .btn-primary {
+            background: #AB2574;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            border: none;
+            box-shadow: 0 4px 12px rgba(171, 37, 116, 0.25);
+            font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .hero__cta .btn-primary:hover {
+            background: #8B1E5E;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(171, 37, 116, 0.35);
+        }
+        
+        .hero__note {
+            font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: #504F50;
+            text-align: center;
+            margin: 0;
+        }
+        
+        @media (max-width: 768px) {
+            .hero--som-vo-vztahu {
+                padding: 64px 20px;
+                min-height: 70vh;
+            }
+            
+            .hero__content {
+                width: 100%;
+                max-width: 560px;
+                margin: 0 auto;
+                text-align: center;
+                padding: 32px 20px;
+            }
+            
+            .hero__cta {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+            
+            .hero__cta .btn-primary {
+                width: 100%;
+                max-width: 320px;
+            }
+        }
     </style>
 </body>
 </html>
