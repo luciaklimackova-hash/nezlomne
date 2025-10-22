@@ -390,7 +390,7 @@ button {
     background: url('Luciadaniela1a 2.jpeg') center;
     background-size: cover;
     opacity: 0.75;
-    filter: blur(8px);
+    filter: blur(3px);
     z-index: 1;
 }
 
@@ -401,7 +401,7 @@ button {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(242, 229, 213, 0.18);
+    background: rgba(242, 229, 213, 0.12);
     z-index: 2;
 }
 
