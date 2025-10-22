@@ -49,21 +49,15 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero" id="main-content">
-        <div class="hero-background">
-            <img src="Asset 24.png" alt="" class="hero-arches" aria-hidden="true">
-        </div>
+    <section class="hero hero--chcem-odist" id="main-content">
         <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">„Odísť je ťažké.<br>Zostať môže byť ešte vyčerpávajúcejšie."</h1>
-                <p class="hero-subtitle">Podpora pri príprave bezpečného odchodu.</p>
-                <div class="hero-description">
-                    <p>Cítite, že vo vzťahu už nemôžete zostať — ale bojíte sa, čo bude ďalej? My vám pomôžeme pripraviť bezpečný, premyslený plán tak, aby ste chránili seba a deti a nezostali zlomená.</p>
-                </div>
-                <div class="hero__actions">
+            <div class="hero__content">
+                <h1 class="hero__title">Odísť je ťažké.<br>Zostať môže byť ešte ťažšie.</h1>
+                <p class="hero__subtitle">Podpora pri plánovaní odchodu – krok za krokom pre vás a deti.</p>
+                <div class="hero__cta">
                     <button class="btn btn-primary" onclick="scrollToSection('help-section')">Chcem vedieť, ako odísť bezpečne</button>
-                    <p class="hero__microtext">Bezplatné materiály • Citlivo • Bez tlaku</p>
                 </div>
+                <p class="hero__note">(Bezplatné materiály • Citlivo • Bez tlaku)</p>
             </div>
         </div>
     </section>
@@ -320,17 +314,7 @@
             color: var(--primary-color);
             font-weight: 600;
         }
-        
-        .hero-description {
-            max-width: 800px;
-            margin: 2rem auto;
-            text-align: center;
-        }
-        
-        .hero-description p {
-            font-size: 1.125rem;
-            color: var(--text-dark);
-        }
+
         
         .difficulty-section {
             padding: 5rem 0;
@@ -567,38 +551,7 @@
             margin-left: auto;
             margin-right: auto;
         }
-        
-        /* Hero sekcia - Chcem odísť - vycentrované CTA a mikrotext */
-        .hero__actions {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 8px;
-            text-align: center;
-            margin-top: 24px;
-        }
-        
-        .hero__actions .btn {
-            background-color: #AB2574;
-            color: #FFFFFF;
-            font-family: "Source Sans 3", sans-serif;
-            font-weight: 600;
-            font-size: 18px;
-            padding: 14px 24px;
-            border-radius: 8px;
-            border: none;
-            text-align: center;
-        }
-        
-        .hero__microtext {
-            font-family: "Source Sans 3", "Source Sans Pro", system-ui, -apple-system, sans-serif;
-            font-size: 15px;
-            color: #504F50;
-            text-align: center;
-            margin-top: 6px;
-            line-height: 1.5;
-        }
+
         
         @media (max-width: 768px) {
             .steps-grid,
@@ -612,21 +565,7 @@
             .process-step {
                 padding: 2rem 1.5rem;
             }
-            
-            .hero__actions {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                gap: 10px;
-                text-align: center;
-            }
-            
-            .hero__microtext {
-                font-size: 14px;
-                line-height: 1.5;
-                margin-top: 8px;
-            }
+
         }
     </style>
 </body>
