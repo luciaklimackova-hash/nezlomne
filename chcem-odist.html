@@ -49,15 +49,19 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero hero--chcem-odist" id="main-content">
-        <div class="container">
-            <div class="hero__content">
-                <h1 class="hero__title">Odísť je ťažké.<br>Zostať môže byť ešte ťažšie.</h1>
-                <p class="hero__subtitle">Podpora pri plánovaní odchodu – krok za krokom pre vás a deti.</p>
-                <div class="hero__cta">
-                    <button class="btn btn-primary" onclick="scrollToSection('help-section')">Chcem vedieť, ako odísť bezpečne</button>
-                </div>
-                <p class="hero__note">(Bezplatné materiály • Citlivo • Bez tlaku)</p>
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title">Odísť je ťažké.<br>Zostať môže byť ešte ťažšie.</h1>
+
+            <p class="hero__subtitle">
+                Podpora pri plánovaní odchodu – krok za krokom pre vás a deti.
+            </p>
+
+            <div class="hero__actions">
+                <a href="#co-mozete-urobit-hned-teraz" class="btn btn--primary">
+                    Chcem vedieť, ako odísť bezpečne
+                </a>
+                <p class="hero__microtext">Bezplatné materiály • Citlivo • Bez tlaku</p>
             </div>
         </div>
     </section>
@@ -124,7 +128,7 @@
     </section>
 
     <!-- Next Steps Section -->
-    <section class="next-steps cream-bg">
+    <section id="co-mozete-urobit-hned-teraz" class="next-steps cream-bg">
         <div class="container">
             <h2 class="section-title">Čo môžete urobiť hneď teraz?</h2>
             
@@ -310,263 +314,308 @@
     
     <!-- Dodatočné CSS pre túto stránku -->
     <style>
-        .nav-item.active {
-            color: var(--primary-color);
-            font-weight: 600;
-        }
+/* Hero sekcia – identická s "Som vo vzťahu" */
+.hero{
+  min-height:60vh;
+  display:flex; align-items:center; justify-content:center;
+  padding:48px 24px;
+  background-size:cover; background-position:center center;
+}
+.hero__content{ max-width:720px; margin:0 auto !important; text-align:center !important; }
+.hero__title{
+  font-family:"Merriweather",serif; font-weight:700;
+  font-size:56px; line-height:1.15; letter-spacing:-0.01em; margin:0 0 12px 0;
+}
+.hero__subtitle{
+  font-family:"Source Sans 3","Source Sans Pro",system-ui,-apple-system,sans-serif;
+  font-size:20px; line-height:1.6; color:#504F50; margin:0 0 20px 0;
+}
+.hero__actions{
+  display:flex !important; flex-direction:column !important;
+  align-items:center !important; justify-content:center !important;
+  gap:10px !important; text-align:center !important; margin-top:24px !important;
+}
+.hero__actions .btn{
+  background:#AB2574; color:#fff; font-family:"Source Sans 3",sans-serif;
+  font-weight:600; font-size:18px; padding:14px 24px; border-radius:8px; border:0;
+}
+.hero__microtext{
+  font-family:"Source Sans 3","Source Sans Pro",system-ui,-apple-system,sans-serif;
+  font-size:15px; line-height:1.5; color:#504F50; margin-top:6px; text-align:center;
+}
+/* Prebíjanie starých štýlov */
+.hero__content,.hero__title,.hero__subtitle,.hero__actions{ float:none !important; }
 
-        
-        .difficulty-section {
-            padding: 5rem 0;
-            background: var(--white-color);
-        }
-        
-        .difficulty-content {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        
-        .difficulty-content p {
-            font-size: 1.125rem;
-            color: var(--text-dark);
-            line-height: 1.7;
-        }
-        
-        .client-story {
-            padding: 5rem 0;
-            background: var(--cream-color);
-        }
-        
-        .story-quote {
-            max-width: 800px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        
-        .quote-text {
-            background: var(--white-color);
-            padding: 2.5rem;
-            border-radius: 12px;
-            border-left: 4px solid var(--primary-color);
-            margin-bottom: 2rem;
-        }
-        
-        .quote-text p {
-            font-size: 1.125rem;
-            font-style: italic;
-            color: var(--text-dark);
-            margin: 0 0 1rem 0;
-        }
-        
-        .quote-text cite {
-            font-weight: 600;
-            color: var(--primary-color);
-            font-style: normal;
-        }
-        
-        .story-conclusion {
-            max-width: 700px;
-            margin: 0 auto;
-            text-align: center;
-        }
-        
-        .story-conclusion p {
-            font-size: 1.125rem;
-            color: var(--text-dark);
-        }
-        
-        .help-section {
-            padding: 5rem 0;
-            background: var(--white-color);
-        }
-        
-        .help-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin: 3rem 0;
-        }
-        
-        .help-item {
-            text-align: center;
-            padding: 2rem;
-        }
-        
-        .help-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-        
-        .help-item h3 {
-            font-family: var(--font-heading);
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: var(--dark-color);
-            margin-bottom: 1rem;
-        }
-        
-        .help-item p {
-            color: var(--text-light);
-        }
-        
-        .help-note {
-            text-align: center;
-            max-width: 700px;
-            margin: 3rem auto 0;
-            font-style: italic;
-            color: var(--text-light);
-        }
-        
-        .next-steps {
-            padding: 5rem 0;
-            background: var(--cream-color);
-        }
-        
-        .steps-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-        
-        .step-card {
-            background: var(--white-color);
-            padding: 2.5rem;
-            border-radius: 12px;
-            box-shadow: var(--shadow);
-            text-align: center;
-            position: relative;
-            transition: var(--transition);
-        }
-        
-        .step-card:hover {
-            transform: translateY(-5px);
-        }
-        
-        .step-card.featured {
-            border: 2px solid var(--primary-color);
-        }
-        
-        .step-number {
-            position: absolute;
-            top: -15px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 40px;
-            height: 40px;
-            background: var(--primary-color);
-            color: white;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            font-size: 1.25rem;
-        }
-        
-        .step-card h3 {
-            font-family: var(--font-heading);
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--dark-color);
-            margin: 1.5rem 0 1rem;
-        }
-        
-        .step-card p {
-            color: var(--text-light);
-            margin-bottom: 2rem;
-        }
-        
-        .process-section {
-            padding: 5rem 0;
-            background: var(--white-color);
-        }
-        
-        .process-steps {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-        
-        .process-step {
-            text-align: center;
-            padding: 2rem;
-        }
-        
-        .process-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-        
-        .process-step p {
-            color: var(--text-dark);
-            font-size: 1.125rem;
-        }
-        
-        .testimonials {
-            padding: 5rem 0;
-            background: var(--cream-color);
-        }
-        
-        .testimonial-content {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        
-        .testimonial-content blockquote {
-            background: var(--white-color);
-            padding: 2.5rem;
-            border-radius: 12px;
-            border-left: 4px solid var(--primary-color);
-            text-align: center;
-        }
-        
-        .testimonial-content blockquote p {
-            font-size: 1.125rem;
-            color: var(--text-dark);
-            margin-bottom: 1.5rem;
-            line-height: 1.6;
-        }
-        
-        .testimonial-content cite {
-            font-weight: 600;
-            color: var(--primary-color);
-            font-style: normal;
-        }
-        
-        .conclusion {
-            padding: 5rem 0;
-            background: var(--white-color);
-            text-align: center;
-        }
-        
-        .conclusion-content p {
-            font-size: 1.25rem;
-            color: var(--text-dark);
-            margin-bottom: 2rem;
-            font-weight: 500;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+/* Responzívne hodnoty – rovnaké ako na "Som vo vzťahu" */
+@media (max-width:1023.98px){
+  .hero__title{ font-size:44px; }
+  .hero__subtitle{ font-size:18px; }
+}
+@media (max-width:767.98px){
+  .hero{ padding:64px 20px; }
+  .hero__content{ max-width:560px; }
+  .hero__title{ font-size:34px; line-height:1.2; }
+  .hero__subtitle{ font-size:17px; line-height:1.65; }
+  .hero__actions .btn{ width:100%; max-width:360px; font-size:16px; padding:12px 18px; }
+  .hero__microtext{ font-size:14px; }
+}
+html{ scroll-behavior:smooth; }
 
-        
-        @media (max-width: 768px) {
-            .steps-grid,
-            .help-grid,
-            .process-steps {
-                grid-template-columns: 1fr;
-            }
-            
-            .step-card,
-            .help-item,
-            .process-step {
-                padding: 2rem 1.5rem;
-            }
+/* Ostatné pôvodné štýly pre stránku */
+.nav-item.active {
+    color: var(--primary-color);
+    font-weight: 600;
+}
 
-        }
+.difficulty-section {
+    padding: 5rem 0;
+    background: var(--white-color);
+}
+
+.difficulty-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.difficulty-content p {
+    font-size: 1.125rem;
+    color: var(--text-dark);
+    line-height: 1.7;
+}
+
+.client-story {
+    padding: 5rem 0;
+    background: var(--cream-color);
+}
+
+.story-quote {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quote-text {
+    background: var(--white-color);
+    padding: 2.5rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.quote-text p {
+    font-size: 1.125rem;
+    font-style: italic;
+    color: var(--text-dark);
+    margin: 0 0 1rem 0;
+}
+
+.quote-text cite {
+    font-weight: 600;
+    color: var(--primary-color);
+    font-style: normal;
+}
+
+.story-conclusion {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.story-conclusion p {
+    font-size: 1.125rem;
+    color: var(--text-dark);
+}
+
+.help-section {
+    padding: 5rem 0;
+    background: var(--white-color);
+}
+
+.help-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.help-item {
+    text-align: center;
+    padding: 2rem;
+}
+
+.help-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.help-item h3 {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--dark-color);
+    margin-bottom: 1rem;
+}
+
+.help-item p {
+    color: var(--text-light);
+}
+
+.help-note {
+    text-align: center;
+    max-width: 700px;
+    margin: 3rem auto 0;
+    font-style: italic;
+    color: var(--text-light);
+}
+
+.next-steps {
+    padding: 5rem 0;
+    background: var(--cream-color);
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.step-card {
+    background: var(--white-color);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    text-align: center;
+    position: relative;
+    transition: var(--transition);
+}
+
+.step-card:hover {
+    transform: translateY(-5px);
+}
+
+.step-card.featured {
+    border: 2px solid var(--primary-color);
+}
+
+.step-number {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.step-card h3 {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--dark-color);
+    margin: 1.5rem 0 1rem;
+}
+
+.step-card p {
+    color: var(--text-light);
+    margin-bottom: 2rem;
+}
+
+.process-section {
+    padding: 5rem 0;
+    background: var(--white-color);
+}
+
+.process-steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.process-step {
+    text-align: center;
+    padding: 2rem;
+}
+
+.process-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.process-step p {
+    color: var(--text-dark);
+    font-size: 1.125rem;
+}
+
+.testimonials {
+    padding: 5rem 0;
+    background: var(--cream-color);
+}
+
+.testimonial-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.testimonial-content blockquote {
+    background: var(--white-color);
+    padding: 2.5rem;
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-color);
+    text-align: center;
+}
+
+.testimonial-content blockquote p {
+    font-size: 1.125rem;
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.testimonial-content cite {
+    font-weight: 600;
+    color: var(--primary-color);
+    font-style: normal;
+}
+
+.conclusion {
+    padding: 5rem 0;
+    background: var(--white-color);
+    text-align: center;
+}
+
+.conclusion-content p {
+    font-size: 1.25rem;
+    color: var(--text-dark);
+    margin-bottom: 2rem;
+    font-weight: 500;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .steps-grid,
+    .help-grid,
+    .process-steps {
+        grid-template-columns: 1fr;
+    }
+    
+    .step-card,
+    .help-item,
+    .process-step {
+        padding: 2rem 1.5rem;
+    }
+}
     </style>
 </body>
 </html>
