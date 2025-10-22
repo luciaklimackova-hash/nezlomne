@@ -66,6 +66,31 @@ button {
     /* Fonty z Brand Board */
     --font-primary: 'Source Sans Pro', sans-serif;
     --font-heading: 'Merriweather', serif;
+    --brand-headline-font: "Merriweather", serif;
+    --brand-body-font: "Source Sans 3", "Source Sans Pro", system-ui, -apple-system, sans-serif;
+    
+    /* Hero typografia - zjednotené hodnoty pre všetky hero sekcie */
+    --hero-h1-size-desktop: 56px;
+    --hero-h1-size-tablet: 44px;
+    --hero-h1-size-mobile: 34px;
+    --hero-h1-line: 1.15;
+    --hero-h1-weight: 700;
+    --hero-h1-letter: -0.01em;
+    
+    --hero-body-size-desktop: 20px;
+    --hero-body-size-tablet: 18px;
+    --hero-body-size-mobile: 17px;
+    --hero-body-line: 1.6;
+    
+    --hero-cta-size-desktop: 18px;
+    --hero-cta-size-tablet: 16px;
+    --hero-cta-size-mobile: 16px;
+    
+    /* Brand farby pre CTA */
+    --brand-cta-bg: #AB2574;
+    --brand-cta-text: #FFFFFF;
+    --brand-text-secondary: #504F50;
+    --brand-overlay: #F2E5D5;
     
     /* Rozmery */
     --container-max-width: 1200px;
@@ -368,15 +393,20 @@ button {
 }
 
 /* =========================================
-   Hero Section
+   Hero Section - Jednotný štýl pre všetky stránky
 ========================================= */
 
-.hero {
-    min-height: 100vh;
+.hero,
+[class*="hero"] {
+    min-height: 60vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 48px 24px;
     position: relative;
     background: rgb(242, 229, 213);
+    background-size: cover;
+    background-position: center center;
     overflow: hidden;
 }
 
@@ -411,63 +441,82 @@ button {
     z-index: 3;
 }
 
-.hero-content {
+.hero-content,
+.hero__content,
+[class*="hero"] .hero-content,
+[class*="hero"] .hero__content {
     text-align: center;
-    max-width: 900px;
+    max-width: 720px;
     margin: 0 auto;
+    padding: 48px 24px;
     position: relative;
+    font-family: var(--brand-body-font);
 }
 
-.hero-title {
-    font-family: 'Merriweather', serif;
-    font-size: clamp(2.2rem, 5.5vw, 3.8rem);
-    font-weight: 700;
+.hero-title,
+.hero__title,
+[class*="hero"] h1 {
+    font-family: var(--brand-headline-font);
+    font-weight: var(--hero-h1-weight);
+    font-size: var(--hero-h1-size-desktop);
+    line-height: var(--hero-h1-line);
+    letter-spacing: var(--hero-h1-letter);
     color: rgb(0, 0, 0);
-    margin-bottom: 1.5rem;
-    line-height: 1.3;
-    letter-spacing: -0.01em;
+    margin: 0 0 12px 0;
 }
 
-.hero-subtitle {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
-    font-weight: 400;
-    color: rgb(0, 0, 0);
-    margin-bottom: 1rem;
-    line-height: 1.5;
+.hero-subtitle,
+.hero__subtitle,
+.hero-support,
+.hero__text,
+[class*="hero"] .hero-description p,
+[class*="hero"] p:not(.hero-note):not(.hero__note) {
+    font-family: var(--brand-body-font);
+    font-size: var(--hero-body-size-desktop);
+    line-height: var(--hero-body-line);
+    color: var(--brand-text-secondary);
+    margin: 0 0 20px 0;
 }
 
 .hero-support {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
     font-weight: 600;
-    color: rgb(0, 0, 0);
-    margin-bottom: 2.5rem;
-    line-height: 1.5;
 }
 
-.hero-cta {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
+.hero-cta,
+.hero__cta,
+.hero__actions,
+[class*="hero"] .hero-cta,
+[class*="hero"] .actions {
+    display: inline-flex;
+    gap: 12px;
     flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 1.5rem;
 }
 
-.hero-cta .btn-primary {
-    background: rgb(171, 37, 116);
-    color: white;
-    padding: 1rem 2rem;
-    border-radius: 8px;
-    border: none;
-    box-shadow: 0 4px 12px rgba(171, 37, 116, 0.25);
-    font-family: 'Source Sans Pro', sans-serif;
+.hero-cta .btn,
+.hero__cta .btn,
+.hero__actions .btn,
+[class*="hero"] .actions .btn {
+    font-family: var(--brand-body-font);
+    font-size: var(--hero-cta-size-desktop);
     font-weight: 600;
-    font-size: 1.1rem;
+    padding: 14px 22px;
+    border-radius: 8px;
     transition: all 0.3s ease;
 }
 
-.hero-cta .btn-primary:hover {
+.hero-cta .btn-primary,
+.hero__cta .btn-primary,
+.btn--primary {
+    background: var(--brand-cta-bg);
+    color: var(--brand-cta-text);
+    box-shadow: 0 4px 12px rgba(171, 37, 116, 0.25);
+}
+
+.hero-cta .btn-primary:hover,
+.hero__cta .btn-primary:hover,
+.btn--primary:hover {
     background: rgb(145, 30, 98);
     transform: translateY(-2px);
     box-shadow: 0 6px 16px rgba(171, 37, 116, 0.35);
@@ -476,14 +525,7 @@ button {
 .hero-cta .btn-secondary {
     background: rgb(80, 79, 80);
     color: white;
-    padding: 1rem 2rem;
-    border-radius: 8px;
-    border: none;
     box-shadow: 0 4px 12px rgba(80, 79, 80, 0.25);
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 600;
-    font-size: 1.1rem;
-    transition: all 0.3s ease;
 }
 
 .hero-cta .btn-secondary:hover {
@@ -492,11 +534,12 @@ button {
     box-shadow: 0 6px 16px rgba(80, 79, 80, 0.35);
 }
 
-.hero-note {
-    font-family: 'Source Sans Pro', sans-serif;
+.hero-note,
+.hero__note {
+    font-family: var(--brand-body-font);
     font-size: 0.95rem;
     font-weight: 400;
-    color: rgb(80, 79, 80);
+    color: var(--brand-text-secondary);
     font-style: italic;
 }
 
@@ -1463,8 +1506,88 @@ button {
    Responsive Design
 ========================================= */
 
+/* Tablet breakpoint - do 1024px */
+@media (max-width: 1023.98px) {
+    .hero-title,
+    .hero__title,
+    [class*="hero"] h1 {
+        font-size: var(--hero-h1-size-tablet);
+    }
+    
+    .hero-subtitle,
+    .hero__subtitle,
+    .hero-support,
+    .hero__text,
+    [class*="hero"] .hero-description p,
+    [class*="hero"] p:not(.hero-note):not(.hero__note) {
+        font-size: var(--hero-body-size-tablet);
+    }
+    
+    .hero-cta .btn,
+    .hero__cta .btn,
+    .hero__actions .btn,
+    [class*="hero"] .actions .btn {
+        font-size: var(--hero-cta-size-tablet);
+        padding: 12px 20px;
+    }
+}
+
+/* Mobile breakpoint - do 768px */
 @media (max-width: 768px) {
-    .nav-menu {
+    /* Hero sekcia - mobilné príspsoby */
+    .hero,
+    [class*="hero"] {
+        padding: 64px 20px;
+    }
+    
+    .hero-content,
+    .hero__content,
+    [class*="hero"] .hero-content,
+    [class*="hero"] .hero__content {
+        width: 100%;
+        max-width: 560px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .hero-title,
+    .hero__title,
+    [class*="hero"] h1 {
+        font-size: var(--hero-h1-size-mobile);
+        line-height: 1.2;
+    }
+    
+    .hero-subtitle,
+    .hero__subtitle,
+    .hero-support,
+    .hero__text,
+    [class*="hero"] .hero-description p,
+    [class*="hero"] p:not(.hero-note):not(.hero__note) {
+        font-size: var(--hero-body-size-mobile);
+        line-height: 1.65;
+    }
+    
+    .hero-cta,
+    .hero__cta,
+    .hero__actions,
+    [class*="hero"] .hero-cta,
+    [class*="hero"] .actions {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .hero-cta .btn,
+    .hero__cta .btn,
+    .hero__actions .btn,
+    [class*="hero"] .actions .btn {
+        width: 100%;
+        max-width: 360px;
+        font-size: var(--hero-cta-size-mobile);
+    }
+    
+    /* Originálne mobilné štýly */
         position: fixed;
         top: 100%;
         left: 0;
