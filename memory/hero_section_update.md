@@ -38,14 +38,18 @@ Hero sekcia na "Chcem odísť" má teraz presne rovnaké pozadie, rozmazanie a o
 - `dist/chcem-odist.html`
 - `git_current_version/chcem-odist.html`
 
-### Pozadie a vizuálne efekty (aktualizácia 18:38):
-**Nastavenia pozadia:**
-- Obrázok: `Luciadaniela1a 2.jpeg` (rovnaký ako na "Som vo vzťahu")
-- Blur: `filter: blur(1px)` v `::before` pseudo-elemente
+### Pozadie a vizuálne efekty (aktualizácia 19:21):
+**Nastavenia pozadia (optimalizované pre zachovanie tvárí):**
+- Obrázok: `Luciadaniela1a 2.jpeg`
+- Blur: **odstránený** (žiadny filter na fotke)
 - Opacity obrázka: `0.75`
-- Overlay: `rgba(242, 229, 213, 0.10)` v `::after` pseudo-elemente (krémový 10%)
+- Overlay: `rgba(242, 229, 213, 0.10)` + `pointer-events: none`
 - Background color: `rgb(242, 229, 213)`
-- Mobile pozícia: `background-position: 50% 50%` v media query
+
+**Background position (responzívne):**
+- Desktop: `background-position: 50% 38%;` (mierne posun hore - tváre nie sú orezané)
+- Tablet (max-width: 1023.98px): `background-position: 50% 42%;`
+- Mobil (max-width: 767.98px): `background-position: 50% 48%;` (viac k stredu)
 
 **CSS štruktúra:**
 ```css
@@ -54,25 +58,27 @@ Hero sekcia na "Chcem odísť" má teraz presne rovnaké pozadie, rozmazanie a o
   background: rgb(242, 229, 213);
   overflow: hidden;
 }
-.hero::before { /* Obrázok s blur */
+.hero::before { /* Obrázok BEZ blur */
   background: url('Luciadaniela1a 2.jpeg');
-  filter: blur(1px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 38%;  /* desktop */
   opacity: 0.75;
   z-index: 1;
 }
 .hero::after { /* Overlay */
   background: rgba(242, 229, 213, 0.10);
+  pointer-events: none;
   z-index: 2;
 }
 .hero__content {
   position: relative;
-  z-index: 3; /* Text nad pozadím */
+  z-index: 3;
 }
 ```
 
 ### Deployment:
-- URL: https://k7g5taczfpt6.space.minimax.io/chcem-odist.html
-- Referenčná stránka: https://k7g5taczfpt6.space.minimax.io/som-vo-vztahu.html
+- URL: https://hb5rd4fao0jt.space.minimax.io/chcem-odist.html
 
 ## Výsledok:
 Hero sekcia na podstránke "Chcem odísť" je teraz vizuálne a štrukturálne identická so sekciou na podstránke "Som vo vzťahu". Všetky rozloženia, fonty, medzery, zarovnania a responzívne hodnoty sú synchronizované.
