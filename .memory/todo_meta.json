@@ -10,8 +10,8 @@
       },
       "2": {
         "id": "2",
-        "content": "Upraviť navigáciu - odstrániť komunikačnú pomôcku z menu",
-        "details": "Upraviť navigáciu vo všetkých HTML súboroch: index.html, odisla-som.html, komunikačná pomôcka (odstrániť header), footer odkazy",
+        "content": "Opraviť navigáciu - vrátiť odkazy na komunikačnú pomôcku",
+        "details": "Opraviť chybu - vrátiť odkazy na komunikačnú pomôcku do navigácie všetkých stránok (index.html, som-vo-vztahu.html, chcem-odist.html, odisla-som.html, pomoc-zdroje.html, o-nas.html)",
         "status": "completed",
         "priority": "high"
       },
@@ -47,7 +47,7 @@
         "id": "7",
         "content": "Nasadiť aktualizované súbory",
         "details": "Po všetkých úpravách nasadiť do /workspace/dist/ a overiť funkcionalitu",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       }
     }
