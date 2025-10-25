@@ -4,279 +4,551 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krízová komunikačná pomôcka - Nezlomné</title>
-    <meta name="description" content="Ako presne odpovedať manipulujúcemu ex – bez straty nervov a dôstojnosti. Okamžite použiteľná komunikačná pomôcka pre ženy.">
-    
-    <!-- Preload kritické fonty - Brand Board fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles.css">
-    
-    <!-- Bezpečnostné meta tags -->
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com;">
-</head>
-<body>
-    <!-- Bezpečnostná notifikácia -->
-    <div id="emergency-exit" class="emergency-exit" title="Rýchle zatvorenie stránky - Alt+F4 (Win) / Cmd+W (Mac)">
-        <button onclick="window.open('https://www.pocasie.sk', '_self')" aria-label="Núdzový odchod">✕</button>
-        <span class="tooltip">Rýchle zatvorenie - Alt+F4</span>
-    </div>
+    <meta name="description" content="Ako presne odpovedať manipulujúcemu ex - bez straty nervov a dôstojnosti. Krízová komunikačná pomôcka pre ženy.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="nav-container">
-                <div class="nav-logo">
-                    <img src="LogoVlt4.png" alt="Nezlomné" class="logo-image">
-                </div>
-                <div class="nav-menu" id="nav-menu">
-                    <a href="index.html" class="nav-item">Domov</a>
-                    <a href="som-vo-vztahu.html" class="nav-item">Som vo vzťahu</a>
-                    <a href="chcem-odist.html" class="nav-item">Chcem odísť</a>
-                    <a href="odisla-som.html" class="nav-item">Odišla som</a>
-                    <a href="komunikacna-pomocka.html" class="nav-item active">Komunikačná pomôcka</a>
-                    <a href="pomoc-zdroje.html" class="nav-item">Pomoc a zdroje</a>
-                    <a href="o-nas.html" class="nav-item">O nás</a>
-                    <a href="#formular" class="nav-item nav-cta">Formulár</a>
-                </div>
-                <div class="nav-toggle" id="nav-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </nav>
-    </header>
+        :root {
+            --primary-color: #a2006d;
+            --brand-beige: #f6e7df;
+            --text-dark: #333;
+            --text-light: #666;
+            --white: #ffffff;
+        }
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-background">
-            <img src="Asset 24.png" alt="" class="hero-arches" aria-hidden="true">
-        </div>
-        <div class="container">
-            <div class="komunikacia-layout">
-                <!-- Vľavo - Obsah -->
-                <div class="komunikacia-content">
-                    <div class="hero-content">
-                        <h1 class="hero-title">Ako presne odpovedať manipulujúcemu ex – bez straty nervov a dôstojnosti</h1>
-                        <h2 class="hero-question">Krízová komunikačná pomôcka pre ženy, ktoré už odišli – ale bývalý ešte neskončil.</h2>
-                        
-                        <div class="hero-description">
-                            <p>Cítite sa po komunikácii s bývalým partnerom vyčerpaná, zmätená alebo vinná? Táto pomôcka vám krok za krokom ukáže, ako reagovať na jeho manipuláciu pokojne a bez straty dôstojnosti. A ako chrániť seba aj deti – aj keď on sa stále snaží mať moc.</p>
-                        </div>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--brand-beige);
+        }
 
-                        <!-- Brand Badge -->
-                        <div class="brand-badge">
-                            <div class="badge-content">
-                                <p class="badge-title">E-book zo série vzdelávacích materiálov „Nezlomné kroky" projektu NEZLOMNÉ</p>
-                                <p class="badge-authors">Vytvorili odborníčky z praxe – psychologička Lucia Klimáčková a právnička Daniela Baďurová</p>
-                            </div>
-                        </div>
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
 
-                        <!-- Sekcia "Čo v tejto pomôcke nájdete" -->
-                        <div class="content-section">
-                            <h3>Čo v tejto pomôcke nájdete:</h3>
-                            <ul class="benefits-list">
-                                <li>15 kľúčových fráz, ktoré „odzbroja" manipulátora</li>
-                                <li>Odhalenie manipulačných techník a vaše konkrétne odpovede na ne</li>
-                                <li>Odporúčania, kedy nereagovať vôbec – a prečo je to niekedy najsilnejší krok.</li>
-                                <li>Stratégie, ako udržať emócie na uzde a nenechať sa vtiahnuť do konfliktu.</li>
-                                <li>Prehľad komunikačných chýb, ktoré zvyšujú riziko manipulácie.</li>
-                            </ul>
-                            <p class="benefits-note">Všetky odporúčania sú overené v praxi – s cieľom pomôcť vám získať vnútorný pokoj a ochrániť seba aj deti.</p>
-                        </div>
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            padding: 0;
+            background: linear-gradient(135deg, var(--brand-beige) 0%, #f8f0e8 100%);
+        }
 
-                        <!-- Sekcia "Ako vám to pomôže" -->
-                        <div class="content-section">
-                            <h3>Ako vám to pomôže:</h3>
-                            <ul class="benefits-list">
-                                <li>Budete vedieť, čo povedať – aj v napätých situáciách.</li>
-                                <li>Prestante mať pocit, že musíte reagovať okamžite a „správne".</li>
-                                <li>Získate väčší pokoj a istotu v komunikácii.</li>
-                                <li>Naučíte sa chrániť seba aj deti bez zbytočných hádok.</li>
-                                <li>Začnete nastavovať hranice bez pocitu viny.</li>
-                            </ul>
-                            <div class="cta-section">
-                                <button class="btn btn-primary btn-large" onclick="scrollToSection('formular')">🔘 Získať komunikačnú pomôcku</button>
-                            </div>
-                        </div>
+        .promo-strip {
+            background: rgba(162, 0, 109, 0.1);
+            padding: 15px 0;
+            text-align: center;
+            border-bottom: 2px solid rgba(162, 0, 109, 0.2);
+        }
 
-                        <!-- Sekcia autorky -->
-                        <div class="authors-section">
-                            <h3>Kto pre vás túto pomôcku pripravila</h3>
-                            <div class="authors-content">
-                                <div class="author">
-                                    <h4>Lucia Klimáčková</h4>
-                                    <p>psychologička, ktorá dlhodobo sprevádza ženy po odchode od manipulatívneho alebo násilného partnera. Pomáha so strachom, hanbou a nastavením bezpečných hraníc bez pocitu viny.</p>
-                                </div>
-                                <div class="author">
-                                    <h4>Daniela Baďurová</h4>
-                                    <p>právnička, ktorá nastavuje jasné kroky pri post-separačnom nátlaku. Pomáha ženám cítiť sa v právnych krokoch istejšie a bezpečnejšie.</p>
-                                </div>
-                            </div>
-                            <div class="authors-closing">
-                                <p><em>Sme tu preto, aby ste v tom neboli sama. Nie je slabosť požiadať o podporu. Je to krok k pokoju.</em></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        .promo-strip h3 {
+            color: var(--primary-color);
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
 
-                <!-- Vpravo - Sticky formulár -->
-                <div class="komunikacia-form">
-                    <div class="form-sticky">
-                        <h3>Získajte svoju komunikačnú pomôcku</h3>
-                        <p class="form-subtitle">Okamžite použiteľné v náročných situáciách.</p>
-                        
-                        <form id="komunikacia-form" class="form">
-                            <div class="form-group">
-                                <label for="meno">Meno *</label>
-                                <input type="text" id="meno" name="meno" required>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="email">E-mail *</label>
-                                <input type="email" id="email" name="email" required>
-                            </div>
-                            
-                            <button type="submit" class="btn btn-primary btn-large">Získať pomôcku</button>
-                            
-                            <p class="form-microtext">Vaše údaje sú v bezpečí.</p>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        .hero-content {
+            display: flex;
+            min-height: calc(100vh - 60px);
+        }
 
-    <!-- Záver Section -->
-    <section class="conclusion cream-bg">
-        <div class="container">
-            <div class="conclusion-content">
-                <p>Vaše bezpečie a pokoj sú našou prioritou. Táto pomôcka vám poskytne nástroje, ktoré potrebujete na efektívnu a bezpečnú komunikáciu v náročných situáciách.</p>
-                
-                <div class="conclusion-cta">
-                    <a href="odisla-som.html" class="btn btn-outline">Pozrieť ďalšie pomôcky pre ženy po odchode</a>
-                    <a href="pomoc-zdroje.html" class="btn btn-outline">Všetky bezplatné zdroje</a>
-                </div>
-            </div>
-        </div>
-    </section>
+        .hero-left {
+            flex: 1;
+            padding: 60px 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-info">
-                    <div class="footer-logo">
-                        <img src="LogoBLK.png" alt="Nezlomné" class="logo-image">
-                    </div>
-                    <p>Nezlomné – psychologicko-právny tím pre ženy v toxických vzťahoch a násilí</p>
-                </div>
-                
-                <div class="footer-links">
-                    <h4>Navigácia</h4>
-                    <ul>
-                        <li><a href="som-vo-vztahu.html">Som vo vzťahu</a></li>
-                        <li><a href="chcem-odist.html">Chcem odísť</a></li>
-                        <li><a href="odisla-som.html">Odišla som</a></li>
-                        <li><a href="komunikacna-pomocka.html">Komunikačná pomôcka</a></li>
-                        <li><a href="pomoc-zdroje.html">Pomoc a zdroje</a></li>
-                        <li><a href="o-nas.html">O nás</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-emergency">
-                    <h4>Ste v ohrození?</h4>
-                    <div class="emergency-contacts">
-                        <p><strong>Tiesňová linka:</strong><br><a href="tel:158">158</a> alebo <a href="tel:112">112</a></p>
-                        <p><strong>Národná linka pre ženy:</strong><br><a href="tel:0800212212">0800 212 212</a><br>(nonstop, bezplatne)</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <div class="footer-legal">
-                    <p>© 2025 Nezlomné | <a href="o-nas.html">O nás</a> | <a href="mailto:nezlomne@kontakt.sk">Kontakt</a> | <a href="#">GDPR</a> | <a href="#">Podmienky používania</a></p>
-                </div>
-                
-                <div class="solidarity-fund">
-                    <p>Solidárny fond Nezlomné – vďaka darcom vieme poskytovať krízové konzultácie ženám, ktoré si ich nemôžu dovoliť.</p>
-                </div>
-                
-                <div class="safety-tip">
-                    <p><strong>Bezpečnostný tip:</strong> Ak sa obávate, že partner sleduje vašu aktivitu, zatvorte túto stránku klávesovou skratkou ALT + F4 (Windows) / Command + W (Mac).</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+        .hero-right {
+            flex: 0 0 400px;
+            background: var(--white);
+            padding: 60px 40px;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow-y: auto;
+            box-shadow: -5px 0 20px rgba(0,0,0,0.1);
+        }
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
-    <script>
-        // Špecifické funkcie pre komunikačnú pomôcku
-        document.addEventListener('DOMContentLoaded', function() {
-            // Inicializácia formulára
-            const komunikaciaForm = document.getElementById('komunikacia-form');
-            if (komunikaciaForm) {
-                komunikaciaForm.addEventListener('submit', function(e) {
-                    e.preventDefault();
-                    
-                    // Validácia formulára
-                    const meno = document.getElementById('meno').value.trim();
-                    const email = document.getElementById('email').value.trim();
-                    
-                    if (!meno || !email) {
-                        alert('Prosím, vyplňte všetky povinné polia.');
-                        return;
-                    }
-                    
-                    // Validácia emailu
-                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-                    if (!emailRegex.test(email)) {
-                        alert('Prosím, zadajte platný e-mail.');
-                        return;
-                    }
-                    
-                    // Zobrazenie loading stavu
-                    const submitBtn = komunikaciaForm.querySelector('button[type="submit"]');
-                    const originalText = submitBtn.textContent;
-                    submitBtn.textContent = 'Odosiela sa...';
-                    submitBtn.disabled = true;
-                    
-                    // Simulácia odoslania
-                    setTimeout(() => {
-                        // Presmerovanie na ďakovnú stránku
-                        window.location.href = 'komunikacna-pomocka-dakujeme.html';
-                    }, 2000);
-                });
+        .hero h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .hero h2 {
+            font-size: 1.8rem;
+            color: var(--text-dark);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            color: var(--text-dark);
+        }
+
+        .trust-badge {
+            background: rgba(162, 0, 109, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        .trust-badge p {
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        /* Form Styles */
+        .form-title {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .form-subtitle {
+            font-size: 1rem;
+            color: var(--text-light);
+            text-align: center;
+            margin-bottom: 30px;
+            line-height: 1.4;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background: #8b0059;
+        }
+
+        .microtext {
+            font-size: 12px;
+            color: var(--text-light);
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* Content Sections */
+        .content-section {
+            background: var(--white);
+            margin: 40px 80px;
+            padding: 60px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .content-section h3 {
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-bottom: 30px;
+        }
+
+        .benefits-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .benefits-list li {
+            margin-bottom: 15px;
+            padding-left: 25px;
+            position: relative;
+            font-size: 1.1rem;
+        }
+
+        .benefits-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        .trust-statement {
+            background: var(--brand-beige);
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            text-align: center;
+            font-style: italic;
+            color: var(--text-dark);
+        }
+
+        .how-it-helps h4 {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+        }
+
+        .how-it-helps ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .how-it-helps li {
+            margin-bottom: 12px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .how-it-helps li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+
+        .scroll-to-form {
+            background: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 30px;
+            transition: background-color 0.3s;
+        }
+
+        .scroll-to-form:hover {
+            background: #8b0059;
+            color: white;
+            text-decoration: none;
+        }
+
+        .authors-section h4 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .authors-section p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .support-note {
+            background: rgba(162, 0, 109, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+            text-align: center;
+            font-style: italic;
+        }
+
+        /* Thank You Page */
+        .thank-you-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--brand-beige);
+        }
+
+        .thank-you-content {
+            background: var(--white);
+            padding: 60px;
+            border-radius: 15px;
+            text-align: center;
+            max-width: 600px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .thank-you-content h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        .thank-you-content h2 {
+            color: var(--text-dark);
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+        .thank-you-content p {
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .thank-you-links {
+            background: var(--brand-beige);
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            text-align: left;
+        }
+
+        .thank-you-links ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .thank-you-links li {
+            margin-bottom: 10px;
+        }
+
+        .thank-you-links a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .thank-you-links a:hover {
+            text-decoration: underline;
+        }
+
+        .safety-note {
+            font-size: 12px;
+            color: var(--text-light);
+            margin-top: 30px;
+            font-style: italic;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero-content {
+                flex-direction: column;
             }
             
-            // Smooth scroll pre CTA tlačidlá
-            const ctaButtons = document.querySelectorAll('.btn[onclick*="scrollToSection"]');
-            ctaButtons.forEach(button => {
-                button.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    scrollToSection('formular');
+            .hero-left {
+                padding: 40px 20px;
+                order: 2;
+            }
+            
+            .hero-right {
+                flex: none;
+                position: static;
+                height: auto;
+                order: 1;
+                padding: 40px 20px;
+                box-shadow: none;
+                border-bottom: 1px solid #e0e0e0;
+            }
+            
+            .content-section {
+                margin: 20px;
+                padding: 40px 20px;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero h2 {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero" id="hero">
+        <!-- Promo Strip -->
+        <div class="promo-strip">
+            <div class="container">
+                <h3>KOMUNIKUJTE S ISTOTOU – AJ KEĎ ON SA STÁLE SNAŽÍ MAŤ MOC.</h3>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <!-- Left Column -->
+            <div class="hero-left">
+                <h1>Ako presne odpovedať manipulujúcemu ex<br>– bez straty nervov a dôstojnosti</h1>
+                
+                <h2>Krízová komunikačná pomôcka pre ženy, ktoré už odišli – ale bývalý ešte neskončil.</h2>
+                
+                <p>Táto pomôcka vám krok za krokom ukáže, ako reagovať pokojne, bez hádok a bez straty dôstojnosti.</p>
+                
+                <div class="trust-badge">
+                    <p>E-book zo série vzdelávacích materiálov „Nezlomné kroky" projektu NEZLOMNÉ</p>
+                    <p style="font-weight: normal;">Vytvorili odborníčky z praxe – psychologička Lucia Klimáčková a právnička Daniela Baďurová</p>
+                </div>
+            </div>
+            
+            <!-- Right Column - Form -->
+            <div class="hero-right">
+                <h3 class="form-title">Získajte svoju bezplatnú komunikačnú pomôcku</h3>
+                <p class="form-subtitle">aby ste mali vždy po ruke slová, ktoré zastavia manipuláciu – pokojne a s istotou.<br><br>Okamžite použiteľná v náročných situáciách.</p>
+                
+                <form id="download-form" class="form">
+                    <div class="form-group">
+                        <label for="name">Meno *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">E-mail *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary">Získať pomôcku</button>
+                    
+                    <p class="microtext">Vaše údaje sú v bezpečí.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Sections -->
+    <div class="content-section">
+        <h3>Získajte overený postup, ako obrátiť dynamiku moci – pokojne, dôstojne a bez obáv z následkov.</h3>
+        
+        <ul class="benefits-list">
+            <li>15 kľúčových fráz, ktoré „odzbroja" manipulátora</li>
+            <li>Konkrétne manipulačné techniky, ktoré používa a ako na ne presne reagovať</li>
+            <li>Tipy, kedy nereagovať vôbec – a prečo je to bezpečnejšie</li>
+            <li>Právne a psychologické odporúčania v jednom</li>
+            <li>Pomoc od odborníčok, ktoré 10 rokov sprevádzajú ženy po odchode</li>
+        </ul>
+        
+        <div class="trust-statement">
+            Naše odporúčania sú overené v praxi – s cieľom pomôcť vám získať vnútorný pokoj a ochrániť seba aj deti.
+        </div>
+    </div>
+
+    <div class="content-section">
+        <div class="how-it-helps">
+            <h4>Ako vám to pomôže (už dnes)</h4>
+            <ul>
+                <li>Budete vedieť, čo povedať – aj v napätých situáciách.</li>
+                <li>Prestane mať pocit, že musíte reagovať okamžite a „správne".</li>
+                <li>Získate väčší pokoj a istotu v komunikácii.</li>
+                <li>Naučíte sa chrániť seba aj deti bez zbytočných hádok.</li>
+                <li>Začnete nastavovať hranice bez pocitu viny.</li>
+            </ul>
+            
+            <a href="#hero" class="scroll-to-form">Získať komunikačnú pomôcku</a>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <div class="authors-section">
+            <h3>Kto pre vás túto pomôcku pripravil</h3>
+            
+            <h4>Mgr. Lucia Klimáčková</h4>
+            <p>psychologička, ktorá dlhodobo sprevádza ženy zažívajúce násilie a ženy po odchode od manipulatívneho alebo násilného partnera.</p>
+            
+            <h4>Mgr. Daniela Baďurová</h4>
+            <p>právnička, ktorá pomáha ženám nastaviť právne kroky a cítiť sa v nich isto a bezpečne.</p>
+            
+            <div class="support-note">
+                Sme tu preto, aby ste v tom neboli sama.<br>
+                Nie je slabosť požiadať o podporu. Je to krok k pokoju.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('download-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            
+            // Simulate form submission
+            console.log('Form submitted:', { name, email });
+            
+            // Store lead data (in real implementation, send to backend)
+            localStorage.setItem('communication_tool_lead', JSON.stringify({
+                name: name,
+                email: email,
+                timestamp: new Date().toISOString()
+            }));
+            
+            // Simulate email sending (in real implementation, send via backend)
+            setTimeout(() => {
+                // Redirect to thank you page
+                window.location.href = '?thank_you=1';
+            }, 1000);
+        });
+
+        // Check if user should see thank you page
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('thank_you') === '1') {
+            document.body.innerHTML = `
+                <div class="thank-you-page">
+                    <div class="thank-you-content">
+                        <h1>Pomôcka je na ceste k vám 💌</h1>
+                        <h2>Ďakujeme, že ste si vyžiadali našu krízovú komunikačnú pomôcku.</h2>
+                        <p>Poslali sme vám e-mail s odkazom na jej stiahnutie.</p>
+                        <p>Ak e-mail nepríde do pár minút, skontrolujte prosím priečinok Reklama / Spam.</p>
+                        
+                        <div class="thank-you-links">
+                            <h3>Medzitým si môžete pozrieť ďalšie zdroje, ktoré ženám po odchode pomáhajú chrániť sa a upokojiť situáciu:</h3>
+                            <ul>
+                                <li>• <a href="test-post-separacne-nasilie.html">Otestovať, či ide o post-separačné násilie</a></li>
+                                <li>• <a href="#">Praktický sprievodca po odchode</a></li>
+                            </ul>
+                        </div>
+                        
+                        <p class="safety-note">Vaše bezpečie a dôvera sú pre nás prvoradé.<br>
+                        Ak nie je pre vás bezpečné mať tento e-mail uložený, môžete ho po prečítaní vymazať.</p>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Smooth scroll for "Získať komunikačnú pomôcku" button
+        document.querySelectorAll('a[href="#hero"]').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.getElementById('hero').scrollIntoView({
+                    behavior: 'smooth'
                 });
             });
         });
-
-        // Funkcia pre smooth scroll (z existing script.js)
-        function scrollToSection(sectionId) {
-            const element = document.getElementById(sectionId);
-            if (element) {
-                const headerHeight = document.querySelector('.header')?.offsetHeight || 0;
-                const elementPosition = element.offsetTop - headerHeight - 20;
-                
-                window.scrollTo({
-                    top: elementPosition,
-                    behavior: 'smooth'
-                });
-            }
-        }
     </script>
 </body>
 </html>
