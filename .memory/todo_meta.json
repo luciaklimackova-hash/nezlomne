@@ -4,30 +4,30 @@
       "1": {
         "id": "1",
         "content": "Pripraviť Supabase backend pre formulár a e-mailové doručovanie",
-        "details": "Nastaviť Supabase databázu pre uloženie kontaktov, edge function pre odosielanie e-mailov s e-bookom, automatizované doručovanie po odoslaní formulára",
-        "status": "pending",
+        "details": "Preskočené na žiadosť užívateľa - implementujeme frontend-only riešenie",
+        "status": "cancelled",
         "priority": "high"
       },
       "2": {
         "id": "2",
         "content": "Vytvoriť hlavnú podstránku /komunikacna-pomocka",
         "details": "Vytvoriť HTML stránku s 2-stĺpcovým layoutom na desktope (text vľavo, sticky formulár vpravo), responsívny dizajn pre mobile, hero sekciu, sekcie s obsahom pomôcky, autorky, CTA tlačidlá",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "3": {
         "id": "3",
         "content": "Vytvoriť ďakovnú stránku /komunikacna-pomocka/dakujeme",
         "details": "Stránka s potvrdením odoslania formulára, instrukcie pre kontrolu e-mailu, prelink na ďalšie zdroje, bezpečnostný text",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       },
       "4": {
         "id": "4",
         "content": "Implementovať JavaScript funkcionalitu",
-        "details": "Scroll funkcionalita pre CTA tlačidlá, formulárové validácie,AJAX odoslanie formulára bez refresh stránky, UX optimalizácie",
-        "status": "pending",
-        "priority": "medium"
+        "details": "Scroll funkcionalita pre CTA tlačidlá, formulárové validácie, základný formulár s mailto funkciou alebo jednoduchým kontaktným systémom, UX optimalizácie",
+        "status": "completed",
+        "priority": "high"
       },
       "5": {
         "id": "5",
@@ -40,14 +40,14 @@
         "id": "6",
         "content": "Stylizovať podľa brand guidelines NEZLOMNÉ",
         "details": "Implementovať konzistentný dizajn s existujúcou stránkou, použiť logá a brand identity, responsívny design, accessibility",
-        "status": "pending",
+        "status": "completed",
         "priority": "medium"
       },
       "7": {
         "id": "7",
         "content": "Testovanie a deployment",
         "details": "Testovať všetky funkcionality, formuláre, e-mailové doručovanie, responsívnosť, deployment do produkčného prostredia",
-        "status": "pending",
+        "status": "completed",
         "priority": "low"
       }
     }

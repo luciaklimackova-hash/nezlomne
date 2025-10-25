@@ -1,0 +1,1 @@
+Komunikácia s používateľom o testovaní:
