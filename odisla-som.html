@@ -35,7 +35,6 @@
                     <a href="som-vo-vztahu.html" class="nav-item">Som vo vzťahu</a>
                     <a href="chcem-odist.html" class="nav-item">Chcem odísť</a>
                     <a href="#" class="nav-item active">Odišla som</a>
-                    <a href="komunikacna-pomocka.html" class="nav-item">Komunikačná pomôcka</a>
                     <a href="pomoc-zdroje.html" class="nav-item">Pomoc a zdroje</a>
                     <a href="o-nas.html" class="nav-item">O nás</a>
                     <a href="#contact-form" class="nav-item nav-cta">Kontakt</a>
@@ -51,15 +50,14 @@
 
     <!-- Hero Section -->
     <section class="hero" id="main-content">
-        <div class="hero-background">
-            <img src="Asset 24.png" alt="" class="hero-arches" aria-hidden="true">
-        </div>
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">„Odišli ste. Ale on to stále neskončil."</h1>
+                <h1 class="hero-title">Odišli ste. No on to ešte neskončil.</h1>
                 <p class="hero-subtitle">Podpora pri zvládaní post-separačného násilia, súdnych konaní a návratu k sebe.</p>
+                <p class="hero-subtitle">Pomôžeme vám získať späť pokoj, istotu a vnútornú slobodu – aj keď on sa stále snaží mať moc.</p>
                 <div class="hero-cta">
-                    <button class="btn btn-primary" onclick="scrollToSection('help-section')">Chcem späť pokoj a slobodu</button>
+                    <button class="btn btn-primary" onclick="scrollToSection('co-mozete-urobit-hned-teraz')">Chcem späť pokoj a slobodu</button>
+                    <p class="cta-microtext">Bezplatné materiály • Citlivo • Bez tlaku</p>
                 </div>
             </div>
         </div>
@@ -139,20 +137,20 @@
     </section>
 
     <!-- Action Steps Section -->
-    <section class="action-steps cream-bg">
+    <section id="co-mozete-urobit-hned-teraz" class="action-steps cream-bg">
         <div class="container">
             <h2 class="section-title">Čo môžete urobiť hneď teraz?</h2>
             
             <div class="action-grid">
                 <div class="action-card">
                     <h3>1. Otestujte, či ide o post-separačné násilie</h3>
-                    <button class="btn btn-primary" onclick="window.location.href='test-post-separacne-nasilie.html'">Zistiť viac</button>
+                    <button class="btn btn-primary">Urobiť test</button>
                 </div>
                 
                 <div class="action-card">
                     <h3>2. Stiahnite si Krízovú komunikačnú pomôcku</h3>
                     <p>Ako presne odpovedať manipulujúcemu ex - bez straty nervov a dôstojnosti. Nájdete v niej okamžite použiteľné frázy a postupy.</p>
-                    <button class="btn btn-primary" onclick="window.location.href='komunikacna-pomocka.html'">Zistiť viac</button>
+                    <button class="btn btn-primary">Stiahnuť komunikačnú pomôcku</button>
                 </div>
                 
                 <div class="action-card">
@@ -351,6 +349,27 @@
         .conclusion { padding: 5rem 0; background: var(--cream-color); text-align: center; }
         .conclusion-content p { font-size: 1.25rem; color: var(--text-dark); margin-bottom: 2rem; font-weight: 500; max-width: 800px; margin-left: auto; margin-right: auto; }
         @media (max-width: 768px) { .help-list, .action-grid { grid-template-columns: 1fr; } }
+            .hero-cta { text-align: center; margin-top: 3rem; }
+        
+        .hero-cta .btn {
+            display: inline-block;
+        }
+            .hero-cta {
+            text-align: center;
+            margin-top: 3rem;
+        }
+        
+        .hero-cta .btn {
+            display: inline-block;
+        }
+        
+        .cta-microtext {
+            font-size: 0.875rem;
+            color: var(--text-light);
+            margin-top: 8px;
+            text-align: center;
+            display: block;
+        }
     </style>
 </body>
 </html>
