@@ -3,31 +3,52 @@
     "Coordinator": {
       "1": {
         "id": "1",
-        "content": "Analýza aktuálneho stavu a príprava súborov",
-        "details": "Skopírovať všetky potrebné obrázky z user_input_files do hlavného projektu, overiť referenčnú webstránku a pripraviť pracovné prostredie",
-        "status": "completed",
+        "content": "Pripraviť Supabase backend pre formulár a e-mailové doručovanie",
+        "details": "Nastaviť Supabase databázu pre uloženie kontaktov, edge function pre odosielanie e-mailov s e-bookom, automatizované doručovanie po odoslaní formulára",
+        "status": "pending",
         "priority": "high"
       },
       "2": {
         "id": "2",
-        "content": "Obnova dizajnu domovskej stránky podľa referenčnej verzie",
-        "details": "1. Obnoviť pozadie top menu bar s textúrou mihai.jpeg\n2. Integrovať Asset 29 (ružové oblúky) do sekcie 'V akej situácii sa nachádzate?'\n3. Upraviť sekciu 'Potrebujete odbornú podporu?' s fotografiami Lucia2 2.jpeg a Daniela2 2.jpeg\n4. Obnoviť pozadie sekcie 'Slová žien' s gradient a siluetou ženy v reťaziach",
-        "status": "completed",
+        "content": "Vytvoriť hlavnú podstránku /komunikacna-pomocka",
+        "details": "Vytvoriť HTML stránku s 2-stĺpcovým layoutom na desktope (text vľavo, sticky formulár vpravo), responsívny dizajn pre mobile, hero sekciu, sekcie s obsahom pomôcky, autorky, CTA tlačidlá",
+        "status": "pending",
         "priority": "high"
       },
       "3": {
         "id": "3",
-        "content": "Aplikácia konzistentného dizajnu na všetky podstránky",
-        "details": "1. Pridať Asset 29 oblúky do hero sekcie všetkých podstránok\n2. Aplikovať šedú textúru jonathanpg.jpg do sekcie 'Ako vám môžeme pomôcť?'\n3. Unifikovať sekciu 'Slová žien' na všetkých podstránkach\n4. Integrovať brand elementy Asset 29 a Asset 24 ako subtle background motívy",
-        "status": "completed",
+        "content": "Vytvoriť ďakovnú stránku /komunikacna-pomocka/dakujeme",
+        "details": "Stránka s potvrdením odoslania formulára, instrukcie pre kontrolu e-mailu, prelink na ďalšie zdroje, bezpečnostný text",
+        "status": "pending",
         "priority": "medium"
       },
       "4": {
         "id": "4",
-        "content": "Finálne testovanie a optimalizácia",
-        "details": "Otestovať responsivitu, accessibility, čitateľnosť textu a celkovú konzistenciu dizajnu naprieč všetkými stránkami",
-        "status": "completed",
+        "content": "Implementovať JavaScript funkcionalitu",
+        "details": "Scroll funkcionalita pre CTA tlačidlá, formulárové validácie,AJAX odoslanie formulára bez refresh stránky, UX optimalizácie",
+        "status": "pending",
         "priority": "medium"
+      },
+      "5": {
+        "id": "5",
+        "content": "Vytvoriť e-book komunikačnú pomôcku",
+        "details": "PDF súbor s obsahom podľa špecifikácie (15 kľúčových fráz, manipulačné techniky, stratégie), formát pre e-mailové doručenie",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "6": {
+        "id": "6",
+        "content": "Stylizovať podľa brand guidelines NEZLOMNÉ",
+        "details": "Implementovať konzistentný dizajn s existujúcou stránkou, použiť logá a brand identity, responsívny design, accessibility",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "7": {
+        "id": "7",
+        "content": "Testovanie a deployment",
+        "details": "Testovať všetky funkcionality, formuláre, e-mailové doručovanie, responsívnosť, deployment do produkčného prostredia",
+        "status": "pending",
+        "priority": "low"
       }
     }
   }
