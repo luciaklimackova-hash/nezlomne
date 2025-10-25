@@ -3,52 +3,52 @@
     "Coordinator": {
       "1": {
         "id": "1",
-        "content": "Pripraviť Supabase backend pre formulár a e-mailové doručovanie",
-        "details": "Preskočené na žiadosť užívateľa - implementujeme frontend-only riešenie",
-        "status": "cancelled",
+        "content": "Opraviť stránku odisla-som.html z git_backup",
+        "details": "Nahradiť neúplný súbor v /workspace/dist/ verziou z /workspace/git_backup/nezlomne_web/",
+        "status": "pending",
         "priority": "high"
       },
       "2": {
         "id": "2",
-        "content": "Vytvoriť hlavnú podstránku /komunikacna-pomocka",
-        "details": "Vytvoriť HTML stránku s 2-stĺpcovým layoutom na desktope (text vľavo, sticky formulár vpravo), responsívny dizajn pre mobile, hero sekciu, sekcie s obsahom pomôcky, autorky, CTA tlačidlá",
-        "status": "completed",
+        "content": "Upraviť navigáciu - odstrániť komunikačnú pomôcku z menu",
+        "details": "Upraviť navigáciu vo všetkých HTML súboroch: index.html, odisla-som.html, komunikačná pomôcka (odstrániť header), footer odkazy",
+        "status": "pending",
         "priority": "high"
       },
       "3": {
         "id": "3",
-        "content": "Vytvoriť ďakovnú stránku /komunikacna-pomocka/dakujeme",
-        "details": "Stránka s potvrdením odoslania formulára, instrukcie pre kontrolu e-mailu, prelink na ďalšie zdroje, bezpečnostný text",
-        "status": "completed",
-        "priority": "medium"
+        "content": "Upraviť tlačidlo 'Stiahnuť komunikačnú pomôcku' na 'Zistiť viac'",
+        "details": "V odisla-som.html, sekcia 'Čo môžete urobiť hneď teraz', zmeniť tlačidlo a odkaz na /komunikacna-pomocka.html",
+        "status": "pending",
+        "priority": "high"
       },
       "4": {
         "id": "4",
-        "content": "Implementovať JavaScript funkcionalitu",
-        "details": "Scroll funkcionalita pre CTA tlačidlá, formulárové validácie, základný formulár s mailto funkciou alebo jednoduchým kontaktným systémom, UX optimalizácie",
-        "status": "completed",
+        "content": "Kompletne prepracovať komunikačnú pomôcku podľa zadania",
+        "details": "Odstrániť header/navigáciu, upraviť presne podľa špecifikácie: promo pásik, hero blok, formulár, všetky sekcie s presným textom",
+        "status": "pending",
         "priority": "high"
       },
       "5": {
         "id": "5",
-        "content": "Vytvoriť e-book komunikačnú pomôcku",
-        "details": "Užívateľ už má e-book vytvorený - úloha zrušená",
-        "status": "cancelled",
-        "priority": "medium"
+        "content": "Implementovať formulár s lead capture a e-mail funkcionalitou",
+        "details": "Formulár musí: uložiť meno+email do databázy, odoslať e-mail s PDF, presmerovať na ďakovnú obrazovku. Bez mena a e-mailu sa k pomôcke nedostane.",
+        "status": "pending",
+        "priority": "high"
       },
       "6": {
         "id": "6",
-        "content": "Stylizovať podľa brand guidelines NEZLOMNÉ",
-        "details": "Implementovať konzistentný dizajn s existujúcou stránkou, použiť logá a brand identity, responsívny design, accessibility",
-        "status": "completed",
-        "priority": "medium"
+        "content": "Vytvoriť ďakovnú obrazovku po odoslaní formulára",
+        "details": "Presne podľa zadania s textom 'Pomôcka je na ceste k vám 💌', odkazmi na ďalšie zdroje",
+        "status": "pending",
+        "priority": "high"
       },
       "7": {
         "id": "7",
-        "content": "Testovanie a deployment",
-        "details": "Testovať všetky funkcionality, formuláre, e-mailové doručovanie, responsívnosť, deployment do produkčného prostredia",
-        "status": "completed",
-        "priority": "low"
+        "content": "Nasadiť aktualizované súbory",
+        "details": "Po všetkých úpravách nasadiť do /workspace/dist/ a overiť funkcionalitu",
+        "status": "pending",
+        "priority": "medium"
       }
     }
   }
