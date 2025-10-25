@@ -5,35 +5,35 @@
         "id": "1",
         "content": "Opraviť stránku odisla-som.html z git_backup",
         "details": "Nahradiť neúplný súbor v /workspace/dist/ verziou z /workspace/git_backup/nezlomne_web/",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "2": {
         "id": "2",
         "content": "Upraviť navigáciu - odstrániť komunikačnú pomôcku z menu",
         "details": "Upraviť navigáciu vo všetkých HTML súboroch: index.html, odisla-som.html, komunikačná pomôcka (odstrániť header), footer odkazy",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "3": {
         "id": "3",
         "content": "Upraviť tlačidlo 'Stiahnuť komunikačnú pomôcku' na 'Zistiť viac'",
         "details": "V odisla-som.html, sekcia 'Čo môžete urobiť hneď teraz', zmeniť tlačidlo a odkaz na /komunikacna-pomocka.html",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "4": {
         "id": "4",
         "content": "Kompletne prepracovať komunikačnú pomôcku podľa zadania",
         "details": "Odstrániť header/navigáciu, upraviť presne podľa špecifikácie: promo pásik, hero blok, formulár, všetky sekcie s presným textom",
-        "status": "pending",
+        "status": "completed",
         "priority": "high"
       },
       "5": {
         "id": "5",
         "content": "Implementovať formulár s lead capture a e-mail funkcionalitou",
         "details": "Formulár musí: uložiť meno+email do databázy, odoslať e-mail s PDF, presmerovať na ďakovnú obrazovku. Bez mena a e-mailu sa k pomôcke nedostane.",
-        "status": "pending",
+        "status": "in_progress",
         "priority": "high"
       },
       "6": {
