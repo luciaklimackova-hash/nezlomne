@@ -3,51 +3,30 @@
     "Coordinator": {
       "1": {
         "id": "1",
-        "content": "Opraviť stránku odisla-som.html z git_backup",
-        "details": "Nahradiť neúplný súbor v /workspace/dist/ verziou z /workspace/git_backup/nezlomne_web/",
-        "status": "completed",
+        "content": "Stiahnuť obsah pôvodnej verzie webu z https://ana6tglah62p.space.minimax.io",
+        "details": "Prevziať všetky súbory a štruktúru z pôvodnej verzie webu ako základ pre ďalšie úpravy",
+        "status": "pending",
         "priority": "high"
       },
       "2": {
         "id": "2",
-        "content": "Opraviť navigáciu - vrátiť odkazy na komunikačnú pomôcku",
-        "details": "Opraviť chybu - vrátiť odkazy na komunikačnú pomôcku do navigácie všetkých stránok (index.html, som-vo-vztahu.html, chcem-odist.html, odisla-som.html, pomoc-zdroje.html, o-nas.html)",
-        "status": "completed",
+        "content": "Vytvoriť nový funnel komunikačná pomôcka",
+        "details": "Vytvoriť samostatnú stránku s komunikačnou pomôckou, ktorá sa nezobrazuje v menu. Musí obsahovať: 2-stĺpcový layout (obsah vľavo, sticky formulár vpravo), špecifický obsah v slovenčine, thank you page po odoslaní formulára",
+        "status": "pending",
         "priority": "high"
       },
       "3": {
         "id": "3",
-        "content": "Upraviť tlačidlo 'Stiahnuť komunikačnú pomôcku' na 'Zistiť viac'",
-        "details": "V odisla-som.html, sekcia 'Čo môžete urobiť hneď teraz', zmeniť tlačidlo a odkaz na /komunikacna-pomocka.html",
-        "status": "completed",
+        "content": "Upraviť stránku 'Odišla som'",
+        "details": "V sekcii 'Čo môžete urobiť hned teraz' zmeniť tlačidlo na 'Zistiť viac', ktoré bude viesť na nový funnel. Nesmiem meniť navigačné menu ani iné časti stránky",
+        "status": "pending",
         "priority": "high"
       },
       "4": {
         "id": "4",
-        "content": "Kompletne prepracovať komunikačnú pomôcku podľa zadania",
-        "details": "Odstrániť header/navigáciu, upraviť presne podľa špecifikácie: promo pásik, hero blok, formulár, všetky sekcie s presným textom",
-        "status": "completed",
-        "priority": "high"
-      },
-      "5": {
-        "id": "5",
-        "content": "Implementovať formulár s lead capture a e-mail funkcionalitou",
-        "details": "Formulár musí: uložiť meno+email do databázy, odoslať e-mail s PDF, presmerovať na ďakovnú obrazovku. Bez mena a e-mailu sa k pomôcke nedostane.",
-        "status": "in_progress",
-        "priority": "high"
-      },
-      "6": {
-        "id": "6",
-        "content": "Vytvoriť ďakovnú obrazovku po odoslaní formulára",
-        "details": "Presne podľa zadania s textom 'Pomôcka je na ceste k vám 💌', odkazmi na ďalšie zdroje",
+        "content": "Nasadiť aktualizovaný web",
+        "details": "Nasadiť web s novým funnom a upravenou stránkou 'Odišla som'. Uistiť sa, že funnel nie je v žiadnom menu",
         "status": "pending",
-        "priority": "high"
-      },
-      "7": {
-        "id": "7",
-        "content": "Nasadiť aktualizované súbory",
-        "details": "Po všetkých úpravách nasadiť do /workspace/dist/ a overiť funkcionalitu",
-        "status": "completed",
         "priority": "medium"
       }
     }
