@@ -32,8 +32,8 @@
       "5": {
         "id": "5",
         "content": "Vytvoriť e-book komunikačnú pomôcku",
-        "details": "PDF súbor s obsahom podľa špecifikácie (15 kľúčových fráz, manipulačné techniky, stratégie), formát pre e-mailové doručenie",
-        "status": "pending",
+        "details": "Užívateľ už má e-book vytvorený - úloha zrušená",
+        "status": "cancelled",
         "priority": "medium"
       },
       "6": {
