@@ -1,0 +1,1722 @@
+/* =========================================
+   CSS Reset a základné nastavenia
+========================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--font-primary);
+    line-height: 1.7;
+    color: var(--text-dark);
+    background-color: var(--white-color);
+    overflow-x: hidden;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.3s ease;
+}
+
+/* =========================================
+   Premenné a téma (aktualizované podľa Brand Board)
+========================================= */
+
+:root {
+    /* Farby z Brand Board - presná paleta */
+    --primary-color: #a2006d;
+    --primary-hover: #7a0052;
+    --brand-beige: #f6e7df;
+    --dark-color: #333333;
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --gray-light: #f8f9fa;
+    --gray-medium: #e9ecef;
+    --text-dark: #333333;
+    --text-light: #6c757d;
+    --accent-magenta: #a2006d;
+    --soft-beige: #f6e7df;
+    --light-beige: #faf5f0;
+    --stone-overlay: rgba(162, 0, 109, 0.1);
+    
+    /* Fonty z Brand Board */
+    --font-primary: 'Source Sans Pro', sans-serif;
+    --font-heading: 'Merriweather', serif;
+    
+    /* Rozmery */
+    --container-max-width: 1200px;
+    --border-radius: 12px;
+    --shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    --shadow-light: 0 4px 16px rgba(0, 0, 0, 0.08);
+    --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* =========================================
+   Utility triedy
+========================================= */
+
+.container {
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.cream-bg {
+    background-color: #f6e7df !important;
+}
+
+/* =========================================
+   Bezpečnostné prvky
+========================================= */
+
+.emergency-exit {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 1000;
+    background: var(--accent-magenta);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.emergency-exit:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 40px rgba(224, 47, 130, 0.3);
+}
+
+.emergency-exit button {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emergency-exit:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.tooltip {
+    position: absolute;
+    top: 50%;
+    right: 55px;
+    transform: translateY(-50%);
+    background: var(--dark-color);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition);
+}
+
+.tooltip::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    border: 5px solid transparent;
+    border-left-color: var(--dark-color);
+}
+
+/* =========================================
+   Navigácia
+========================================= */
+
+.header {
+    background: url('mihai.jpeg') center/cover;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    position: relative;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(51, 51, 51, 0.4);
+    z-index: -1;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.nav-logo {
+    margin-left: 2rem;
+}
+
+.nav-logo .logo-image {
+    height: 85px;
+    width: auto;
+    transition: var(--transition);
+}
+
+.nav-logo .logo-image:hover {
+    transform: scale(1.05);
+}
+
+.nav-menu {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 4rem;
+}
+
+.nav-item {
+    font-weight: 500;
+    color: var(--brand-beige);
+    position: relative;
+    padding: 0.75rem 1rem;
+    border-radius: var(--border-radius);
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+    color: var(--brand-beige);
+    background: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.nav-item.nav-cta {
+    background: transparent;
+    color: var(--brand-beige);
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--brand-beige);
+}
+
+.nav-item.nav-cta:hover {
+    background: var(--brand-beige);
+    color: var(--dark-color);
+}
+
+.nav-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 4px;
+}
+
+.nav-toggle span {
+    width: 25px;
+    height: 3px;
+    background: var(--dark-color);
+    transition: var(--transition);
+}
+
+/* =========================================
+   Buttons
+========================================= */
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    transition: var(--transition);
+    cursor: pointer;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-family: var(--font-primary);
+    letter-spacing: 0.02em;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.6s;
+}
+
+.btn:hover::before {
+    left: 100%;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-magenta));
+    color: white;
+    box-shadow: var(--shadow-light);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, var(--primary-hover), var(--primary-color));
+    transform: translateY(-3px);
+    box-shadow: var(--shadow);
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.btn-secondary:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.btn-outline:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.btn-large {
+    padding: 1.125rem 2.5rem;
+    font-size: 1.125rem;
+}
+
+/* =========================================
+   Typography - Elegantná a ženská typografia
+========================================= */
+
+.section-title {
+    font-family: var(--font-heading);
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    font-weight: 400;
+    color: var(--dark-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+}
+
+.section-subtitle {
+    font-size: 1.25rem;
+    color: var(--text-light);
+    text-align: center;
+    margin-bottom: 3rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+/* =========================================
+   Hero Section
+========================================= */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: rgb(242, 229, 213);
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Luciadaniela1a 2.jpeg') center center;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.75;
+    filter: blur(1px);
+    z-index: 1;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(242, 229, 213, 0.10);
+    z-index: 2;
+}
+
+.hero .container {
+    position: relative;
+    z-index: 3;
+}
+
+.hero-content {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hero-title {
+    font-family: 'Merriweather', serif;
+    font-size: clamp(2.2rem, 5.5vw, 3.8rem);
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1.5rem;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+}
+
+.hero-subtitle {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.hero-support {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2.5rem;
+    line-height: 1.5;
+}
+
+.hero-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.hero-cta .btn-primary {
+    background: rgb(171, 37, 116);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(171, 37, 116, 0.25);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.hero-cta .btn-primary:hover {
+    background: rgb(145, 30, 98);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(171, 37, 116, 0.35);
+}
+
+.hero-cta .btn-secondary {
+    background: rgb(80, 79, 80);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(80, 79, 80, 0.25);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+.hero-cta .btn-secondary:hover {
+    background: rgb(60, 59, 60);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(80, 79, 80, 0.35);
+}
+
+.hero-note {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: rgb(80, 79, 80);
+    font-style: italic;
+}
+
+/* =========================================
+   Situácie Section
+========================================= */
+
+.situations {
+    padding: 5rem 0;
+    background: url('jonathanpg copy.jpg') center/cover, var(--brand-beige);
+    position: relative;
+    overflow: hidden;
+}
+
+.situations::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('Asset 29.png') no-repeat center;
+    background-size: contain;
+    opacity: 0.05;
+    z-index: 1;
+}
+
+.situations .container {
+    position: relative;
+    z-index: 2;
+}
+
+.situations .section-title {
+    color: var(--dark-color);
+    text-align: center;
+}
+.situations .section-subtitle {
+    color: var(--text-light);
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.situations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.situation-card {
+    background: var(--brand-beige);
+    padding: 3rem 2.5rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow-light);
+    text-align: center;
+    transition: var(--transition);
+    border: 2px solid var(--white-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.situation-card::before {
+    content: '';
+    position: absolute;
+    top: -10%;
+    right: -10%;
+    width: 60%;
+    height: 60%;
+    background: url('Asset 29.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.15;
+    z-index: 0;
+}
+
+.situation-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow);
+    border-color: var(--light-beige);
+    background: var(--light-beige);
+}
+
+.situation-card h3 {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: var(--dark-color);
+    margin-bottom: 1.5rem;
+    letter-spacing: -0.01em;
+}
+
+.situation-card p {
+    color: var(--text-light);
+    margin-bottom: 1rem;
+}
+
+.situation-desc {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+/* =========================================
+   About Section
+========================================= */
+
+.about {
+    padding: 6rem 0;
+    background: var(--brand-beige);
+    position: relative;
+    overflow: hidden;
+}
+
+.about::after {
+    content: '';
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    width: 200px;
+    height: 200px;
+    background: url('Asset 29.png') no-repeat;
+    background-size: contain;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.about .container {
+    position: relative;
+    z-index: 2;
+}
+
+.about::before {
+    content: '';
+    position: absolute;
+    top: -20%;
+    left: -10%;
+    width: 300px;
+    height: 300px;
+    background: url('https://ana6tglah62p.space.minimax.io/user_input_files/Asset 42.png') no-repeat;
+    background-size: contain;
+    opacity: 0.15;
+    z-index: 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-text h3 {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--dark-color);
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.about-text p {
+    font-size: 1.125rem;
+    color: var(--text-light);
+    margin-bottom: 2rem;
+}
+
+.about-text blockquote {
+    background: var(--white-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    border-left: 4px solid var(--primary-color);
+    font-style: italic;
+    font-size: 1.125rem;
+    color: var(--text-dark);
+}
+
+.founders-photos {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.founder {
+    text-align: center;
+}
+
+.founder-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--primary-color);
+    margin-bottom: 1rem;
+    transition: var(--transition);
+}
+
+.founder-photo:hover {
+    transform: scale(1.05);
+    box-shadow: var(--shadow);
+}
+
+.founder-name {
+    font-weight: 600;
+    color: var(--dark-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.founder-title {
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+/* =========================================
+   Consultation Section
+========================================= */
+
+.consultation {
+    padding: 5rem 0;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, 
+        rgba(246, 231, 223, 0.95) 0%,
+        rgba(246, 231, 223, 0.95) 50%,
+        rgba(246, 231, 223, 0.95) 100%
+    ),
+    url('Lucia2 2.jpeg') left/50% cover,
+    url('Daniela2 2.jpeg') right/50% cover;
+}
+
+.consultation::before {
+    content: '';
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 150px;
+    height: 150px;
+    background: url('Asset 29.png') no-repeat;
+    background-size: contain;
+    opacity: 0.2;
+    z-index: 1;
+}
+
+.consultation-card {
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    border: 2px solid var(--primary-color);
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+}
+
+.consultation-card::before {
+    content: '';
+    position: absolute;
+    top: -20%;
+    right: -20%;
+    width: 80%;
+    height: 80%;
+    background: url('https://ana6tglah62p.space.minimax.io/user_input_files/Asset 29.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.1;
+    transform: rotate(15deg);
+    z-index: 0;
+}
+
+.consultation-card h3 {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.consultation-benefits {
+    margin: 2rem 0;
+}
+
+.consultation-benefits h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--dark-color);
+    margin-bottom: 1rem;
+}
+
+.consultation-benefits ul {
+    list-style: none;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.consultation-benefits li {
+    padding: 0.5rem 0;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.consultation-benefits li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.consultation-note {
+    color: var(--text-light);
+    font-style: italic;
+    margin: 1.5rem 0;
+}
+
+/* =========================================
+   Resources Section - Luxusný štýl
+========================================= */
+
+.resources {
+    padding: 6rem 0;
+    background: var(--brand-beige);
+    position: relative;
+    overflow: hidden;
+}
+
+.resources::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://ana6tglah62p.space.minimax.io/user_input_files/Asset 44.png') no-repeat top left,
+                url('https://ana6tglah62p.space.minimax.io/user_input_files/Asset 45.png') no-repeat bottom right,
+                url('https://ana6tglah62p.space.minimax.io/user_input_files/Asset 42.png') no-repeat center;
+    background-size: 250px, 200px, 180px;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.resources .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem;
+    margin: 4rem 0;
+}
+
+.resource-item {
+    background: var(--white-color);
+    padding: 2.5rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: var(--shadow-light);
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--primary-color);
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* .resource-item::before - Removed black arcs as requested */
+
+.resource-item:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 20px 40px rgba(162, 0, 109, 0.3);
+    z-index: 10;
+}
+
+.resource-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    background: url('https://ana6tglah62p.space.minimax.io/user_input_files/Asset 42.png') no-repeat center;
+    background-size: contain;
+    position: relative;
+    z-index: 2;
+}
+
+.resource-item h3 {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--dark-color);
+    margin-bottom: 1rem;
+    letter-spacing: -0.01em;
+    position: relative;
+    z-index: 2;
+}
+
+.resource-item p {
+    color: var(--text-light);
+    line-height: 1.6;
+    position: relative;
+    z-index: 2;
+}
+
+.resources-cta {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* =========================================
+   Testimonials Section - Elegantná s Quote šablónami
+========================================= */
+
+.testimonials {
+    padding: 6rem 0;
+    background: var(--white-color);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-image-container {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+}
+
+.testimonials-support-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0.05;
+    filter: blur(0.5px);
+}
+
+.testimonials .container {
+    position: relative;
+    z-index: 2;
+}
+
+.testimonials .section-title {
+    color: var(--dark-color);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.testimonials::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    width: 150px;
+    height: 150px;
+    background: url('https://ana6tglah62p.space.minimax.io/imgs/woman_breaking_free_chains_liberation_empowerment_silhouette.jpg') no-repeat center;
+    background-size: contain;
+    opacity: 0.08;
+    z-index: 0;
+    transform: translateY(-50%);
+}
+
+.testimonials-carousel {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial-slide {
+    display: none;
+    text-align: center;
+    padding: 3rem 0;
+    position: relative;
+}
+
+.testimonial-slide.active {
+    display: block;
+    animation: fadeInUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.testimonial-slide .quote-container {
+    position: relative;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 3rem;
+}
+
+.testimonial-slide .quote-container::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background: url('https://ana6tglah62p.space.minimax.io/user_input_files/Asset 17.png') no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+.testimonial-slide .quote-container::after {
+    content: '';
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: url('https://ana6tglah62p.space.minimax.io/user_input_files/Asset 18.png') no-repeat;
+    background-size: contain;
+    z-index: 1;
+}
+
+.testimonial-slide blockquote {
+    background: transparent;
+    padding: 0;
+    border: none;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    max-width: 500px;
+    position: relative;
+    z-index: 2;
+}
+
+.testimonial-slide blockquote p {
+    color: var(--text-dark);
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.testimonial-slide cite {
+    font-weight: 600;
+    color: var(--primary-color);
+    font-style: normal;
+    font-size: 1rem;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.testimonials-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.testimonial-nav-btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--gray-medium);
+    transition: var(--transition);
+}
+
+.testimonial-nav-btn.active {
+    background: var(--primary-color);
+}
+
+.testimonial-nav-btn:hover {
+    background: var(--primary-color);
+}
+
+/* =========================================
+   Conclusion Section
+========================================= */
+
+.conclusion {
+    padding: 5rem 0;
+    background: var(--brand-beige);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.conclusion::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('Asset 26.png') no-repeat top left,
+                url('Asset 26.png') no-repeat bottom right;
+    background-size: 180px, 150px;
+    opacity: 0.15;
+    z-index: 1;
+}
+
+.conclusion .container {
+    position: relative;
+    z-index: 2;
+}
+
+.conclusion-content p {
+    font-size: 1.25rem;
+    color: var(--text-dark);
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+
+.conclusion-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* =========================================
+   Contact Form Section
+========================================= */
+
+.contact-form {
+    padding: 5rem 0;
+    background: var(--white-color);
+}
+
+.contact-form-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    background: var(--gray-light);
+    padding: 3rem;
+    border-radius: 12px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    color: var(--dark-color);
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.875rem 1rem;
+    border: 2px solid var(--gray-medium);
+    border-radius: var(--border-radius);
+    font-family: inherit;
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+}
+
+.safety-notice {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    margin: 1.5rem 0;
+}
+
+.safety-notice p {
+    color: #856404;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* =========================================
+   Footer
+========================================= */
+
+.footer {
+    background: var(--dark-color);
+    color: white;
+    padding: 3rem 0 2rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-logo .logo-image {
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+.footer-info p {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1rem;
+}
+
+.footer-links h4,
+.footer-emergency h4 {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.emergency-contacts p {
+    margin-bottom: 1rem;
+}
+
+.emergency-contacts a {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.emergency-contacts a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 2rem;
+}
+
+.footer-legal {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.footer-legal p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+}
+
+.footer-legal a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-legal a:hover {
+    color: white;
+}
+
+.solidarity-fund {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.solidarity-fund p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.safety-tip {
+    text-align: center;
+    background: rgba(165, 28, 97, 0.1);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+}
+
+.safety-tip p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* =========================================
+   Som vo vzťahu page specific styles
+========================================= */
+
+.smaller-text {
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+}
+
+.questions-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 2rem 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.question-item {
+    text-align: center;
+    padding: 1rem;
+}
+
+.question-item h3 {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin: 0;
+}
+
+.client-story {
+    padding: 5rem 0;
+}
+
+.help-section {
+    background: url('jonathanpg.jpg') center/cover;
+    padding: 5rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.help-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.help-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.help-section .section-title {
+    color: var(--white-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.help-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.help-item {
+    background: var(--brand-beige);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    text-align: center;
+    box-shadow: var(--shadow-light);
+    transition: var(--transition);
+}
+
+.help-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow);
+}
+
+.help-item h3 {
+    font-size: 1.2rem;
+    color: var(--dark-color);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.help-item p {
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+.help-note {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.help-note p {
+    color: var(--white-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.safe-steps {
+    padding: 5rem 0;
+}
+
+.testimonials .testimonial-slide {
+    text-align: center;
+}
+
+.testimonials .testimonial-slide blockquote {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.conclusion {
+    background: var(--brand-beige);
+    padding: 5rem 0;
+}
+
+@media (max-width: 768px) {
+    .help-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .questions-list {
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .help-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* =========================================
+   Responsive Design
+========================================= */
+
+@media (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--white-color);
+        flex-direction: column;
+        padding: 2rem 0;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        transform: translateY(-100%);
+        opacity: 0;
+        visibility: hidden;
+        transition: var(--transition);
+    }
+    
+    .nav-menu.active {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-toggle {
+        display: flex;
+    }
+    
+    /* Skúmacie podporné obrázky na mobilé */
+    .about-image-container,
+    .resources-image-container,
+    .testimonials-image-container {
+        display: none;
+    }
+    
+    .emergency-exit {
+        top: 10px;
+        right: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .nav-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(6px, 6px);
+    }
+    
+    .nav-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .nav-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+    
+    .hero-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .situations-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .conclusion-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .emergency-exit {
+        top: 70px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .hero {
+        min-height: 80vh;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-question {
+        font-size: 1.125rem;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .situations-grid,
+    .resources-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .situation-card,
+    .resource-item {
+        padding: 1.5rem;
+    }
+    
+    .form {
+        padding: 2rem 1.5rem;
+    }
+    
+    .testimonial-slide blockquote {
+        padding: 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .founders-photos {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    
+    .founder-photo {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/* =========================================
+   Print Styles
+========================================= */
+
+@media print {
+    .emergency-exit,
+    .nav-toggle,
+    .testimonials-nav {
+        display: none;
+    }
+    
+    .hero {
+        min-height: auto;
+        padding: 2rem 0;
+    }
+    
+    .section-title {
+        color: black !important;
+    }
+    
+    .btn {
+        border: 1px solid black;
+        background: transparent !important;
+        color: black !important;
+    }
+}
+
+/* =========================================
+   Accessibility Enhancements
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .emergency-exit .tooltip {
+        background: var(--white-color);
+        color: var(--dark-color);
+    }
+    
+    .emergency-exit .tooltip::after {
+        border-left-color: var(--white-color);
+    }
+}
+
+/* Focus styles for better accessibility */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+.btn:focus {
+    outline: 3px solid rgba(165, 28, 97, 0.5);
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .btn-outline {
+        border-width: 3px;
+    }
+    
+    .situation-card {
+        border: 2px solid var(--dark-color);
+    }
+}
+
+/* Consultation section with jonathanpg background */
+.consultation-section {
+    background-image: url("jonathanpg copy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+    overflow: hidden;
+    padding: 5rem 0;
+}
+
+.consultation-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.consultation-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.consultation-section .section-title {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.consultation-card {
+    background: rgba(246, 231, 223, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+/* Resource grid layout */
+.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.resource-section .resource-card {
+    margin-bottom: 0;
+}
