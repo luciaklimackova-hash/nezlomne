@@ -3,22 +3,8 @@
     "Coordinator": {
       "1": {
         "id": "1",
-        "content": "Stiahnuť obsah pôvodnej verzie webu z https://ana6tglah62p.space.minimax.io",
-        "details": "Prevziať všetky súbory a štruktúru z pôvodnej verzie webu ako základ pre ďalšie úpravy",
-        "status": "completed",
-        "priority": "high"
-      },
-      "2": {
-        "id": "2",
-        "content": "Upraviť stránku 'Odišla som'",
-        "details": "V sekcii 'Čo môžete urobiť hned teraz' zmeniť tlačidlo na 'Zistiť viac' s odkazom na https://m3bm2299r5p7.space.minimax.io/komunikacna-pomocka.html. Nezmením navigačné menu ani iné časti stránky",
-        "status": "completed",
-        "priority": "high"
-      },
-      "3": {
-        "id": "3",
-        "content": "Nasadiť aktualizovaný web",
-        "details": "Nasadiť web s upravenou stránkou 'Odišla som' s novým tlačidlom odkazujúcim na existujúci funnel",
+        "content": "Commit a push do GitHub",
+        "details": "Vykonať commit všetkých zmien a push do GitHub repozitára nezlomne",
         "status": "completed",
         "priority": "medium"
       }
